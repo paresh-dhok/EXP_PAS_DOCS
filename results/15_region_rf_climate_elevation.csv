@@ -1,0 +1,81 @@
+region,features,target,R2
+Vidarbha,base_41,N,0.15034438791181992
+Vidarbha,base_41,P,0.0253923687850256
+Vidarbha,base_41,K,0.23898888717499833
+Vidarbha,base_41,OC,0.060166243911059736
+Vidarbha,plus_elev,N,0.1844497066632529
+Vidarbha,plus_elev,P,0.05402746142207049
+Vidarbha,plus_elev,K,0.27407409262608695
+Vidarbha,plus_elev,OC,0.14807652600352372
+Vidarbha,plus_climate,N,0.3185206835677703
+Vidarbha,plus_climate,P,0.18146101189923292
+Vidarbha,plus_climate,K,0.4465007055599154
+Vidarbha,plus_climate,OC,0.18933308229631263
+Vidarbha,plus_elev_climate,N,0.33109639353487996
+Vidarbha,plus_elev_climate,P,0.19291230012662453
+Vidarbha,plus_elev_climate,K,0.4527230192329267
+Vidarbha,plus_elev_climate,OC,0.26157804087901737
+Marathwada,base_41,N,0.13427988105081778
+Marathwada,base_41,P,0.21086483987859705
+Marathwada,base_41,K,0.014195393114478483
+Marathwada,base_41,OC,0.020497281531163147
+Marathwada,plus_elev,N,0.2360871844675615
+Marathwada,plus_elev,P,0.24928871924639062
+Marathwada,plus_elev,K,0.05946463995104412
+Marathwada,plus_elev,OC,0.05345700339688231
+Marathwada,plus_climate,N,0.4454189442704546
+Marathwada,plus_climate,P,0.5249060470030565
+Marathwada,plus_climate,K,0.19697881134384865
+Marathwada,plus_climate,OC,0.12728376808732
+Marathwada,plus_elev_climate,N,0.44704562826442584
+Marathwada,plus_elev_climate,P,0.5301105873221154
+Marathwada,plus_elev_climate,K,0.2125322840209629
+Marathwada,plus_elev_climate,OC,0.12739370233540637
+North MH,base_41,N,0.04174818990719342
+North MH,base_41,P,0.04645593294808059
+North MH,base_41,K,0.008527494829630222
+North MH,base_41,OC,0.11233991056710202
+North MH,plus_elev,N,0.08123865124536134
+North MH,plus_elev,P,0.10165394995586485
+North MH,plus_elev,K,0.1198482601364722
+North MH,plus_elev,OC,0.21186653022651447
+North MH,plus_climate,N,0.3090303063934653
+North MH,plus_climate,P,0.22100649572930853
+North MH,plus_climate,K,0.23469286976226011
+North MH,plus_climate,OC,0.3147589191674014
+North MH,plus_elev_climate,N,0.3324279926334832
+North MH,plus_elev_climate,P,0.24983614343781413
+North MH,plus_elev_climate,K,0.27076515288917646
+North MH,plus_elev_climate,OC,0.33158532815708675
+Western MH,base_41,N,0.21570601724187222
+Western MH,base_41,P,0.22955101430813263
+Western MH,base_41,K,-0.029678145481963458
+Western MH,base_41,OC,0.17685733983494345
+Western MH,plus_elev,N,0.36393845019763005
+Western MH,plus_elev,P,0.242376030929354
+Western MH,plus_elev,K,-0.036677300746039254
+Western MH,plus_elev,OC,0.2649926136861498
+Western MH,plus_climate,N,0.4250756486565709
+Western MH,plus_climate,P,0.33025347268709204
+Western MH,plus_climate,K,-0.01519592664038294
+Western MH,plus_climate,OC,0.4389923536438628
+Western MH,plus_elev_climate,N,0.4465581162866564
+Western MH,plus_elev_climate,P,0.3386753149393842
+Western MH,plus_elev_climate,K,-0.018611023669548477
+Western MH,plus_elev_climate,OC,0.44305070495358767
+Konkan,base_41,N,0.1412336732249848
+Konkan,base_41,P,0.021764298254470682
+Konkan,base_41,K,-0.021699426124059507
+Konkan,base_41,OC,0.08901242906901519
+Konkan,plus_elev,N,0.20914649635838
+Konkan,plus_elev,P,-0.0026533286003933565
+Konkan,plus_elev,K,0.01701414446366123
+Konkan,plus_elev,OC,0.12191179606354541
+Konkan,plus_climate,N,0.43703351593082607
+Konkan,plus_climate,P,0.04213010448667398
+Konkan,plus_climate,K,0.031474292096487555
+Konkan,plus_climate,OC,0.16074352916888235
+Konkan,plus_elev_climate,N,0.4451713155797816
+Konkan,plus_elev_climate,P,0.035561602425927874
+Konkan,plus_elev_climate,K,0.05020244326363432
+Konkan,plus_elev_climate,OC,0.18205834163695955

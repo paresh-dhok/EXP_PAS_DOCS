@@ -63,3 +63,13 @@ proxy. Before using CCT as the headline field-only result:
 ## Use in the report
 A figure or table showing the same data evaluated four ways (train / random raw / random de-clustered / spatial).
 It explains why literature R² values (often 0.7–0.9) are not comparable to honest spatial validation.
+
+**Decision 2026-10-05:** the rows that use GPS (`CCTG_plus_GPS`, `C_plus_GPS`) are **excluded from the paper**.
+Location inputs are not acceptable, so they stay only as a diagnostic record. The paper uses the no-GPS comparison:
+
+| Satellite + pH/EC (no GPS) | N | P | K | OC |
+|---|---|---|---|---|
+| Spatial CV, de-clustered | 0.169 | 0.017 | 0.020 | 0.230 |
+| Random 70/30, de-clustered | 0.247 | 0.058 | 0.069 | 0.284 |
+| Random 70/30, raw (clustered) | 0.352 | 0.145 | 0.193 | 0.381 |
+| Training R² (raw) | 0.733 | 0.524 | 0.656 | 0.763 |

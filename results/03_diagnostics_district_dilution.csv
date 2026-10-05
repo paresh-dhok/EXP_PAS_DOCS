@@ -1,0 +1,17 @@
+target,model,R2
+N,district_average,0.6235450607003612
+N,RF_allfeat_F_GPS_only,0.6626023239931225
+N,RF_allfeat_E_sensor_GPS,0.6512688764098293
+N,RF_allfeat_D_fusion_plus_GPS,0.6415552678430195
+P,district_average,0.3789955434436817
+P,RF_allfeat_F_GPS_only,0.3589861329326046
+P,RF_allfeat_E_sensor_GPS,0.37730186240608277
+P,RF_allfeat_D_fusion_plus_GPS,0.3781655828302223
+K,district_average,0.37338757200511574
+K,RF_allfeat_F_GPS_only,0.2793121266876868
+K,RF_allfeat_E_sensor_GPS,0.32117980176627714
+K,RF_allfeat_D_fusion_plus_GPS,0.3139084750613814
+OC,district_average,0.6085137859755156
+OC,RF_allfeat_F_GPS_only,0.5734463480815353
+OC,RF_allfeat_E_sensor_GPS,0.587192570541749
+OC,RF_allfeat_D_fusion_plus_GPS,0.5715563109908873
