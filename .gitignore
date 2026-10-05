@@ -1,14 +1,5 @@
-# Data files are shared through Google Drive (TEAM_SHARE), not through git
-*.parquet
-composite_parts/
-
-# TEAM_SHARE: keep only its guide documents; the sub-folders are copies of data, results, experiments and code
-TEAM_SHARE/01_source_data/
-TEAM_SHARE/02_datasets/
-TEAM_SHARE/03_satellite_and_terrain/
-TEAM_SHARE/04_results/
-TEAM_SHARE/05_experiments/
-TEAM_SHARE/06_code/
+# The all-India source file (223 MB) is over GitHub's 100 MB file limit; it is shared through Google Drive
+TEAM_SHARE/01_source_data/SLUSI_SHC_all_india.parquet
 
 # Python / Jupyter
 __pycache__/
