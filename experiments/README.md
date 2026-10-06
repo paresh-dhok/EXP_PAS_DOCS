@@ -49,6 +49,8 @@ the results, the interpretation, and the decision taken.
 | E16 | [E16_climate_vs_location_check.md](E16_climate_vs_location_check.md) | 2026-10-05 | `results/16_climate_vs_location_check.csv` | Diagnostic: lon/lat used only to test climate |
 | E17 | [E17_split_ratio_cluster_comparison.md](E17_split_ratio_cluster_comparison.md) | 2026-10-05 | `results/17_split_comparison_region.csv` | Region-wise; one set includes `elev` + climate |
 | E18 | [E18_region_algorithm_comparison.md](E18_region_algorithm_comparison.md) | 2026-10-05 | `results/18_region_algorithm_comparison.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E19 | [E19_semivariogram.md](E19_semivariogram.md) | 2026-10-05 | `results/19_semivariogram.csv`, `results/19_semivariogram.png` | — (no model; distances only) |
+| E20 | [E20_ibm_replication.md](E20_ibm_replication.md) | 2026-10-05 | `results/20_ibm_replication.csv` | Yes (elevation + climate, to mirror the IBM study) |
 Note: the results-file numbers 06 and 07 are swapped relative to the experiment IDs. The noise-ceiling cell was
 written first (06) but run after the composite test (07). Experiment IDs follow the order in which they were run.
 
