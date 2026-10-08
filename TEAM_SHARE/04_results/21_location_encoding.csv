@@ -1,0 +1,121 @@
+group,region,coord,R2
+base_41,Vidarbha,longitude,0.7258645166895636
+base_41,Vidarbha,latitude,0.3062449248695312
+base_41,Marathwada,longitude,0.4252864879551158
+base_41,Marathwada,latitude,0.3704793073566605
+base_41,North MH,longitude,0.5486276968694473
+base_41,North MH,latitude,0.5010019540287509
+base_41,Western MH,longitude,0.5693120898342572
+base_41,Western MH,latitude,0.3522239225418029
+base_41,Konkan,longitude,0.6468153154293574
+base_41,Konkan,latitude,0.6812877873471557
+burn,Vidarbha,longitude,-0.0087162173177866
+burn,Vidarbha,latitude,0.0476672029207986
+burn,Marathwada,longitude,-0.015464844154537
+burn,Marathwada,latitude,-0.0169199102067916
+burn,North MH,longitude,-0.0020180871997628
+burn,North MH,latitude,0.0014100543860356
+burn,Western MH,longitude,0.0039205196710977
+burn,Western MH,latitude,-0.0031078558910591
+burn,Konkan,longitude,-0.0148135641454798
+burn,Konkan,latitude,-0.0160751603806916
+groundwater,Vidarbha,longitude,0.7243737957049445
+groundwater,Vidarbha,latitude,0.7038651407190575
+groundwater,Marathwada,longitude,0.6314209832791083
+groundwater,Marathwada,latitude,0.5086312040350152
+groundwater,North MH,longitude,0.8327072956102981
+groundwater,North MH,latitude,0.7869694806865276
+groundwater,Western MH,longitude,0.837884764409248
+groundwater,Western MH,latitude,0.6519253216507472
+groundwater,Konkan,longitude,0.8592554347923809
+groundwater,Konkan,latitude,0.852451995943671
+hydro,Vidarbha,longitude,0.12627556882541
+hydro,Vidarbha,latitude,-0.0077480266064688
+hydro,Marathwada,longitude,-0.0540707632821719
+hydro,Marathwada,latitude,-0.0627794887534249
+hydro,North MH,longitude,0.2831421187968843
+hydro,North MH,latitude,0.0466293785769554
+hydro,Western MH,longitude,0.2479809108601021
+hydro,Western MH,latitude,0.132505840444301
+hydro,Konkan,longitude,0.1325702904540664
+hydro,Konkan,latitude,0.0527860292259333
+iolulc,Vidarbha,longitude,0.7800714342408952
+iolulc,Vidarbha,latitude,0.0270659307974626
+iolulc,Marathwada,longitude,0.0611922479743869
+iolulc,Marathwada,latitude,-0.0136722904870052
+iolulc,North MH,longitude,0.1328421852833038
+iolulc,North MH,latitude,0.0241359002452064
+iolulc,Western MH,longitude,0.1287107433322833
+iolulc,Western MH,latitude,-0.0072478665913988
+iolulc,Konkan,longitude,0.261960408844849
+iolulc,Konkan,latitude,0.3703398437614049
+lgrip,Vidarbha,longitude,0.0463926902464051
+lgrip,Vidarbha,latitude,0.0072265847753223
+lgrip,Marathwada,longitude,0.0981485916759959
+lgrip,Marathwada,latitude,0.1824960748661763
+lgrip,North MH,longitude,0.1782887465690692
+lgrip,North MH,latitude,0.0328961649235935
+lgrip,Western MH,longitude,0.3840567960562976
+lgrip,Western MH,latitude,0.221973802076883
+lgrip,Konkan,longitude,0.1680524530587839
+lgrip,Konkan,latitude,0.1737178277628688
+ndvi,Vidarbha,longitude,0.5467493959386251
+ndvi,Vidarbha,latitude,0.1115829269354302
+ndvi,Marathwada,longitude,0.1777120023576333
+ndvi,Marathwada,latitude,0.2477997299720608
+ndvi,North MH,longitude,0.4781885491892993
+ndvi,North MH,latitude,0.3537061098179932
+ndvi,Western MH,longitude,0.3512438775816601
+ndvi,Western MH,latitude,0.182902109140889
+ndvi,Konkan,longitude,0.2492108656528965
+ndvi,Konkan,latitude,0.3216952119581502
+s1,Vidarbha,longitude,0.2346490444768365
+s1,Vidarbha,latitude,0.0626813439850115
+s1,Marathwada,longitude,0.0799529593006663
+s1,Marathwada,latitude,0.188575541707096
+s1,North MH,longitude,0.1817403256397259
+s1,North MH,latitude,0.1195477997087965
+s1,Western MH,longitude,0.3685027039872065
+s1,Western MH,latitude,0.0948971940316913
+s1,Konkan,longitude,0.1925907847178249
+s1,Konkan,latitude,0.1070010728748314
+soilgrids,Vidarbha,longitude,0.9099089588559126
+soilgrids,Vidarbha,latitude,0.7543848760516294
+soilgrids,Marathwada,longitude,0.7339663519146575
+soilgrids,Marathwada,latitude,0.8051971536572805
+soilgrids,North MH,longitude,0.8220780347209996
+soilgrids,North MH,latitude,0.8117979701262015
+soilgrids,Western MH,longitude,0.8905882295109354
+soilgrids,Western MH,latitude,0.734203750101499
+soilgrids,Konkan,longitude,0.7735930284875551
+soilgrids,Konkan,latitude,0.8343584437054581
+water,Vidarbha,longitude,0.0648275434649476
+water,Vidarbha,latitude,-0.0286359229931312
+water,Marathwada,longitude,-0.0517814170212178
+water,Marathwada,latitude,-0.1098910098979801
+water,North MH,longitude,0.0828303123781702
+water,North MH,latitude,0.046929948364795
+water,Western MH,longitude,-0.0193946295111169
+water,Western MH,latitude,-0.1052600091241615
+water,Konkan,longitude,0.0476936286298311
+water,Konkan,latitude,-0.0692603324947935
+wcereal,Vidarbha,longitude,0.6089709889506159
+wcereal,Vidarbha,latitude,0.4833622594423522
+wcereal,Marathwada,longitude,0.4813039222193938
+wcereal,Marathwada,latitude,0.4399020769648338
+wcereal,North MH,longitude,0.2324638404022948
+wcereal,North MH,latitude,0.6617176011488488
+wcereal,Western MH,longitude,0.6401051227637545
+wcereal,Western MH,latitude,0.1017580206894166
+wcereal,Konkan,longitude,0.1437933099238451
+wcereal,Konkan,latitude,0.4368801359655198
+worldcover,Vidarbha,longitude,0.2717121808310833
+worldcover,Vidarbha,latitude,0.1227149405749259
+worldcover,Marathwada,longitude,0.2288304951252696
+worldcover,Marathwada,latitude,0.2910434605797527
+worldcover,North MH,longitude,0.4264176201089954
+worldcover,North MH,latitude,0.3586535615386321
+worldcover,Western MH,longitude,0.6883121965116517
+worldcover,Western MH,latitude,0.261338817058405
+worldcover,Konkan,longitude,0.5527072675518181
+worldcover,Konkan,latitude,0.5325010018714399
