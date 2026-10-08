@@ -51,6 +51,8 @@ the results, the interpretation, and the decision taken.
 | E18 | [E18_region_algorithm_comparison.md](E18_region_algorithm_comparison.md) | 2026-10-05 | `results/18_region_algorithm_comparison.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
 | E19 | [E19_semivariogram.md](E19_semivariogram.md) | 2026-10-05 | `results/19_semivariogram.csv`, `results/19_semivariogram.png` | — (no model; distances only) |
 | E20 | [E20_ibm_replication.md](E20_ibm_replication.md) | 2026-10-05 | `results/20_ibm_replication.csv` | Yes (elevation + climate, to mirror the IBM study) |
+| E21 | [E21_causal_covariates_region_wise.md](E21_causal_covariates_region_wise.md) | 2026-10-08 | `results/21_causal_covariates_region_wise.csv`, `results/21_location_encoding.csv` | No in the main sets; lon/lat only in labelled diagnostics |
+| E22 | [E22_national_transfer_and_state_calibration.md](E22_national_transfer_and_state_calibration.md) | 2026-10-08 | `results/22_national_transfer.csv`, `results/22_state_calibration.csv` | All-India; kNN location baseline; elev + climate allowed as physical covariates |
 Note: the results-file numbers 06 and 07 are swapped relative to the experiment IDs. The noise-ceiling cell was
 written first (06) but run after the composite test (07). Experiment IDs follow the order in which they were run.
 
