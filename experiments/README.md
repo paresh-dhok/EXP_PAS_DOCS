@@ -51,6 +51,14 @@ the results, the interpretation, and the decision taken.
 | E18 | [E18_region_algorithm_comparison.md](E18_region_algorithm_comparison.md) | 2026-10-05 | `results/18_region_algorithm_comparison.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
 | E19 | [E19_semivariogram.md](E19_semivariogram.md) | 2026-10-05 | `results/19_semivariogram.csv`, `results/19_semivariogram.png` | — (no model; distances only) |
 | E20 | [E20_ibm_replication.md](E20_ibm_replication.md) | 2026-10-05 | `results/20_ibm_replication.csv` | Yes (elevation + climate, to mirror the IBM study) |
+| E21, E22 | in `TEAM_SHARE/05_experiments/` (teammate): causal-driver covariates; all-India transfer test | 2026-10-07/08 | `TEAM_SHARE/04_results/21_*`, `22_*` | Diagnostic use of location |
+| E23 | [E23_linear_models_region.md](E23_linear_models_region.md) | 2026-10-09 | `results/23_linear_models_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E24 | [E24_plsr_region.md](E24_plsr_region.md) | 2026-10-09 | `results/24_plsr_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E25 | [E25_mlp_region_and_full_comparison.md](E25_mlp_region_and_full_comparison.md) | 2026-10-09 | `results/25_mlp_region.csv`, `results/25_all_models_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E26 | [E26_mlp_improved_region.md](E26_mlp_improved_region.md) | 2026-10-09 | `results/26_mlp_improved_region.csv`, `results/26_all_models_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E27 | [E27_tuned_models_region.md](E27_tuned_models_region.md) | 2026-10-09 | `results/27_tuned_models_region.csv`, `results/27_all_models_tuned_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E28 | [E28_class_prediction_region.md](E28_class_prediction_region.md) | 2026-10-09 | `results/28_class_prediction_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+
 Note: the results-file numbers 06 and 07 are swapped relative to the experiment IDs. The noise-ceiling cell was
 written first (06) but run after the composite test (07). Experiment IDs follow the order in which they were run.
 
