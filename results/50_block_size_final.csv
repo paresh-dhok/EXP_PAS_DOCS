@@ -1,0 +1,121 @@
+scope,target,inputs,test,n,R2,RMSE
+statewide,N,39 inputs + neighbourhood,random 70/30,32096,0.7060459394383626,55.028904168894094
+statewide,N,39 inputs + neighbourhood,spatial 10 km,32096,0.3931499068945694,76.68671602228765
+statewide,N,39 inputs + neighbourhood,spatial 25 km,32096,0.3087999858717737,81.84295433279347
+statewide,N,39 inputs + neighbourhood,spatial 50 km,32096,0.23085222450803844,86.33448902476789
+statewide,N,39 inputs + neighbourhood,spatial 100 km,32096,0.22417200562087936,86.70859556657382
+statewide,P,39 inputs + neighbourhood,random 70/30,32096,0.6135646760520472,15.075126878857716
+statewide,P,39 inputs + neighbourhood,spatial 10 km,32096,0.3959441745334831,19.218012530566345
+statewide,P,39 inputs + neighbourhood,spatial 25 km,32096,0.3679589780965479,19.65814648850495
+statewide,P,39 inputs + neighbourhood,spatial 50 km,32096,0.3352362795652756,20.160606294077397
+statewide,P,39 inputs + neighbourhood,spatial 100 km,32096,0.2901364470837636,20.83326666936268
+statewide,K,39 inputs + neighbourhood,random 70/30,32096,0.5640938626115457,164.6133838721378
+statewide,K,39 inputs + neighbourhood,spatial 10 km,32096,0.3519242217890637,200.3914251091858
+statewide,K,39 inputs + neighbourhood,spatial 25 km,32096,0.2687697553903897,212.85963437878297
+statewide,K,39 inputs + neighbourhood,spatial 50 km,32096,0.2112860638954931,221.0680579868758
+statewide,K,39 inputs + neighbourhood,spatial 100 km,32096,0.16579419921530303,227.35412672932102
+statewide,OC,39 inputs + neighbourhood,random 70/30,32096,0.7006425621875405,0.2151268038786362
+statewide,OC,39 inputs + neighbourhood,spatial 10 km,32096,0.5776600371564964,0.2583074450633266
+statewide,OC,39 inputs + neighbourhood,spatial 25 km,32096,0.4974627751436441,0.28176688688328333
+statewide,OC,39 inputs + neighbourhood,spatial 50 km,32096,0.47600002817306564,0.287720937637559
+statewide,OC,39 inputs + neighbourhood,spatial 100 km,32096,0.32643583317568947,0.32620853705280206
+Vidarbha,N,39 inputs + neighbourhood,random 70/30,7236,0.7086443004929122,49.01267878393248
+Vidarbha,N,39 inputs + neighbourhood,spatial 10 km,7236,0.4201214342188069,69.10576663567588
+Vidarbha,N,39 inputs + neighbourhood,spatial 25 km,7236,0.306228353940334,75.58820539245399
+Vidarbha,N,39 inputs + neighbourhood,spatial 50 km,7236,0.12514359419784704,84.8817156923928
+Vidarbha,N,39 inputs + neighbourhood,spatial 100 km,7236,0.11286021123060874,85.47552761203872
+Vidarbha,P,39 inputs + neighbourhood,random 70/30,7236,0.5297857551830426,13.116176981003425
+Vidarbha,P,39 inputs + neighbourhood,spatial 10 km,7236,0.23528539191646825,15.612297753019666
+Vidarbha,P,39 inputs + neighbourhood,spatial 25 km,7236,0.13151855693470504,16.63785763409088
+Vidarbha,P,39 inputs + neighbourhood,spatial 50 km,7236,0.032283158805446965,17.56269995346453
+Vidarbha,P,39 inputs + neighbourhood,spatial 100 km,7236,0.043179579122529566,17.463542683781302
+Vidarbha,K,39 inputs + neighbourhood,random 70/30,7236,0.6932163147215634,189.1903296895069
+Vidarbha,K,39 inputs + neighbourhood,spatial 10 km,7236,0.48165393647610677,251.47205119573138
+Vidarbha,K,39 inputs + neighbourhood,spatial 25 km,7236,0.4612653302681845,256.3700478203132
+Vidarbha,K,39 inputs + neighbourhood,spatial 50 km,7236,0.455194223082665,257.81054318479926
+Vidarbha,K,39 inputs + neighbourhood,spatial 100 km,7236,0.3407690776063468,283.59502449287436
+Vidarbha,OC,39 inputs + neighbourhood,random 70/30,7236,0.43419374790150056,0.19274083869650807
+Vidarbha,OC,39 inputs + neighbourhood,spatial 10 km,7236,0.2750443378762546,0.23005225780380947
+Vidarbha,OC,39 inputs + neighbourhood,spatial 25 km,7236,0.21678899196456825,0.2391168430381586
+Vidarbha,OC,39 inputs + neighbourhood,spatial 50 km,7236,0.06136992451919365,0.26176887689764583
+Vidarbha,OC,39 inputs + neighbourhood,spatial 100 km,7236,-0.09119141071428238,0.2822417434909685
+Marathwada,N,39 inputs + neighbourhood,random 70/30,9293,0.6499385032034088,42.65599529858843
+Marathwada,N,39 inputs + neighbourhood,spatial 10 km,9293,0.5522643544311636,47.112125678666594
+Marathwada,N,39 inputs + neighbourhood,spatial 25 km,9293,0.5339797005381506,48.064483698498805
+Marathwada,N,39 inputs + neighbourhood,spatial 50 km,9293,0.4615509165375796,51.664732517014954
+Marathwada,N,39 inputs + neighbourhood,spatial 100 km,9293,0.37700832607826995,55.57289040476055
+Marathwada,P,39 inputs + neighbourhood,random 70/30,9293,0.7392684028257623,7.68533214709137
+Marathwada,P,39 inputs + neighbourhood,spatial 10 km,9293,0.5008309866905085,10.23384948411715
+Marathwada,P,39 inputs + neighbourhood,spatial 25 km,9293,0.5278619400524527,9.952901861049178
+Marathwada,P,39 inputs + neighbourhood,spatial 50 km,9293,0.5264181912636363,9.968107711720329
+Marathwada,P,39 inputs + neighbourhood,spatial 100 km,9293,0.4626474495041868,10.618052626312627
+Marathwada,K,39 inputs + neighbourhood,random 70/30,9293,0.4069658503286018,153.13716739336357
+Marathwada,K,39 inputs + neighbourhood,spatial 10 km,9293,0.30650012011802585,162.19549318252714
+Marathwada,K,39 inputs + neighbourhood,spatial 25 km,9293,0.2329679669084055,170.57773298758414
+Marathwada,K,39 inputs + neighbourhood,spatial 50 km,9293,0.20264207882395524,173.91708353407378
+Marathwada,K,39 inputs + neighbourhood,spatial 100 km,9293,0.11072667773118561,183.66788266693715
+Marathwada,OC,39 inputs + neighbourhood,random 70/30,9293,0.36932268602332585,0.10714673460437756
+Marathwada,OC,39 inputs + neighbourhood,spatial 10 km,9293,0.18804387246623144,0.13254119146018853
+Marathwada,OC,39 inputs + neighbourhood,spatial 25 km,9293,0.17952964777403535,0.13323429698254816
+Marathwada,OC,39 inputs + neighbourhood,spatial 50 km,9293,0.10534046951028542,0.13912766130533907
+Marathwada,OC,39 inputs + neighbourhood,spatial 100 km,9293,0.08615544981312784,0.14061147099551297
+North MH,N,39 inputs + neighbourhood,random 70/30,9738,0.4917951050389793,46.85932384250939
+North MH,N,39 inputs + neighbourhood,spatial 10 km,9738,0.37648085178984303,50.78625676325562
+North MH,N,39 inputs + neighbourhood,spatial 25 km,9738,0.23862002145518124,56.12056473042353
+North MH,N,39 inputs + neighbourhood,spatial 50 km,9738,0.15764852635504512,59.02934665759013
+North MH,N,39 inputs + neighbourhood,spatial 100 km,9738,0.06841708087494713,62.077192162327044
+North MH,P,39 inputs + neighbourhood,random 70/30,9738,0.7265969402399868,11.092564078559302
+North MH,P,39 inputs + neighbourhood,spatial 10 km,9738,0.440476803495491,15.595171035706905
+North MH,P,39 inputs + neighbourhood,spatial 25 km,9738,0.3264679714826523,17.110402283845097
+North MH,P,39 inputs + neighbourhood,spatial 50 km,9738,0.31379518591896816,17.270621818347774
+North MH,P,39 inputs + neighbourhood,spatial 100 km,9738,0.2977254616516716,17.47167552318156
+North MH,K,39 inputs + neighbourhood,random 70/30,9738,0.6101079366932575,91.39367511721005
+North MH,K,39 inputs + neighbourhood,spatial 10 km,9738,0.35044959992862934,119.70728889417946
+North MH,K,39 inputs + neighbourhood,spatial 25 km,9738,0.2432059598099212,129.21205079331523
+North MH,K,39 inputs + neighbourhood,spatial 50 km,9738,-0.0662699289083748,153.37258891135338
+North MH,K,39 inputs + neighbourhood,spatial 100 km,9738,-0.12273880061847375,157.38144686717894
+North MH,OC,39 inputs + neighbourhood,random 70/30,9738,0.5388557500619143,0.22742676392750688
+North MH,OC,39 inputs + neighbourhood,spatial 10 km,9738,0.3575176019003572,0.2688889040364282
+North MH,OC,39 inputs + neighbourhood,spatial 25 km,9738,0.27992852212574815,0.28466237499653585
+North MH,OC,39 inputs + neighbourhood,spatial 50 km,9738,0.19445370118755256,0.3010838892020643
+North MH,OC,39 inputs + neighbourhood,spatial 100 km,9738,0.2071508043597884,0.29870160694018577
+Western MH,N,39 inputs + neighbourhood,random 70/30,4329,0.5901697860776827,78.89172366298948
+Western MH,N,39 inputs + neighbourhood,spatial 10 km,4329,0.39984050270227744,97.1904015615685
+Western MH,N,39 inputs + neighbourhood,spatial 25 km,4329,0.4391356546062083,93.95479541137489
+Western MH,N,39 inputs + neighbourhood,spatial 50 km,4329,0.3033211993345297,104.71438170736278
+Western MH,N,39 inputs + neighbourhood,spatial 100 km,4329,0.35691769959342257,100.60586821216846
+Western MH,P,39 inputs + neighbourhood,random 70/30,4329,0.5444611015427958,28.97656421630349
+Western MH,P,39 inputs + neighbourhood,spatial 10 km,4329,0.408288067826733,33.53268075049412
+Western MH,P,39 inputs + neighbourhood,spatial 25 km,4329,0.4226041062643009,33.124547643500215
+Western MH,P,39 inputs + neighbourhood,spatial 50 km,4329,0.38814055869805253,34.098788060781
+Western MH,P,39 inputs + neighbourhood,spatial 100 km,4329,0.3681665145242523,34.650892882918924
+Western MH,K,39 inputs + neighbourhood,random 70/30,4329,0.21652718349311773,205.56015374201158
+Western MH,K,39 inputs + neighbourhood,spatial 10 km,4329,-0.06548969475812183,242.29522846749387
+Western MH,K,39 inputs + neighbourhood,spatial 25 km,4329,-0.0874902008447429,244.78393443884244
+Western MH,K,39 inputs + neighbourhood,spatial 50 km,4329,-0.17170823172794503,254.0855547791107
+Western MH,K,39 inputs + neighbourhood,spatial 100 km,4329,-0.16750988628124563,253.62993956007486
+Western MH,OC,39 inputs + neighbourhood,random 70/30,4329,0.7514121118969894,0.1473257560267419
+Western MH,OC,39 inputs + neighbourhood,spatial 10 km,4329,0.5774431448598938,0.19178503192063556
+Western MH,OC,39 inputs + neighbourhood,spatial 25 km,4329,0.5623840653041147,0.19517253230873888
+Western MH,OC,39 inputs + neighbourhood,spatial 50 km,4329,0.4858112025715602,0.2115599416515965
+Western MH,OC,39 inputs + neighbourhood,spatial 100 km,4329,0.43722445403550836,0.2213297239274897
+Konkan,N,39 inputs + neighbourhood,random 70/30,1500,0.7825312023143052,113.94195586766631
+Konkan,N,39 inputs + neighbourhood,spatial 10 km,1500,0.1285079913525511,220.51082926451272
+Konkan,N,39 inputs + neighbourhood,spatial 25 km,1500,-0.045832005462254743,241.56231451006477
+Konkan,N,39 inputs + neighbourhood,spatial 50 km,1500,0.059906401861685055,229.02546076558653
+Konkan,N,39 inputs + neighbourhood,spatial 100 km,1500,-0.04782703520467635,241.79260694178603
+Konkan,P,39 inputs + neighbourhood,random 70/30,1500,0.4035470595964269,21.726503485857734
+Konkan,P,39 inputs + neighbourhood,spatial 10 km,1500,0.0858714979032571,29.78525691387594
+Konkan,P,39 inputs + neighbourhood,spatial 25 km,1500,0.11684000912723058,29.276382895496003
+Konkan,P,39 inputs + neighbourhood,spatial 50 km,1500,0.14650336918793738,28.7805196340526
+Konkan,P,39 inputs + neighbourhood,spatial 100 km,1500,0.015050473325803226,30.917524475427843
+Konkan,K,39 inputs + neighbourhood,random 70/30,1500,0.4497350747356864,228.7310457262397
+Konkan,K,39 inputs + neighbourhood,spatial 10 km,1500,0.05927584830248567,292.5088328401855
+Konkan,K,39 inputs + neighbourhood,spatial 25 km,1500,0.01714006255937839,298.9879286432425
+Konkan,K,39 inputs + neighbourhood,spatial 50 km,1500,0.17994329465142966,273.1050809181939
+Konkan,K,39 inputs + neighbourhood,spatial 100 km,1500,0.13713349514409956,280.14291494012696
+Konkan,OC,39 inputs + neighbourhood,random 70/30,1500,0.4037447281591987,0.5614812629672588
+Konkan,OC,39 inputs + neighbourhood,spatial 10 km,1500,0.1940716838647112,0.6958235509349822
+Konkan,OC,39 inputs + neighbourhood,spatial 25 km,1500,0.1437190793211649,0.7172309963659331
+Konkan,OC,39 inputs + neighbourhood,spatial 50 km,1500,0.19951035159321573,0.6934717541548443
+Konkan,OC,39 inputs + neighbourhood,spatial 100 km,1500,0.21051889207269903,0.6886868450038577

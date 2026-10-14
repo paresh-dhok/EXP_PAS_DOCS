@@ -58,6 +58,32 @@ the results, the interpretation, and the decision taken.
 | E26 | [E26_mlp_improved_region.md](E26_mlp_improved_region.md) | 2026-10-09 | `results/26_mlp_improved_region.csv`, `results/26_all_models_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
 | E27 | [E27_tuned_models_region.md](E27_tuned_models_region.md) | 2026-10-09 | `results/27_tuned_models_region.csv`, `results/27_all_models_tuned_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
 | E28 | [E28_class_prediction_region.md](E28_class_prediction_region.md) | 2026-10-09 | `results/28_class_prediction_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E29 | [E29_boosting_region.md](E29_boosting_region.md) | 2026-10-09 | `results/29_boosting_region.csv`, `results/29_all_models_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E30 | [E30_stacking_region.md](E30_stacking_region.md) | 2026-10-09 | `results/30_stacking_region.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E31 | [E31_shap_importance.md](E31_shap_importance.md) | 2026-10-09 | `results/31_shap_importance.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E32 | [E32_nearby_pairs.md](E32_nearby_pairs.md) | 2026-10-09 | `results/32_nearby_pairs.csv` | — (no model; pairs of locations) |
+| E33 | [E33_distance_curve.md](E33_distance_curve.md) | 2026-10-09 | `results/33_distance_curve.csv`, `results/33_distance_curve.png` | Region-wise; includes a lon/lat-only diagnostic |
+| E34 | [E34_reverse_position_test.md](E34_reverse_position_test.md) | 2026-10-09 | `results/34_reverse_position.csv` | Diagnostic: position is the target |
+| E35 | [E35_seed_repeats.md](E35_seed_repeats.md) | 2026-10-09 | `results/35_seed_repeats.csv` | Region-wise; 41 inputs and 41 + `elev` + climate |
+| E36 | [E36_lgbm_coordinates_region.md](E36_lgbm_coordinates_region.md) | 2026-10-09 | `results/36_lgbm_coordinates_region.csv` | Region-wise; sets with and without lon/lat (coordinates baseline) |
+| E37 | [E37_baselines_and_input_groups.md](E37_baselines_and_input_groups.md) | 2026-10-09 | `results/37_baselines_and_input_groups.csv` | Region-wise; position-only baselines (nearest samples, kriging), hybrids, input-group contributions |
+| E39 | [E39_validation_design.md](E39_validation_design.md) | 2026-10-14 | `results/39_validation_design.csv` | Statewide vs region-wise, random 70/30 vs spatial CV, clustered 33,877 vs de-clustered 17,620 |
+| E40 | [E40_statewide_base_model_metrics.md](E40_statewide_base_model_metrics.md) | 2026-10-14 | `results/40_statewide_base_model_metrics.csv`, `40_measured_vs_predicted.png` | Statewide base model: R², RMSE, MAE, bias, RPIQ; random 70/30 vs spatial CV; paper figure |
+| E41 | [E41_block_size.md](E41_block_size.md) | 2026-10-14 | `results/41_block_size.csv` | Base model under random 70/30 and spatial blocks of 10, 25, 50, 100 km; statewide and region-wise |
+| E42 | [E42_neighbourhood_context.md](E42_neighbourhood_context.md) | 2026-10-14 | `results/42_neighbourhood_context.csv` | Base model + values of the 10 nearest training samples; random 70/30 vs spatial 10 km; vs Gupta & Patil 2026 |
+| E43 | [E43_neighbourhood_region.md](E43_neighbourhood_region.md) | 2026-10-14 | `results/43_neighbourhood_region.csv` | Neighbourhood context with one model per region; random 70/30 vs spatial 10 km |
+| E44 | [E44_model_comparison.md](E44_model_comparison.md) | 2026-10-14 | `results/44_model_comparison.csv` | Ridge, KNN, MLP, RF, LightGBM on the headline setup; random 70/30 vs spatial 10 km |
+| E45 | [E45_ph_ec_noise.md](E45_ph_ec_noise.md) | 2026-10-14 | `results/45_ph_ec_noise.csv` | Headline model with sensor-grade noise on pH/EC, and retrained without them |
+| E46 | [E46_shap_headline.md](E46_shap_headline.md) | 2026-10-14 | `results/46_shap_headline.csv` | SHAP by input group for the headline model (random and spatial test data) |
+| E47 | [E47_high_n_raigad.md](E47_high_n_raigad.md) | 2026-10-14 | (printed only) | Check of the N ≈ 900 group: 904 of 983 samples from Raigad (491), median N 872 |
+| E48 | [E48_without_raigad.md](E48_without_raigad.md) | 2026-10-14 | `results/48_without_raigad.csv` | Headline model without Raigad: N R² 0.81 → 0.71 (random), 0.66 → 0.39 (spatial); P, K, OC unchanged or higher |
+| E49 | [E49_headline_without_raigad.md](E49_headline_without_raigad.md) | 2026-10-14 | `results/49_headline_metrics.csv`, `49_measured_vs_predicted.png` | **Final headline** (no Raigad, 32,096): all metrics + Figure 1 |
+| E50 | [E50_block_size_final.md](E50_block_size_final.md) | 2026-10-14 | `results/50_block_size_final.csv` | Final setup: random vs 10/25/50/100 km blocks, statewide and per region |
+| E51 | [E51_model_comparison_final.md](E51_model_comparison_final.md) | 2026-10-14 | `results/51_model_comparison_final.csv` | Final setup: ridge, KNN, MLP, RF, LightGBM; random vs spatial 10 km |
+| E52 | [E52_shap_final.md](E52_shap_final.md) | 2026-10-14 | `results/52_shap_final.csv` | Final setup: SHAP by input group (neighbourhood ~63 %, climate ~12 %, Sentinel-2 ~11–13 %) |
+| E53 | [E53_input_ablation.md](E53_input_ablation.md) | 2026-10-14 | `results/53_input_ablation.csv` | Final setup ablation: Sentinel-2 adds nothing beyond location/climate/neighbours; neighbourhood-only ≈ full model under random split |
+| E54–E55 | [E54_E55_paper_figures.md](E54_E55_paper_figures.md) | 2026-10-14 | `results/54_study_area_map.png`, `55_r2_vs_block_size.png` | Paper figures: study-area map; R² against block size |
+| E56 | [E56_headline_seeds.md](E56_headline_seeds.md) | 2026-10-14 | `results/56_headline_seeds.csv` | Headline with 5 seeds: random 0.71/0.62/0.57/0.70, spatial 0.39/0.39/0.34/0.56 (SD ≤ 0.03) |
 
 Note: the results-file numbers 06 and 07 are swapped relative to the experiment IDs. The noise-ceiling cell was
 written first (06) but run after the composite test (07). Experiment IDs follow the order in which they were run.
