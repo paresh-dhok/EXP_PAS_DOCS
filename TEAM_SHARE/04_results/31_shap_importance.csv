@@ -1,0 +1,1781 @@
+region,features,target,feature,group,mean_abs_shap,share_pct
+Vidarbha,41 inputs,N,c_B01,Satellite: bands,0.01603015103188836,1.3316950030437524
+Vidarbha,41 inputs,N,c_B02,Satellite: bands,0.010853739810505464,0.9016678034557793
+Vidarbha,41 inputs,N,c_B03,Satellite: bands,0.009131133640056847,0.7585633483052701
+Vidarbha,41 inputs,N,c_B04,Satellite: bands,0.006776533914194854,0.5629564146674633
+Vidarbha,41 inputs,N,c_B05,Satellite: bands,0.04156276678242264,3.452801456874668
+Vidarbha,41 inputs,N,c_B06,Satellite: bands,0.020531320130011566,1.7056268757941435
+Vidarbha,41 inputs,N,c_B07,Satellite: bands,0.01034425196102649,0.8593424116417552
+Vidarbha,41 inputs,N,c_B08,Satellite: bands,0.020925780555834366,1.738396434666157
+Vidarbha,41 inputs,N,c_B8A,Satellite: bands,0.01565046398802374,1.3001527338518317
+Vidarbha,41 inputs,N,c_B09,Satellite: bands,0.024091961075167614,2.0014249468706278
+Vidarbha,41 inputs,N,c_B11,Satellite: bands,0.07422252881061625,6.165991233254463
+Vidarbha,41 inputs,N,c_B12,Satellite: bands,0.023222995587728962,1.929236169912909
+Vidarbha,41 inputs,N,c_NDVI,Satellite: indices,0.014840107692556748,1.232832879708741
+Vidarbha,41 inputs,N,c_SAVI,Satellite: indices,0.013887247521031676,1.1536746031276206
+Vidarbha,41 inputs,N,c_NBR2,Satellite: indices,0.05987269019384258,4.973887157477041
+Vidarbha,41 inputs,N,c_NDMI,Satellite: indices,0.047644015009300794,3.9579974378665153
+Vidarbha,41 inputs,N,c_NDWI,Satellite: indices,0.01438813234975719,1.1952853042487326
+Vidarbha,41 inputs,N,c_BSI,Satellite: bands,0.012328189532765509,1.0241568132889975
+Vidarbha,41 inputs,N,c_NDRE,Satellite: indices,0.013508685148689593,1.1222257653352947
+Vidarbha,41 inputs,N,c_CI,Satellite: indices,0.030344574480236197,2.52085698534178
+Vidarbha,41 inputs,N,c_BI,Satellite: bands,0.00788615473667178,0.6551374865504616
+Vidarbha,41 inputs,N,c_RI,Satellite: indices,0.019196935062895864,1.594773651611835
+Vidarbha,41 inputs,N,c_R_B4B2,Satellite: indices,0.019311120757156797,1.6042595583986068
+Vidarbha,41 inputs,N,c_R_B11B12,Satellite: indices,0.017704078569334567,1.4707555104987375
+Vidarbha,41 inputs,N,c_R_B12B8,Satellite: indices,0.011633936590908686,0.9664821743114855
+Vidarbha,41 inputs,N,c_R_B11B8,Satellite: indices,0.04010967242854996,3.3320865312227546
+Vidarbha,41 inputs,N,c_R_B7B5,Satellite: indices,0.018687658248340035,1.5524657913951154
+Vidarbha,41 inputs,N,c_R_B6B5,Satellite: indices,0.01467156457084178,1.2188312628469453
+Vidarbha,41 inputs,N,c_std_NDVI,Satellite: change between dates,0.039364804849300584,3.2702071121678467
+Vidarbha,41 inputs,N,c_std_BSI,Satellite: change between dates,0.025193853413111304,2.0929639796228945
+Vidarbha,41 inputs,N,c_std_NDMI,Satellite: change between dates,0.028813946216972114,2.393700977538016
+Vidarbha,41 inputs,N,c_std_B11,Satellite: change between dates,0.032894101312943166,2.7326573692862524
+Vidarbha,41 inputs,N,c_std_B12,Satellite: change between dates,0.02324429859910176,1.9310059045672183
+Vidarbha,41 inputs,N,pH,"pH, EC",0.07376098739936826,6.1276489625026755
+Vidarbha,41 inputs,N,EC,"pH, EC",0.19198924843697895,15.949389514362688
+Vidarbha,41 inputs,N,slope,Terrain (no elevation),0.017655239517653267,1.4666982361194754
+Vidarbha,41 inputs,N,tpi_150m,Terrain (no elevation),0.013927787785046691,1.1570424607918106
+Vidarbha,41 inputs,N,tpi_500m,Terrain (no elevation),0.011553739972477446,0.9598198892329831
+Vidarbha,41 inputs,N,tpi_1km,Terrain (no elevation),0.032968517368812636,2.738839437661682
+Vidarbha,41 inputs,N,rough_90m,Terrain (no elevation),0.013889931922747626,1.1538976081600862
+Vidarbha,41 inputs,N,relpos_2km,Terrain (no elevation),0.06912557371075788,5.742564802416887
+Vidarbha,41 inputs,P,c_B01,Satellite: bands,0.03036329284942207,2.847623603545545
+Vidarbha,41 inputs,P,c_B02,Satellite: bands,0.013543217344854495,1.2701516126861432
+Vidarbha,41 inputs,P,c_B03,Satellite: bands,0.01712091194716306,1.6056859582637268
+Vidarbha,41 inputs,P,c_B04,Satellite: bands,0.006162389882726972,0.5779401783373307
+Vidarbha,41 inputs,P,c_B05,Satellite: bands,0.012896150124605302,1.2094663668993946
+Vidarbha,41 inputs,P,c_B06,Satellite: bands,0.016133057672767886,1.513039974095228
+Vidarbha,41 inputs,P,c_B07,Satellite: bands,0.01222683719891037,1.1466948060275541
+Vidarbha,41 inputs,P,c_B08,Satellite: bands,0.010173315414047349,0.9541051177493206
+Vidarbha,41 inputs,P,c_B8A,Satellite: bands,0.010207126663495101,0.9572761082104102
+Vidarbha,41 inputs,P,c_B09,Satellite: bands,0.025605594599658738,2.4014225310281003
+Vidarbha,41 inputs,P,c_B11,Satellite: bands,0.04990004850418104,4.67987963766842
+Vidarbha,41 inputs,P,c_B12,Satellite: bands,0.06003213939757804,5.6301185107837695
+Vidarbha,41 inputs,P,c_NDVI,Satellite: indices,0.008573405563881543,0.8040574573894568
+Vidarbha,41 inputs,P,c_SAVI,Satellite: indices,0.009409896512608687,0.8825078211744559
+Vidarbha,41 inputs,P,c_NBR2,Satellite: indices,0.0171781682927968,1.61105574875674
+Vidarbha,41 inputs,P,c_NDMI,Satellite: indices,0.016860956557846175,1.5813060233812124
+Vidarbha,41 inputs,P,c_NDWI,Satellite: indices,0.01691303960194383,1.586190635417611
+Vidarbha,41 inputs,P,c_BSI,Satellite: bands,0.018973800179262704,1.7794592143669152
+Vidarbha,41 inputs,P,c_NDRE,Satellite: indices,0.011079338151931227,1.0390765253809604
+Vidarbha,41 inputs,P,c_CI,Satellite: indices,0.021327492495126787,2.0002004174827
+Vidarbha,41 inputs,P,c_BI,Satellite: bands,0.007656250867707044,0.718042038248945
+Vidarbha,41 inputs,P,c_RI,Satellite: indices,0.013550904586522038,1.2708725611987837
+Vidarbha,41 inputs,P,c_R_B4B2,Satellite: indices,0.022204711108487565,2.08247042822441
+Vidarbha,41 inputs,P,c_R_B11B12,Satellite: indices,0.007250506500955446,0.6799892736328871
+Vidarbha,41 inputs,P,c_R_B12B8,Satellite: indices,0.01522870587351884,1.4282252755636264
+Vidarbha,41 inputs,P,c_R_B11B8,Satellite: indices,0.008574919364519984,0.8041994292912023
+Vidarbha,41 inputs,P,c_R_B7B5,Satellite: indices,0.013122291452460863,1.2306750475959247
+Vidarbha,41 inputs,P,c_R_B6B5,Satellite: indices,0.02393529991593397,2.244773823990984
+Vidarbha,41 inputs,P,c_std_NDVI,Satellite: change between dates,0.014293503272536765,1.3405172323727697
+Vidarbha,41 inputs,P,c_std_BSI,Satellite: change between dates,0.12094159489165394,11.342516174772271
+Vidarbha,41 inputs,P,c_std_NDMI,Satellite: change between dates,0.047249087789225395,4.431259096364932
+Vidarbha,41 inputs,P,c_std_B11,Satellite: change between dates,0.023043741238515585,2.1611589293103246
+Vidarbha,41 inputs,P,c_std_B12,Satellite: change between dates,0.03044545372628456,2.8553290672909264
+Vidarbha,41 inputs,P,pH,"pH, EC",0.10811163032700995,10.13925702537377
+Vidarbha,41 inputs,P,EC,"pH, EC",0.08639419992731315,8.102486253467479
+Vidarbha,41 inputs,P,slope,Terrain (no elevation),0.013225296714673448,1.2403354035204484
+Vidarbha,41 inputs,P,tpi_150m,Terrain (no elevation),0.011602320586721136,1.0881244706395
+Vidarbha,41 inputs,P,tpi_500m,Terrain (no elevation),0.036429091070314966,3.416504925931103
+Vidarbha,41 inputs,P,tpi_1km,Terrain (no elevation),0.03577143340524547,3.35482645451524
+Vidarbha,41 inputs,P,rough_90m,Terrain (no elevation),0.011356161337694202,1.065038407766267
+Vidarbha,41 inputs,P,relpos_2km,Terrain (no elevation),0.031200492492521523,2.926140432283219
+Vidarbha,41 inputs,K,c_B01,Satellite: bands,0.02170386497842499,1.6312527278660363
+Vidarbha,41 inputs,K,c_B02,Satellite: bands,0.011198198082272305,0.8416515301329764
+Vidarbha,41 inputs,K,c_B03,Satellite: bands,0.01064732475784246,0.8002481388900761
+Vidarbha,41 inputs,K,c_B04,Satellite: bands,0.00638526485596303,0.4799136340366551
+Vidarbha,41 inputs,K,c_B05,Satellite: bands,0.029522431696843845,2.218892685085716
+Vidarbha,41 inputs,K,c_B06,Satellite: bands,0.030490504861781852,2.2916526286556205
+Vidarbha,41 inputs,K,c_B07,Satellite: bands,0.010245423342397595,0.7700414093085306
+Vidarbha,41 inputs,K,c_B08,Satellite: bands,0.011890539658334073,0.893687611526245
+Vidarbha,41 inputs,K,c_B8A,Satellite: bands,0.014047769708802144,1.0558240516468744
+Vidarbha,41 inputs,K,c_B09,Satellite: bands,0.0637511360749071,4.791506707682151
+Vidarbha,41 inputs,K,c_B11,Satellite: bands,0.17987187167828889,13.519088956425636
+Vidarbha,41 inputs,K,c_B12,Satellite: bands,0.09754438863581266,7.331392367597617
+Vidarbha,41 inputs,K,c_NDVI,Satellite: indices,0.00974082089782732,0.7321157165800061
+Vidarbha,41 inputs,K,c_SAVI,Satellite: indices,0.012635121215631774,0.9496500264080184
+Vidarbha,41 inputs,K,c_NBR2,Satellite: indices,0.04233621406073116,3.181970803022374
+Vidarbha,41 inputs,K,c_NDMI,Satellite: indices,0.07127005328826776,5.356625142904907
+Vidarbha,41 inputs,K,c_NDWI,Satellite: indices,0.010937519469846337,0.822059042894464
+Vidarbha,41 inputs,K,c_BSI,Satellite: bands,0.013432519083041819,1.0095820913973754
+Vidarbha,41 inputs,K,c_NDRE,Satellite: indices,0.012896222835241895,0.9692743066761941
+Vidarbha,41 inputs,K,c_CI,Satellite: indices,0.0472474637844361,3.5510981228333356
+Vidarbha,41 inputs,K,c_BI,Satellite: bands,0.006246283026901198,0.46946782228808903
+Vidarbha,41 inputs,K,c_RI,Satellite: indices,0.05910710476985375,4.44246340400356
+Vidarbha,41 inputs,K,c_R_B4B2,Satellite: indices,0.02307838524569624,1.7345610527990498
+Vidarbha,41 inputs,K,c_R_B11B12,Satellite: indices,0.012344305718156,0.9277924644468355
+Vidarbha,41 inputs,K,c_R_B12B8,Satellite: indices,0.008826519190277554,0.6633972115572494
+Vidarbha,41 inputs,K,c_R_B11B8,Satellite: indices,0.04751900574090406,3.5715070941229543
+Vidarbha,41 inputs,K,c_R_B7B5,Satellite: indices,0.01050248048306181,0.7893617083586206
+Vidarbha,41 inputs,K,c_R_B6B5,Satellite: indices,0.009745566505489975,0.7324723943170259
+Vidarbha,41 inputs,K,c_std_NDVI,Satellite: change between dates,0.018730978790343192,1.4078119393813848
+Vidarbha,41 inputs,K,c_std_BSI,Satellite: change between dates,0.043255204733955964,3.251041728595843
+Vidarbha,41 inputs,K,c_std_NDMI,Satellite: change between dates,0.019848486373545714,1.4918033066020253
+Vidarbha,41 inputs,K,c_std_B11,Satellite: change between dates,0.03127478535541555,2.350598797733057
+Vidarbha,41 inputs,K,c_std_B12,Satellite: change between dates,0.01677426244729826,1.2607460193056264
+Vidarbha,41 inputs,K,pH,"pH, EC",0.11908350309539598,8.95026252058379
+Vidarbha,41 inputs,K,EC,"pH, EC",0.07736890579133648,5.81501215334628
+Vidarbha,41 inputs,K,slope,Terrain (no elevation),0.015589329072244714,1.1716869599022872
+Vidarbha,41 inputs,K,tpi_150m,Terrain (no elevation),0.01929122723410954,1.4499199603760342
+Vidarbha,41 inputs,K,tpi_500m,Terrain (no elevation),0.010676177623934104,0.8024167073254923
+Vidarbha,41 inputs,K,tpi_1km,Terrain (no elevation),0.01680342503659881,1.262937866398089
+Vidarbha,41 inputs,K,rough_90m,Terrain (no elevation),0.022028071396272525,1.6556199363807957
+Vidarbha,41 inputs,K,relpos_2km,Terrain (no elevation),0.034614247239328974,2.6015912506050958
+Vidarbha,41 inputs,OC,c_B01,Satellite: bands,0.03028034273408431,2.7727569040193245
+Vidarbha,41 inputs,OC,c_B02,Satellite: bands,0.009049712456668638,0.8286779616061853
+Vidarbha,41 inputs,OC,c_B03,Satellite: bands,0.010027411947488718,0.9182054493573749
+Vidarbha,41 inputs,OC,c_B04,Satellite: bands,0.008159091117106875,0.7471241796750081
+Vidarbha,41 inputs,OC,c_B05,Satellite: bands,0.012276358364740472,1.1241404270412692
+Vidarbha,41 inputs,OC,c_B06,Satellite: bands,0.023382309547002246,2.1411072126138544
+Vidarbha,41 inputs,OC,c_B07,Satellite: bands,0.008493156588435743,0.77771439954656
+Vidarbha,41 inputs,OC,c_B08,Satellite: bands,0.009737116136901735,0.8916231969673811
+Vidarbha,41 inputs,OC,c_B8A,Satellite: bands,0.011427825101805818,1.0464406307161846
+Vidarbha,41 inputs,OC,c_B09,Satellite: bands,0.013402693260255004,1.2272783896859396
+Vidarbha,41 inputs,OC,c_B11,Satellite: bands,0.009986587804008554,0.9144672015218283
+Vidarbha,41 inputs,OC,c_B12,Satellite: bands,0.025454538051280638,2.3308602131793323
+Vidarbha,41 inputs,OC,c_NDVI,Satellite: indices,0.015437414591916991,1.4135968758954973
+Vidarbha,41 inputs,OC,c_SAVI,Satellite: indices,0.015013168782740623,1.3747488844204558
+Vidarbha,41 inputs,OC,c_NBR2,Satellite: indices,0.021676654863879773,1.9849212063974444
+Vidarbha,41 inputs,OC,c_NDMI,Satellite: indices,0.011598915104382629,1.062107262696527
+Vidarbha,41 inputs,OC,c_NDWI,Satellite: indices,0.016000498080983385,1.4651581691595497
+Vidarbha,41 inputs,OC,c_BSI,Satellite: bands,0.019327349958711715,1.7697964486410263
+Vidarbha,41 inputs,OC,c_NDRE,Satellite: indices,0.009666738467282105,0.8851787464854198
+Vidarbha,41 inputs,OC,c_CI,Satellite: indices,0.013611198844149085,1.2463711490495295
+Vidarbha,41 inputs,OC,c_BI,Satellite: bands,0.009139394800303458,0.8368901321111833
+Vidarbha,41 inputs,OC,c_RI,Satellite: indices,0.02277850783363349,2.0858173704841154
+Vidarbha,41 inputs,OC,c_R_B4B2,Satellite: indices,0.031549021488694255,2.888929227652495
+Vidarbha,41 inputs,OC,c_R_B11B12,Satellite: indices,0.010980481145355816,1.0054775526357682
+Vidarbha,41 inputs,OC,c_R_B12B8,Satellite: indices,0.01285197673905803,1.1768495339191394
+Vidarbha,41 inputs,OC,c_R_B11B8,Satellite: indices,0.009494869737804555,0.869440806844879
+Vidarbha,41 inputs,OC,c_R_B7B5,Satellite: indices,0.008848039931843904,0.8102109022842525
+Vidarbha,41 inputs,OC,c_R_B6B5,Satellite: indices,0.05526203186583633,5.060318561508755
+Vidarbha,41 inputs,OC,c_std_NDVI,Satellite: change between dates,0.054655661578929614,5.004793516294513
+Vidarbha,41 inputs,OC,c_std_BSI,Satellite: change between dates,0.023932375823537543,2.1914765257793443
+Vidarbha,41 inputs,OC,c_std_NDMI,Satellite: change between dates,0.022463907521951404,2.0570095662302608
+Vidarbha,41 inputs,OC,c_std_B11,Satellite: change between dates,0.059700256450495606,5.466724722983614
+Vidarbha,41 inputs,OC,c_std_B12,Satellite: change between dates,0.0360250971150579,3.298801391415761
+Vidarbha,41 inputs,OC,pH,"pH, EC",0.14068227723487742,12.882210710154405
+Vidarbha,41 inputs,OC,EC,"pH, EC",0.12240750345745906,11.208798172994085
+Vidarbha,41 inputs,OC,slope,Terrain (no elevation),0.026167447230213983,2.396140975196637
+Vidarbha,41 inputs,OC,tpi_150m,Terrain (no elevation),0.012751311875568015,1.1676316991777935
+Vidarbha,41 inputs,OC,tpi_500m,Terrain (no elevation),0.024339919343352216,2.228795096383979
+Vidarbha,41 inputs,OC,tpi_1km,Terrain (no elevation),0.017413850514884078,1.5945781943331572
+Vidarbha,41 inputs,OC,rough_90m,Terrain (no elevation),0.056310681003226684,5.156342875405311
+Vidarbha,41 inputs,OC,relpos_2km,Terrain (no elevation),0.04030256959636102,3.690487557534863
+Vidarbha,41 + elev + climate,N,c_B01,Satellite: bands,0.010915500934925416,0.9845576099712308
+Vidarbha,41 + elev + climate,N,c_B02,Satellite: bands,0.009583792703870105,0.8644400376341081
+Vidarbha,41 + elev + climate,N,c_B03,Satellite: bands,0.006504642799375299,0.5867065200625424
+Vidarbha,41 + elev + climate,N,c_B04,Satellite: bands,0.0056290104964314405,0.5077261367947817
+Vidarbha,41 + elev + climate,N,c_B05,Satellite: bands,0.008120360986398399,0.732441255104584
+Vidarbha,41 + elev + climate,N,c_B06,Satellite: bands,0.004156723279559321,0.3749286049108533
+Vidarbha,41 + elev + climate,N,c_B07,Satellite: bands,0.004455232780925748,0.4018535992808932
+Vidarbha,41 + elev + climate,N,c_B08,Satellite: bands,0.006670157248570121,0.601635611405804
+Vidarbha,41 + elev + climate,N,c_B8A,Satellite: bands,0.0060349734637617425,0.54434323125837
+Vidarbha,41 + elev + climate,N,c_B09,Satellite: bands,0.010606956696182246,0.9567275012040378
+Vidarbha,41 + elev + climate,N,c_B11,Satellite: bands,0.006173570113917209,0.5568443878649786
+Vidarbha,41 + elev + climate,N,c_B12,Satellite: bands,0.005624766230616667,0.5073433120182013
+Vidarbha,41 + elev + climate,N,c_NDVI,Satellite: indices,0.0067981469835400815,0.6131800442553933
+Vidarbha,41 + elev + climate,N,c_SAVI,Satellite: indices,0.004588705071971779,0.41389254835460904
+Vidarbha,41 + elev + climate,N,c_NBR2,Satellite: indices,0.007485259419510586,0.6751562908586146
+Vidarbha,41 + elev + climate,N,c_NDMI,Satellite: indices,0.00543641401321424,0.49035429702896094
+Vidarbha,41 + elev + climate,N,c_NDWI,Satellite: indices,0.0062568148881054705,0.5643529095907339
+Vidarbha,41 + elev + climate,N,c_BSI,Satellite: bands,0.006519207154991452,0.588020197487124
+Vidarbha,41 + elev + climate,N,c_NDRE,Satellite: indices,0.008309385007233206,0.7494908654971594
+Vidarbha,41 + elev + climate,N,c_CI,Satellite: indices,0.007679277810779926,0.6926563840506188
+Vidarbha,41 + elev + climate,N,c_BI,Satellite: bands,0.00491077265221227,0.44294243703504665
+Vidarbha,41 + elev + climate,N,c_RI,Satellite: indices,0.0045621152072768305,0.41149419267770626
+Vidarbha,41 + elev + climate,N,c_R_B4B2,Satellite: indices,0.008662961902527352,0.7813828350043042
+Vidarbha,41 + elev + climate,N,c_R_B11B12,Satellite: indices,0.0038452728582680546,0.3468363639556142
+Vidarbha,41 + elev + climate,N,c_R_B12B8,Satellite: indices,0.006459147834402897,0.5826029599743714
+Vidarbha,41 + elev + climate,N,c_R_B11B8,Satellite: indices,0.004267103147787915,0.3848846609727757
+Vidarbha,41 + elev + climate,N,c_R_B7B5,Satellite: indices,0.008496377415216494,0.7663572282398646
+Vidarbha,41 + elev + climate,N,c_R_B6B5,Satellite: indices,0.006059932829255102,0.5465945189805773
+Vidarbha,41 + elev + climate,N,c_std_NDVI,Satellite: change between dates,0.00932633893538713,0.8412181929852152
+Vidarbha,41 + elev + climate,N,c_std_BSI,Satellite: change between dates,0.013003764410964293,1.1729150393935113
+Vidarbha,41 + elev + climate,N,c_std_NDMI,Satellite: change between dates,0.007928334069834503,0.7151207891773291
+Vidarbha,41 + elev + climate,N,c_std_B11,Satellite: change between dates,0.015497854136911814,1.3978772316256416
+Vidarbha,41 + elev + climate,N,c_std_B12,Satellite: change between dates,0.009963891105148372,0.8987241969912867
+Vidarbha,41 + elev + climate,N,pH,"pH, EC",0.05063024326443371,4.566752510752586
+Vidarbha,41 + elev + climate,N,EC,"pH, EC",0.09546575248994643,8.61083093354606
+Vidarbha,41 + elev + climate,N,slope,Terrain (no elevation),0.009856249702944242,0.8890151454031038
+Vidarbha,41 + elev + climate,N,tpi_150m,Terrain (no elevation),0.008393958658691338,0.7571192494478888
+Vidarbha,41 + elev + climate,N,tpi_500m,Terrain (no elevation),0.006975377888131832,0.6291659377913994
+Vidarbha,41 + elev + climate,N,tpi_1km,Terrain (no elevation),0.011868101798627725,1.0704804123432579
+Vidarbha,41 + elev + climate,N,rough_90m,Terrain (no elevation),0.008461315355351787,0.7631946965276817
+Vidarbha,41 + elev + climate,N,relpos_2km,Terrain (no elevation),0.017427306803248298,1.5719102253513526
+Vidarbha,41 + elev + climate,N,elev,Elevation,0.0765668488191574,6.906185444519248
+Vidarbha,41 + elev + climate,N,ppt_annual,Climate,0.18807947190415153,16.964413859387196
+Vidarbha,41 + elev + climate,N,ppt_monsoon,Climate,0.14266627975073934,12.868229525357524
+Vidarbha,41 + elev + climate,N,tmax_mean,Climate,0.06768569903439332,6.10512247379416
+Vidarbha,41 + elev + climate,N,tmin_mean,Climate,0.05072225395530437,4.575051701640434
+Vidarbha,41 + elev + climate,N,tmean,Climate,0.027243812644592132,2.4573405493503264
+Vidarbha,41 + elev + climate,N,def_annual,Climate,0.10609518092390327,9.569585343140941
+Vidarbha,41 + elev + climate,P,c_B01,Satellite: bands,0.016320423542934333,1.4867463933276213
+Vidarbha,41 + elev + climate,P,c_B02,Satellite: bands,0.005022724971648047,0.45755664469303897
+Vidarbha,41 + elev + climate,P,c_B03,Satellite: bands,0.0066206632655378605,0.6031244964678972
+Vidarbha,41 + elev + climate,P,c_B04,Satellite: bands,0.0035171170008380034,0.32039983534440813
+Vidarbha,41 + elev + climate,P,c_B05,Satellite: bands,0.004358363332322594,0.3970350982678563
+Vidarbha,41 + elev + climate,P,c_B06,Satellite: bands,0.0054037353357081,0.49226565718260573
+Vidarbha,41 + elev + climate,P,c_B07,Satellite: bands,0.007906704128407856,0.7202793368134277
+Vidarbha,41 + elev + climate,P,c_B08,Satellite: bands,0.008556390471486555,0.7794640034873906
+Vidarbha,41 + elev + climate,P,c_B8A,Satellite: bands,0.0043494004407848945,0.39621860311793544
+Vidarbha,41 + elev + climate,P,c_B09,Satellite: bands,0.008309511012222217,0.7569739532333435
+Vidarbha,41 + elev + climate,P,c_B11,Satellite: bands,0.009915208053267495,0.9032486058654088
+Vidarbha,41 + elev + climate,P,c_B12,Satellite: bands,0.012001156237847817,1.0932728372791665
+Vidarbha,41 + elev + climate,P,c_NDVI,Satellite: indices,0.006051191618120493,0.5512471713682886
+Vidarbha,41 + elev + climate,P,c_SAVI,Satellite: indices,0.005945439621224493,0.5416134507997811
+Vidarbha,41 + elev + climate,P,c_NBR2,Satellite: indices,0.0071482363794332674,0.6511849786139134
+Vidarbha,41 + elev + climate,P,c_NDMI,Satellite: indices,0.0071564319260299155,0.6519315707174739
+Vidarbha,41 + elev + climate,P,c_NDWI,Satellite: indices,0.00646839420368952,0.5892531972382635
+Vidarbha,41 + elev + climate,P,c_BSI,Satellite: bands,0.006245737596697701,0.5689697832371013
+Vidarbha,41 + elev + climate,P,c_NDRE,Satellite: indices,0.006844945450707521,0.6235559962394207
+Vidarbha,41 + elev + climate,P,c_CI,Satellite: indices,0.010986823441104519,1.0008698660434778
+Vidarbha,41 + elev + climate,P,c_BI,Satellite: bands,0.0033298302018150323,0.3033385150770289
+Vidarbha,41 + elev + climate,P,c_RI,Satellite: indices,0.00680695374137195,0.6200950543905517
+Vidarbha,41 + elev + climate,P,c_R_B4B2,Satellite: indices,0.016484457132221107,1.5016894091516362
+Vidarbha,41 + elev + climate,P,c_R_B11B12,Satellite: indices,0.0032241117147474067,0.29370784716315046
+Vidarbha,41 + elev + climate,P,c_R_B12B8,Satellite: indices,0.004268887002158118,0.38888404686834666
+Vidarbha,41 + elev + climate,P,c_R_B11B8,Satellite: indices,0.0034357600250929736,0.3129884351474241
+Vidarbha,41 + elev + climate,P,c_R_B7B5,Satellite: indices,0.007815284763819312,0.7119512802391138
+Vidarbha,41 + elev + climate,P,c_R_B6B5,Satellite: indices,0.009439476552018955,0.8599107542580091
+Vidarbha,41 + elev + climate,P,c_std_NDVI,Satellite: change between dates,0.010886754858396724,0.9917538891183182
+Vidarbha,41 + elev + climate,P,c_std_BSI,Satellite: change between dates,0.016417319437855585,1.4955733469862345
+Vidarbha,41 + elev + climate,P,c_std_NDMI,Satellite: change between dates,0.014766814165723287,1.3452167858310993
+Vidarbha,41 + elev + climate,P,c_std_B11,Satellite: change between dates,0.012582237818909978,1.1462077958971553
+Vidarbha,41 + elev + climate,P,c_std_B12,Satellite: change between dates,0.011438356226530345,1.0420032801632146
+Vidarbha,41 + elev + climate,P,pH,"pH, EC",0.05755706932798459,5.24329316630611
+Vidarbha,41 + elev + climate,P,EC,"pH, EC",0.05558832774367168,5.06394613881193
+Vidarbha,41 + elev + climate,P,slope,Terrain (no elevation),0.007971542599963794,0.7261859460065696
+Vidarbha,41 + elev + climate,P,tpi_150m,Terrain (no elevation),0.007818870014168177,0.7122778868379763
+Vidarbha,41 + elev + climate,P,tpi_500m,Terrain (no elevation),0.01734910162604615,1.5804561813082025
+Vidarbha,41 + elev + climate,P,tpi_1km,Terrain (no elevation),0.008884574683386768,0.8093606965545843
+Vidarbha,41 + elev + climate,P,rough_90m,Terrain (no elevation),0.005637319728719555,0.5135445629005736
+Vidarbha,41 + elev + climate,P,relpos_2km,Terrain (no elevation),0.014938822357683361,1.360886266365516
+Vidarbha,41 + elev + climate,P,elev,Elevation,0.07797651711356536,7.103449569054441
+Vidarbha,41 + elev + climate,P,ppt_annual,Climate,0.0969079469436007,8.82805156521559
+Vidarbha,41 + elev + climate,P,ppt_monsoon,Climate,0.09071794984984083,8.264159590865438
+Vidarbha,41 + elev + climate,P,tmax_mean,Climate,0.11623748826431579,10.58892044019599
+Vidarbha,41 + elev + climate,P,tmin_mean,Climate,0.058639904516059944,5.34193651990561
+Vidarbha,41 + elev + climate,P,tmean,Climate,0.03465843200683594,3.1572893098636694
+Vidarbha,41 + elev + climate,P,def_annual,Climate,0.17681875981430228,16.107710240178697
+Vidarbha,41 + elev + climate,K,c_B01,Satellite: bands,0.02595852921766299,2.2611848276743096
+Vidarbha,41 + elev + climate,K,c_B02,Satellite: bands,0.0070377223045094165,0.613039003978456
+Vidarbha,41 + elev + climate,K,c_B03,Satellite: bands,0.00429129312628275,0.3738041869356415
+Vidarbha,41 + elev + climate,K,c_B04,Satellite: bands,0.003942752179052347,0.3434436262470043
+Vidarbha,41 + elev + climate,K,c_B05,Satellite: bands,0.004729218845854847,0.4119508394074232
+Vidarbha,41 + elev + climate,K,c_B06,Satellite: bands,0.0034488234684662148,0.30041868839458746
+Vidarbha,41 + elev + climate,K,c_B07,Satellite: bands,0.004986135821033147,0.4343302570305858
+Vidarbha,41 + elev + climate,K,c_B08,Satellite: bands,0.0039891818037732065,0.34748799879573805
+Vidarbha,41 + elev + climate,K,c_B8A,Satellite: bands,0.0029615446678275172,0.2579730081477328
+Vidarbha,41 + elev + climate,K,c_B09,Satellite: bands,0.01488417047223694,1.296524165993181
+Vidarbha,41 + elev + climate,K,c_B11,Satellite: bands,0.023381239107169986,2.0366833065944303
+Vidarbha,41 + elev + climate,K,c_B12,Satellite: bands,0.010437080010508125,0.909148849193101
+Vidarbha,41 + elev + climate,K,c_NDVI,Satellite: indices,0.0071386584603562175,0.6218313088987694
+Vidarbha,41 + elev + climate,K,c_SAVI,Satellite: indices,0.007545062846864284,0.6572322141259823
+Vidarbha,41 + elev + climate,K,c_NBR2,Satellite: indices,0.0070503910951686686,0.6141425517558929
+Vidarbha,41 + elev + climate,K,c_NDMI,Satellite: indices,0.0070400331101368,0.6132402926793886
+Vidarbha,41 + elev + climate,K,c_NDWI,Satellite: indices,0.007491760125357058,0.6525891427048219
+Vidarbha,41 + elev + climate,K,c_BSI,Satellite: bands,0.0049222844666692855,0.42876831966104567
+Vidarbha,41 + elev + climate,K,c_NDRE,Satellite: indices,0.010873575754227247,0.947170939919663
+Vidarbha,41 + elev + climate,K,c_CI,Satellite: indices,0.005187360231409713,0.45185842975123436
+Vidarbha,41 + elev + climate,K,c_BI,Satellite: bands,0.004379543083767247,0.3814914277355197
+Vidarbha,41 + elev + climate,K,c_RI,Satellite: indices,0.009479379694102286,0.8257258860984789
+Vidarbha,41 + elev + climate,K,c_R_B4B2,Satellite: indices,0.010717897862405196,0.9336102145010279
+Vidarbha,41 + elev + climate,K,c_R_B11B12,Satellite: indices,0.004845954366896602,0.4221193888971479
+Vidarbha,41 + elev + climate,K,c_R_B12B8,Satellite: indices,0.003707541002714376,0.3229549483725678
+Vidarbha,41 + elev + climate,K,c_R_B11B8,Satellite: indices,0.004943316922165041,0.4306004060961807
+Vidarbha,41 + elev + climate,K,c_R_B7B5,Satellite: indices,0.004790151162751435,0.41725850646846213
+Vidarbha,41 + elev + climate,K,c_R_B6B5,Satellite: indices,0.005326202698418077,0.4639526619476627
+Vidarbha,41 + elev + climate,K,c_std_NDVI,Satellite: change between dates,0.010416750625357539,0.9073780055188309
+Vidarbha,41 + elev + climate,K,c_std_BSI,Satellite: change between dates,0.010156193599042114,0.8846815118265963
+Vidarbha,41 + elev + climate,K,c_std_NDMI,Satellite: change between dates,0.01259894010827167,1.097463264529515
+Vidarbha,41 + elev + climate,K,c_std_B11,Satellite: change between dates,0.008503139504419556,0.7406879593898095
+Vidarbha,41 + elev + climate,K,c_std_B12,Satellite: change between dates,0.009338809144326188,0.8134811247829853
+Vidarbha,41 + elev + climate,K,pH,"pH, EC",0.026093635355545812,2.2729535972584674
+Vidarbha,41 + elev + climate,K,EC,"pH, EC",0.0406664425454358,3.5423556592204717
+Vidarbha,41 + elev + climate,K,slope,Terrain (no elevation),0.007252098569304914,0.6317128029947437
+Vidarbha,41 + elev + climate,K,tpi_150m,Terrain (no elevation),0.012322304791796244,1.073366229787366
+Vidarbha,41 + elev + climate,K,tpi_500m,Terrain (no elevation),0.007626606620653597,0.664335295449952
+Vidarbha,41 + elev + climate,K,tpi_1km,Terrain (no elevation),0.011664275807030111,1.016046913117041
+Vidarbha,41 + elev + climate,K,rough_90m,Terrain (no elevation),0.0064668397962360765,0.5633108065421398
+Vidarbha,41 + elev + climate,K,relpos_2km,Terrain (no elevation),0.014480201557291187,1.2613354088156037
+Vidarbha,41 + elev + climate,K,elev,Elevation,0.05303932796265094,4.620127845208687
+Vidarbha,41 + elev + climate,K,ppt_annual,Climate,0.18243122395421976,15.891143609887216
+Vidarbha,41 + elev + climate,K,ppt_monsoon,Climate,0.2058212314553222,17.92859071011405
+Vidarbha,41 + elev + climate,K,tmax_mean,Climate,0.06742112872909208,5.872891798629587
+Vidarbha,41 + elev + climate,K,tmin_mean,Climate,0.04720079989220379,4.111547756631765
+Vidarbha,41 + elev + climate,K,tmean,Climate,0.021421795646583922,1.8660009159777813
+Vidarbha,41 + elev + climate,K,def_annual,Climate,0.17759708446319503,15.47005338631135
+Vidarbha,41 + elev + climate,OC,c_B01,Satellite: bands,0.01620352599634879,1.4537364127466184
+Vidarbha,41 + elev + climate,OC,c_B02,Satellite: bands,0.007803736024946016,0.7001300345050144
+Vidarbha,41 + elev + climate,OC,c_B03,Satellite: bands,0.005251141017623511,0.47111813240567396
+Vidarbha,41 + elev + climate,OC,c_B04,Satellite: bands,0.005428942694017239,0.48707001666094013
+Vidarbha,41 + elev + climate,OC,c_B05,Satellite: bands,0.011019582194044697,0.9886470322784562
+Vidarbha,41 + elev + climate,OC,c_B06,Satellite: bands,0.00618598856841604,0.5549901196052703
+Vidarbha,41 + elev + climate,OC,c_B07,Satellite: bands,0.007495450357545865,0.6724714804144739
+Vidarbha,41 + elev + climate,OC,c_B08,Satellite: bands,0.007774761505791124,0.6975305192176144
+Vidarbha,41 + elev + climate,OC,c_B8A,Satellite: bands,0.004335044174172911,0.38892840782187243
+Vidarbha,41 + elev + climate,OC,c_B09,Satellite: bands,0.007052675454477955,0.6327469167988005
+Vidarbha,41 + elev + climate,OC,c_B11,Satellite: bands,0.009808757672715608,0.8800151396583421
+Vidarbha,41 + elev + climate,OC,c_B12,Satellite: bands,0.008820369517458385,0.7913396346140291
+Vidarbha,41 + elev + climate,OC,c_NDVI,Satellite: indices,0.009357433511915585,0.8395235598222528
+Vidarbha,41 + elev + climate,OC,c_SAVI,Satellite: indices,0.010912337084895805,0.9790252919057829
+Vidarbha,41 + elev + climate,OC,c_NBR2,Satellite: indices,0.011488497776116123,1.0307168667277675
+Vidarbha,41 + elev + climate,OC,c_NDMI,Satellite: indices,0.004478801538756108,0.4018259287406018
+Vidarbha,41 + elev + climate,OC,c_NDWI,Satellite: indices,0.011115523678169797,0.9972546420664146
+Vidarbha,41 + elev + climate,OC,c_BSI,Satellite: bands,0.009509811037144477,0.8531944581785348
+Vidarbha,41 + elev + climate,OC,c_NDRE,Satellite: indices,0.007730587115953291,0.6935673127505411
+Vidarbha,41 + elev + climate,OC,c_CI,Satellite: indices,0.008945736915869045,0.8025872576364476
+Vidarbha,41 + elev + climate,OC,c_BI,Satellite: bands,0.005741851646489757,0.515143359351056
+Vidarbha,41 + elev + climate,OC,c_RI,Satellite: indices,0.015429793499521043,1.3843192312876376
+Vidarbha,41 + elev + climate,OC,c_R_B4B2,Satellite: indices,0.021420080050495494,1.921751496579784
+Vidarbha,41 + elev + climate,OC,c_R_B11B12,Satellite: indices,0.005222952657119507,0.4685891491405788
+Vidarbha,41 + elev + climate,OC,c_R_B12B8,Satellite: indices,0.010978816701133275,0.9849896627996002
+Vidarbha,41 + elev + climate,OC,c_R_B11B8,Satellite: indices,0.0035877093208267997,0.32187955135268753
+Vidarbha,41 + elev + climate,OC,c_R_B7B5,Satellite: indices,0.007860038495405241,0.7051813394773154
+Vidarbha,41 + elev + climate,OC,c_R_B6B5,Satellite: indices,0.01279596571371951,1.1480193445848133
+Vidarbha,41 + elev + climate,OC,c_std_NDVI,Satellite: change between dates,0.02887466133929678,2.590556314972521
+Vidarbha,41 + elev + climate,OC,c_std_BSI,Satellite: change between dates,0.01223528261299851,1.0977163772113254
+Vidarbha,41 + elev + climate,OC,c_std_NDMI,Satellite: change between dates,0.007881783595482843,0.7071322508893595
+Vidarbha,41 + elev + climate,OC,c_std_B11,Satellite: change between dates,0.014009721022715431,1.2569141795268803
+Vidarbha,41 + elev + climate,OC,c_std_B12,Satellite: change between dates,0.012226990386697223,1.0969724211538825
+Vidarbha,41 + elev + climate,OC,pH,"pH, EC",0.07096855401390223,6.367106218315229
+Vidarbha,41 + elev + climate,OC,EC,"pH, EC",0.06937440905936545,6.224083855890617
+Vidarbha,41 + elev + climate,OC,slope,Terrain (no elevation),0.009088906636568845,0.8154320567394923
+Vidarbha,41 + elev + climate,OC,tpi_150m,Terrain (no elevation),0.00860752580005846,0.7722438734643666
+Vidarbha,41 + elev + climate,OC,tpi_500m,Terrain (no elevation),0.013928564972035238,1.2496330787334424
+Vidarbha,41 + elev + climate,OC,tpi_1km,Terrain (no elevation),0.013165378195621498,1.181162030712822
+Vidarbha,41 + elev + climate,OC,rough_90m,Terrain (no elevation),0.014285484882795017,1.281654965255097
+Vidarbha,41 + elev + climate,OC,relpos_2km,Terrain (no elevation),0.014942465522121225,1.3405974866589738
+Vidarbha,41 + elev + climate,OC,elev,Elevation,0.1297364313928507,11.639600813927116
+Vidarbha,41 + elev + climate,OC,ppt_annual,Climate,0.0593868213836747,5.328024573304672
+Vidarbha,41 + elev + climate,OC,ppt_monsoon,Climate,0.03187338002308538,2.8595932235558386
+Vidarbha,41 + elev + climate,OC,tmax_mean,Climate,0.10182668572896922,9.135614116758601
+Vidarbha,41 + elev + climate,OC,tmin_mean,Climate,0.04900607671740349,4.396692311660868
+Vidarbha,41 + elev + climate,OC,tmean,Climate,0.07479440292191285,6.71035100765893
+Vidarbha,41 + elev + climate,OC,def_annual,Climate,0.12464293962246714,11.182626544481048
+Marathwada,41 inputs,N,c_B01,Satellite: bands,0.10461837963364658,9.165424605237234
+Marathwada,41 inputs,N,c_B02,Satellite: bands,0.037530714674130154,3.287997165803749
+Marathwada,41 inputs,N,c_B03,Satellite: bands,0.010302860082096578,0.9026146995531805
+Marathwada,41 inputs,N,c_B04,Satellite: bands,0.008634041224127328,0.7564125362614441
+Marathwada,41 inputs,N,c_B05,Satellite: bands,0.007478887802489789,0.6552116609412951
+Marathwada,41 inputs,N,c_B06,Satellite: bands,0.009875028191785628,0.8651331313230795
+Marathwada,41 inputs,N,c_B07,Satellite: bands,0.010124980192000572,0.8870309682129324
+Marathwada,41 inputs,N,c_B08,Satellite: bands,0.00726245082002434,0.6362500133654218
+Marathwada,41 inputs,N,c_B8A,Satellite: bands,0.009655882754383017,0.8459342009713672
+Marathwada,41 inputs,N,c_B09,Satellite: bands,0.025814218406816396,2.261536389488391
+Marathwada,41 inputs,N,c_B11,Satellite: bands,0.02462413188005997,2.157275088817408
+Marathwada,41 inputs,N,c_B12,Satellite: bands,0.02449232914473875,2.1457280926052604
+Marathwada,41 inputs,N,c_NDVI,Satellite: indices,0.00971733560905039,0.8513179730026563
+Marathwada,41 inputs,N,c_SAVI,Satellite: indices,0.008510200228151896,0.7455630534494845
+Marathwada,41 inputs,N,c_NBR2,Satellite: indices,0.0146238293232801,1.2811668998482013
+Marathwada,41 inputs,N,c_NDMI,Satellite: indices,0.0075474098487842076,0.6612147519020548
+Marathwada,41 inputs,N,c_NDWI,Satellite: indices,0.008418344718332773,0.7375157604903414
+Marathwada,41 inputs,N,c_BSI,Satellite: bands,0.009594002137773045,0.840512953499839
+Marathwada,41 inputs,N,c_NDRE,Satellite: indices,0.014655967253207416,1.2839824450205573
+Marathwada,41 inputs,N,c_CI,Satellite: indices,0.0180867817825548,1.5845498215503773
+Marathwada,41 inputs,N,c_BI,Satellite: bands,0.009402887469595332,0.8237697474946255
+Marathwada,41 inputs,N,c_RI,Satellite: indices,0.03311588939370557,2.901222409831394
+Marathwada,41 inputs,N,c_R_B4B2,Satellite: indices,0.07766783765481747,6.804336989062793
+Marathwada,41 inputs,N,c_R_B11B12,Satellite: indices,0.006642685388760867,0.5819534991862746
+Marathwada,41 inputs,N,c_R_B12B8,Satellite: indices,0.014543990656508327,1.2741723804966132
+Marathwada,41 inputs,N,c_R_B11B8,Satellite: indices,0.005171893194605125,0.45310008917637207
+Marathwada,41 inputs,N,c_R_B7B5,Satellite: indices,0.030148864227263115,2.6412867698406193
+Marathwada,41 inputs,N,c_R_B6B5,Satellite: indices,0.015266469892826845,1.3374674629908663
+Marathwada,41 inputs,N,c_std_NDVI,Satellite: change between dates,0.051896530119561475,4.546559942429923
+Marathwada,41 inputs,N,c_std_BSI,Satellite: change between dates,0.052454861953520664,4.595474371680086
+Marathwada,41 inputs,N,c_std_NDMI,Satellite: change between dates,0.025306656436413263,2.217069814986797
+Marathwada,41 inputs,N,c_std_B11,Satellite: change between dates,0.022872396531733702,2.003808763687576
+Marathwada,41 inputs,N,c_std_B12,Satellite: change between dates,0.027125631663375623,2.37642690271745
+Marathwada,41 inputs,N,pH,"pH, EC",0.1482656000802267,12.989277637870513
+Marathwada,41 inputs,N,EC,"pH, EC",0.1258580882205138,11.026196568747293
+Marathwada,41 inputs,N,slope,Terrain (no elevation),0.013910467516574591,1.2186705786615142
+Marathwada,41 inputs,N,tpi_150m,Terrain (no elevation),0.01401788086366877,1.2280808652462936
+Marathwada,41 inputs,N,tpi_500m,Terrain (no elevation),0.021988899028195633,1.9264071657470438
+Marathwada,41 inputs,N,tpi_1km,Terrain (no elevation),0.018263902062857877,1.6000670048680803
+Marathwada,41 inputs,N,rough_90m,Terrain (no elevation),0.017039427227996302,1.4927930075147062
+Marathwada,41 inputs,N,relpos_2km,Terrain (no elevation),0.03891744211106452,3.409485816418905
+Marathwada,41 inputs,P,c_B01,Satellite: bands,0.10849917214509408,8.561659855023699
+Marathwada,41 inputs,P,c_B02,Satellite: bands,0.0181343099485778,1.430976756925566
+Marathwada,41 inputs,P,c_B03,Satellite: bands,0.006234207893796984,0.49194078071688685
+Marathwada,41 inputs,P,c_B04,Satellite: bands,0.007147248055923724,0.5639886972821038
+Marathwada,41 inputs,P,c_B05,Satellite: bands,0.018280722810428175,1.4425301826041248
+Marathwada,41 inputs,P,c_B06,Satellite: bands,0.016257371798103337,1.2828677373305604
+Marathwada,41 inputs,P,c_B07,Satellite: bands,0.010114101893955249,0.798102865147172
+Marathwada,41 inputs,P,c_B08,Satellite: bands,0.013025151372514957,1.0278135160564956
+Marathwada,41 inputs,P,c_B8A,Satellite: bands,0.008141940307219616,0.642479772814317
+Marathwada,41 inputs,P,c_B09,Satellite: bands,0.00860994001302078,0.679409587246103
+Marathwada,41 inputs,P,c_B11,Satellite: bands,0.0171978842659255,1.3570834910520175
+Marathwada,41 inputs,P,c_B12,Satellite: bands,0.02405543150909249,1.8982119234167982
+Marathwada,41 inputs,P,c_NDVI,Satellite: indices,0.013513966610557154,1.0663858822536598
+Marathwada,41 inputs,P,c_SAVI,Satellite: indices,0.007667049260857579,0.6050061633225242
+Marathwada,41 inputs,P,c_NBR2,Satellite: indices,0.08902479572306082,7.024938573950946
+Marathwada,41 inputs,P,c_NDMI,Satellite: indices,0.011511711853130713,0.9083881405449615
+Marathwada,41 inputs,P,c_NDWI,Satellite: indices,0.014573593820489403,1.1500009694953917
+Marathwada,41 inputs,P,c_BSI,Satellite: bands,0.007285339314220721,0.5748854659773528
+Marathwada,41 inputs,P,c_NDRE,Satellite: indices,0.015363577444644071,1.2123385057855889
+Marathwada,41 inputs,P,c_CI,Satellite: indices,0.02038559458913003,1.6086254241750424
+Marathwada,41 inputs,P,c_BI,Satellite: bands,0.004951201546248078,0.39069886594116443
+Marathwada,41 inputs,P,c_RI,Satellite: indices,0.00955613793775152,0.7540739798576941
+Marathwada,41 inputs,P,c_R_B4B2,Satellite: indices,0.03353473480447249,2.6462228885983285
+Marathwada,41 inputs,P,c_R_B11B12,Satellite: indices,0.02726682789192776,2.151622921361747
+Marathwada,41 inputs,P,c_R_B12B8,Satellite: indices,0.010982678916815857,0.8666421994167185
+Marathwada,41 inputs,P,c_R_B11B8,Satellite: indices,0.009131284105460926,0.7205488024000168
+Marathwada,41 inputs,P,c_R_B7B5,Satellite: indices,0.008874781371529616,0.7003081948784523
+Marathwada,41 inputs,P,c_R_B6B5,Satellite: indices,0.025008662284942515,1.973431277673754
+Marathwada,41 inputs,P,c_std_NDVI,Satellite: change between dates,0.09296548037307843,7.335897643060207
+Marathwada,41 inputs,P,c_std_BSI,Satellite: change between dates,0.019513832149933005,1.5398347289906629
+Marathwada,41 inputs,P,c_std_NDMI,Satellite: change between dates,0.018121100888393894,1.429934431181846
+Marathwada,41 inputs,P,c_std_B11,Satellite: change between dates,0.029857678733933028,2.356066726837859
+Marathwada,41 inputs,P,c_std_B12,Satellite: change between dates,0.030109880863843703,2.375967974085351
+Marathwada,41 inputs,P,pH,"pH, EC",0.3168739887374711,25.00449777484784
+Marathwada,41 inputs,P,EC,"pH, EC",0.06048231537358223,4.772654032607713
+Marathwada,41 inputs,P,slope,Terrain (no elevation),0.01022364249634457,0.8067467041685203
+Marathwada,41 inputs,P,tpi_150m,Terrain (no elevation),0.01766088420118498,1.3936187740428279
+Marathwada,41 inputs,P,tpi_500m,Terrain (no elevation),0.01429823303421442,1.1282722747700018
+Marathwada,41 inputs,P,tpi_1km,Terrain (no elevation),0.015058984726651873,1.1883031219738216
+Marathwada,41 inputs,P,rough_90m,Terrain (no elevation),0.01583223631134749,1.249320334544519
+Marathwada,41 inputs,P,relpos_2km,Terrain (no elevation),0.06194028213286288,4.88770205763964
+Marathwada,41 inputs,K,c_B01,Satellite: bands,0.04489204025069769,4.100043862080453
+Marathwada,41 inputs,K,c_B02,Satellite: bands,0.016414872428412983,1.4991899804754885
+Marathwada,41 inputs,K,c_B03,Satellite: bands,0.011205492322801488,1.0234110493335808
+Marathwada,41 inputs,K,c_B04,Satellite: bands,0.010338295307427784,0.9442089061420117
+Marathwada,41 inputs,K,c_B05,Satellite: bands,0.01811813103028298,1.6547506308075766
+Marathwada,41 inputs,K,c_B06,Satellite: bands,0.01333954695800495,1.2183168179185655
+Marathwada,41 inputs,K,c_B07,Satellite: bands,0.006576962369130638,0.6006818590132823
+Marathwada,41 inputs,K,c_B08,Satellite: bands,0.011148863499707515,1.0182390710219096
+Marathwada,41 inputs,K,c_B8A,Satellite: bands,0.013463813852307199,1.2296662623723806
+Marathwada,41 inputs,K,c_B09,Satellite: bands,0.044575840312407126,4.071164942589635
+Marathwada,41 inputs,K,c_B11,Satellite: bands,0.01980806005814847,1.809093875163547
+Marathwada,41 inputs,K,c_B12,Satellite: bands,0.018289589645838975,1.6704101517468202
+Marathwada,41 inputs,K,c_NDVI,Satellite: indices,0.01777589314924422,1.6234936347858246
+Marathwada,41 inputs,K,c_SAVI,Satellite: indices,0.02124436638391285,1.940273454040585
+Marathwada,41 inputs,K,c_NBR2,Satellite: indices,0.039108332027178866,3.5718108553051806
+Marathwada,41 inputs,K,c_NDMI,Satellite: indices,0.019429371840261805,1.7745078261731746
+Marathwada,41 inputs,K,c_NDWI,Satellite: indices,0.017964670967471792,1.6407349392709525
+Marathwada,41 inputs,K,c_BSI,Satellite: bands,0.01741537344586172,1.5905669380093397
+Marathwada,41 inputs,K,c_NDRE,Satellite: indices,0.036059383304868284,3.29334671277797
+Marathwada,41 inputs,K,c_CI,Satellite: indices,0.03379390660892743,3.0864380098095356
+Marathwada,41 inputs,K,c_BI,Satellite: bands,0.008238020634017554,0.7523883019700994
+Marathwada,41 inputs,K,c_RI,Satellite: indices,0.016185668559668274,1.4782565163254102
+Marathwada,41 inputs,K,c_R_B4B2,Satellite: indices,0.046691655988429843,4.264404925163956
+Marathwada,41 inputs,K,c_R_B11B12,Satellite: indices,0.01301546566432935,1.1887180847906123
+Marathwada,41 inputs,K,c_R_B12B8,Satellite: indices,0.016864207587309218,1.5402282992946206
+Marathwada,41 inputs,K,c_R_B11B8,Satellite: indices,0.01230531586154542,1.1238592518259722
+Marathwada,41 inputs,K,c_R_B7B5,Satellite: indices,0.008194085519223116,0.748375655257302
+Marathwada,41 inputs,K,c_R_B6B5,Satellite: indices,0.044194861586482774,4.03636969875384
+Marathwada,41 inputs,K,c_std_NDVI,Satellite: change between dates,0.036328014574552835,3.3178811287297134
+Marathwada,41 inputs,K,c_std_BSI,Satellite: change between dates,0.028679197688100237,2.619305511485632
+Marathwada,41 inputs,K,c_std_NDMI,Satellite: change between dates,0.020566777179115696,1.8783884195305447
+Marathwada,41 inputs,K,c_std_B11,Satellite: change between dates,0.02492670095979453,2.276585486010121
+Marathwada,41 inputs,K,c_std_B12,Satellite: change between dates,0.055554562400193686,5.073864794459629
+Marathwada,41 inputs,K,pH,"pH, EC",0.05103735951100121,4.661303238420352
+Marathwada,41 inputs,K,EC,"pH, EC",0.14366785817745142,13.121357746478232
+Marathwada,41 inputs,K,slope,Terrain (no elevation),0.013432674074992965,1.226822229173382
+Marathwada,41 inputs,K,tpi_150m,Terrain (no elevation),0.04262609566295439,3.893092425992694
+Marathwada,41 inputs,K,tpi_500m,Terrain (no elevation),0.020217019856876853,1.8464446639281078
+Marathwada,41 inputs,K,tpi_1km,Terrain (no elevation),0.015148072145828795,1.3834915917614587
+Marathwada,41 inputs,K,rough_90m,Terrain (no elevation),0.01421669760739325,1.29842803843919
+Marathwada,41 inputs,K,relpos_2km,Terrain (no elevation),0.03186298050316378,2.9100842133713325
+Marathwada,41 inputs,OC,c_B01,Satellite: bands,0.02912794642923026,3.133291581849973
+Marathwada,41 inputs,OC,c_B02,Satellite: bands,0.01828483717711162,1.9668989209980243
+Marathwada,41 inputs,OC,c_B03,Satellite: bands,0.012981839575079222,1.3964557630710204
+Marathwada,41 inputs,OC,c_B04,Satellite: bands,0.025207948411362067,2.711617612485303
+Marathwada,41 inputs,OC,c_B05,Satellite: bands,0.014255101013581165,1.5334204253909434
+Marathwada,41 inputs,OC,c_B06,Satellite: bands,0.011920362664362364,1.2822727506585958
+Marathwada,41 inputs,OC,c_B07,Satellite: bands,0.006575339159784123,0.7073088687256456
+Marathwada,41 inputs,OC,c_B08,Satellite: bands,0.01633811257915487,1.757489863968275
+Marathwada,41 inputs,OC,c_B8A,Satellite: bands,0.011569554635545374,1.2445363504558469
+Marathwada,41 inputs,OC,c_B09,Satellite: bands,0.04481054905369109,4.820268276348787
+Marathwada,41 inputs,OC,c_B11,Satellite: bands,0.010449752328046727,1.1240792783465445
+Marathwada,41 inputs,OC,c_B12,Satellite: bands,0.020150331235789208,2.1675700134228566
+Marathwada,41 inputs,OC,c_NDVI,Satellite: indices,0.00979290125331511,1.0534218446690249
+Marathwada,41 inputs,OC,c_SAVI,Satellite: indices,0.01013602422760948,1.0903315639830167
+Marathwada,41 inputs,OC,c_NBR2,Satellite: indices,0.01614299598244592,1.7365011824821728
+Marathwada,41 inputs,OC,c_NDMI,Satellite: indices,0.011398320150847482,1.226116666434185
+Marathwada,41 inputs,OC,c_NDWI,Satellite: indices,0.013577963425008626,1.46058077254472
+Marathwada,41 inputs,OC,c_BSI,Satellite: bands,0.012315475673586084,1.3247750351463803
+Marathwada,41 inputs,OC,c_NDRE,Satellite: indices,0.010682197707962903,1.1490834149718578
+Marathwada,41 inputs,OC,c_CI,Satellite: indices,0.013510670743925365,1.4533421025728914
+Marathwada,41 inputs,OC,c_BI,Satellite: bands,0.011565213901664888,1.244069417953076
+Marathwada,41 inputs,OC,c_RI,Satellite: indices,0.027993589841555405,3.0112689066293488
+Marathwada,41 inputs,OC,c_R_B4B2,Satellite: indices,0.027317892455259545,2.9385841762621494
+Marathwada,41 inputs,OC,c_R_B11B12,Satellite: indices,0.006773062023164829,0.7285779061730758
+Marathwada,41 inputs,OC,c_R_B12B8,Satellite: indices,0.010765540345128841,1.1580485778293106
+Marathwada,41 inputs,OC,c_R_B11B8,Satellite: indices,0.009928835997549179,1.0680443375668462
+Marathwada,41 inputs,OC,c_R_B7B5,Satellite: indices,0.010223762885924116,1.0997696065916156
+Marathwada,41 inputs,OC,c_R_B6B5,Satellite: indices,0.019767523681577012,2.1263914260481562
+Marathwada,41 inputs,OC,c_std_NDVI,Satellite: change between dates,0.029030914167490648,3.122853826836406
+Marathwada,41 inputs,OC,c_std_BSI,Satellite: change between dates,0.03277884677650408,3.5260187297139454
+Marathwada,41 inputs,OC,c_std_NDMI,Satellite: change between dates,0.01679247726432478,1.8063658479512772
+Marathwada,41 inputs,OC,c_std_B11,Satellite: change between dates,0.03844697007044583,4.135738438068433
+Marathwada,41 inputs,OC,c_std_B12,Satellite: change between dates,0.03602614211439776,3.8753301091043055
+Marathwada,41 inputs,OC,pH,"pH, EC",0.07705923540633193,8.289257678672397
+Marathwada,41 inputs,OC,EC,"pH, EC",0.09788053988664953,10.529004246794546
+Marathwada,41 inputs,OC,slope,Terrain (no elevation),0.010639096623351637,1.1444470336907673
+Marathwada,41 inputs,OC,tpi_150m,Terrain (no elevation),0.015715537684978825,1.6905195171320362
+Marathwada,41 inputs,OC,tpi_500m,Terrain (no elevation),0.0202489011047904,2.1781731687642694
+Marathwada,41 inputs,OC,tpi_1km,Terrain (no elevation),0.025082996700380295,2.698176563865272
+Marathwada,41 inputs,OC,rough_90m,Terrain (no elevation),0.025317747186657785,2.7234286606540214
+Marathwada,41 inputs,OC,relpos_2km,Terrain (no elevation),0.0610446492603137,6.566569535172673
+Marathwada,41 + elev + climate,N,c_B01,Satellite: bands,0.013766531524340146,1.223901918849633
+Marathwada,41 + elev + climate,N,c_B02,Satellite: bands,0.009301239963370478,0.8269189242564614
+Marathwada,41 + elev + climate,N,c_B03,Satellite: bands,0.004782524377247391,0.42518631159265724
+Marathwada,41 + elev + climate,N,c_B04,Satellite: bands,0.005494933441444385,0.4885224408954494
+Marathwada,41 + elev + climate,N,c_B05,Satellite: bands,0.0032849048437582694,0.2920417052331491
+Marathwada,41 + elev + climate,N,c_B06,Satellite: bands,0.007491974174634686,0.6660676694122337
+Marathwada,41 + elev + climate,N,c_B07,Satellite: bands,0.006053777893984796,0.5382060374203529
+Marathwada,41 + elev + climate,N,c_B08,Satellite: bands,0.004183590132597525,0.3719385657827799
+Marathwada,41 + elev + climate,N,c_B8A,Satellite: bands,0.004671178862972767,0.4152872321960011
+Marathwada,41 + elev + climate,N,c_B09,Satellite: bands,0.008080703942585638,0.7184081947947597
+Marathwada,41 + elev + climate,N,c_B11,Satellite: bands,0.0041628121832747705,0.37009131965539355
+Marathwada,41 + elev + climate,N,c_B12,Satellite: bands,0.0071049776469872235,0.6316620682672803
+Marathwada,41 + elev + climate,N,c_NDVI,Satellite: indices,0.006977377986460691,0.6203179276544566
+Marathwada,41 + elev + climate,N,c_SAVI,Satellite: indices,0.006638306637118421,0.5901730742210984
+Marathwada,41 + elev + climate,N,c_NBR2,Satellite: indices,0.007947836337206325,0.7065957119708052
+Marathwada,41 + elev + climate,N,c_NDMI,Satellite: indices,0.0055169592057745425,0.4904806229676835
+Marathwada,41 + elev + climate,N,c_NDWI,Satellite: indices,0.005685396216821397,0.5054553739179178
+Marathwada,41 + elev + climate,N,c_BSI,Satellite: bands,0.0050525641677403215,0.44919397228523616
+Marathwada,41 + elev + climate,N,c_NDRE,Satellite: indices,0.007944051395672693,0.7062592149237781
+Marathwada,41 + elev + climate,N,c_CI,Satellite: indices,0.010857940403479595,0.9653160689806071
+Marathwada,41 + elev + climate,N,c_BI,Satellite: bands,0.007062359922189399,0.6278731752505579
+Marathwada,41 + elev + climate,N,c_RI,Satellite: indices,0.0062939316857413986,0.5595567085048045
+Marathwada,41 + elev + climate,N,c_R_B4B2,Satellite: indices,0.012522867410489828,1.1133350057056346
+Marathwada,41 + elev + climate,N,c_R_B11B12,Satellite: indices,0.0032916049152193374,0.29263736945715
+Marathwada,41 + elev + climate,N,c_R_B12B8,Satellite: indices,0.004396322930213249,0.3908513964216227
+Marathwada,41 + elev + climate,N,c_R_B11B8,Satellite: indices,0.0029177196079272043,0.2593974103421427
+Marathwada,41 + elev + climate,N,c_R_B7B5,Satellite: indices,0.02073277726404489,1.8432301434593086
+Marathwada,41 + elev + climate,N,c_R_B6B5,Satellite: indices,0.0075841274281353175,0.6742604769896722
+Marathwada,41 + elev + climate,N,c_std_NDVI,Satellite: change between dates,0.03141233534661353,2.792687282072033
+Marathwada,41 + elev + climate,N,c_std_BSI,Satellite: change between dates,0.010416766266576817,0.9260938530035858
+Marathwada,41 + elev + climate,N,c_std_NDMI,Satellite: change between dates,0.009034422923650141,0.803197779513639
+Marathwada,41 + elev + climate,N,c_std_B11,Satellite: change between dates,0.0070912767164778,0.6304439985515454
+Marathwada,41 + elev + climate,N,c_std_B12,Satellite: change between dates,0.007298702371188785,0.6488850021093813
+Marathwada,41 + elev + climate,N,pH,"pH, EC",0.021601300490529912,1.9204454711968044
+Marathwada,41 + elev + climate,N,EC,"pH, EC",0.020104478336113576,1.787371755153823
+Marathwada,41 + elev + climate,N,slope,Terrain (no elevation),0.007992281896363577,0.7105471070655485
+Marathwada,41 + elev + climate,N,tpi_150m,Terrain (no elevation),0.010510663553847194,0.9344417124380267
+Marathwada,41 + elev + climate,N,tpi_500m,Terrain (no elevation),0.010270251775545773,0.9130681052765622
+Marathwada,41 + elev + climate,N,tpi_1km,Terrain (no elevation),0.012432255180879705,1.105279201562449
+Marathwada,41 + elev + climate,N,rough_90m,Terrain (no elevation),0.006277977954353623,0.558138355419731
+Marathwada,41 + elev + climate,N,relpos_2km,Terrain (no elevation),0.011643800094389804,1.0351822645398174
+Marathwada,41 + elev + climate,N,elev,Elevation,0.041726913472027005,3.7096961842416083
+Marathwada,41 + elev + climate,N,ppt_annual,Climate,0.07749285357516529,6.889437039394311
+Marathwada,41 + elev + climate,N,ppt_monsoon,Climate,0.2723304506016622,24.21130990498607
+Marathwada,41 + elev + climate,N,tmax_mean,Climate,0.04440439759970581,3.947735661052569
+Marathwada,41 + elev + climate,N,tmin_mean,Climate,0.17352710185167752,15.427281196660285
+Marathwada,41 + elev + climate,N,tmean,Climate,0.05200602823151096,4.623552245658719
+Marathwada,41 + elev + climate,N,def_annual,Climate,0.0974312096973954,8.662039838694872
+Marathwada,41 + elev + climate,P,c_B01,Satellite: bands,0.017132238772711823,1.416699917935964
+Marathwada,41 + elev + climate,P,c_B02,Satellite: bands,0.004406722123701167,0.3644008791751068
+Marathwada,41 + elev + climate,P,c_B03,Satellite: bands,0.0022512321487076895,0.18615899781930004
+Marathwada,41 + elev + climate,P,c_B04,Satellite: bands,0.004026569196990283,0.3329652549569663
+Marathwada,41 + elev + climate,P,c_B05,Satellite: bands,0.005318788018557105,0.4398214763041108
+Marathwada,41 + elev + climate,P,c_B06,Satellite: bands,0.0032244602984099913,0.2666372270868214
+Marathwada,41 + elev + climate,P,c_B07,Satellite: bands,0.002218389026568295,0.1834431327734689
+Marathwada,41 + elev + climate,P,c_B08,Satellite: bands,0.004012894170740236,0.3318344390243123
+Marathwada,41 + elev + climate,P,c_B8A,Satellite: bands,0.0029822623996824072,0.24660938672084692
+Marathwada,41 + elev + climate,P,c_B09,Satellite: bands,0.008053037137523053,0.6659221368100462
+Marathwada,41 + elev + climate,P,c_B11,Satellite: bands,0.005163035832574555,0.4269420090011402
+Marathwada,41 + elev + climate,P,c_B12,Satellite: bands,0.007778955040156935,0.6432577267467936
+Marathwada,41 + elev + climate,P,c_NDVI,Satellite: indices,0.008778022564345813,0.7258726668201997
+Marathwada,41 + elev + climate,P,c_SAVI,Satellite: indices,0.007312556490915526,0.6046902753353534
+Marathwada,41 + elev + climate,P,c_NBR2,Satellite: indices,0.02179941924802334,1.8026386317307848
+Marathwada,41 + elev + climate,P,c_NDMI,Satellite: indices,0.006171354469748572,0.5103219425573442
+Marathwada,41 + elev + climate,P,c_NDWI,Satellite: indices,0.006584090202534304,0.5444519057527049
+Marathwada,41 + elev + climate,P,c_BSI,Satellite: bands,0.004128631885751205,0.3414050277566676
+Marathwada,41 + elev + climate,P,c_NDRE,Satellite: indices,0.0049472316719083006,0.40909672090060967
+Marathwada,41 + elev + climate,P,c_CI,Satellite: indices,0.006617191683941673,0.5471891350556302
+Marathwada,41 + elev + climate,P,c_BI,Satellite: bands,0.0028963797473857775,0.2395075742796992
+Marathwada,41 + elev + climate,P,c_RI,Satellite: indices,0.0034784680545920195,0.2876416487571142
+Marathwada,41 + elev + climate,P,c_R_B4B2,Satellite: indices,0.010293073614417668,0.8511553415938158
+Marathwada,41 + elev + climate,P,c_R_B11B12,Satellite: indices,0.008207406955438706,0.6786872932659108
+Marathwada,41 + elev + climate,P,c_R_B12B8,Satellite: indices,0.005729388047656148,0.473774833786826
+Marathwada,41 + elev + climate,P,c_R_B11B8,Satellite: indices,0.004591811380391322,0.37970628894918884
+Marathwada,41 + elev + climate,P,c_R_B7B5,Satellite: indices,0.0027876391641915993,0.23051559271025737
+Marathwada,41 + elev + climate,P,c_R_B6B5,Satellite: indices,0.005243051356484084,0.433558656577684
+Marathwada,41 + elev + climate,P,c_std_NDVI,Satellite: change between dates,0.011717610088346401,0.9689531806553466
+Marathwada,41 + elev + climate,P,c_std_BSI,Satellite: change between dates,0.00812591271452633,0.6719483675513853
+Marathwada,41 + elev + climate,P,c_std_NDMI,Satellite: change between dates,0.006970672386272802,0.5764191784042023
+Marathwada,41 + elev + climate,P,c_std_B11,Satellite: change between dates,0.006445225916410747,0.532968933482389
+Marathwada,41 + elev + climate,P,c_std_B12,Satellite: change between dates,0.008065594988232047,0.6669605712087788
+Marathwada,41 + elev + climate,P,pH,"pH, EC",0.16153057271332216,13.357293938233513
+Marathwada,41 + elev + climate,P,EC,"pH, EC",0.021904605450016438,1.8113366942378852
+Marathwada,41 + elev + climate,P,slope,Terrain (no elevation),0.006159042678443388,0.5093038553147428
+Marathwada,41 + elev + climate,P,tpi_150m,Terrain (no elevation),0.011157734062349878,0.9226558852109848
+Marathwada,41 + elev + climate,P,tpi_500m,Terrain (no elevation),0.0037724586002773268,0.3119523291925117
+Marathwada,41 + elev + climate,P,tpi_1km,Terrain (no elevation),0.0048540941186719045,0.4013949858397532
+Marathwada,41 + elev + climate,P,rough_90m,Terrain (no elevation),0.006905154302258116,0.5710013538292397
+Marathwada,41 + elev + climate,P,relpos_2km,Terrain (no elevation),0.007794451750834327,0.6445391814962982
+Marathwada,41 + elev + climate,P,elev,Elevation,0.08577397790285621,7.092825932917062
+Marathwada,41 + elev + climate,P,ppt_annual,Climate,0.12094897438673503,10.001518444924418
+Marathwada,41 + elev + climate,P,ppt_monsoon,Climate,0.10790223861622773,8.922657139019082
+Marathwada,41 + elev + climate,P,tmax_mean,Climate,0.15499219551503876,12.816622134441213
+Marathwada,41 + elev + climate,P,tmin_mean,Climate,0.06523601557824561,5.394499758162132
+Marathwada,41 + elev + climate,P,tmean,Climate,0.050255956843596315,4.155768016117052
+Marathwada,41 + elev + climate,P,def_annual,Climate,0.182659328077037,15.104473999577348
+Marathwada,41 + elev + climate,K,c_B01,Satellite: bands,0.0166080921127375,1.536253962209254
+Marathwada,41 + elev + climate,K,c_B02,Satellite: bands,0.007770117525634447,0.7187384170655312
+Marathwada,41 + elev + climate,K,c_B03,Satellite: bands,0.006682585961747878,0.6181413910671617
+Marathwada,41 + elev + climate,K,c_B04,Satellite: bands,0.004463375701824783,0.4128637148813728
+Marathwada,41 + elev + climate,K,c_B05,Satellite: bands,0.010717377058847177,0.9913608895820777
+Marathwada,41 + elev + climate,K,c_B06,Satellite: bands,0.007302884635607236,0.6755192216452288
+Marathwada,41 + elev + climate,K,c_B07,Satellite: bands,0.005843022019991097,0.5404814513644743
+Marathwada,41 + elev + climate,K,c_B08,Satellite: bands,0.004888643381060133,0.4522011145531738
+Marathwada,41 + elev + climate,K,c_B8A,Satellite: bands,0.007083830204775335,0.6552566150182516
+Marathwada,41 + elev + climate,K,c_B09,Satellite: bands,0.014431865219028745,1.334952261482153
+Marathwada,41 + elev + climate,K,c_B11,Satellite: bands,0.008590424787631688,0.7946171075808481
+Marathwada,41 + elev + climate,K,c_B12,Satellite: bands,0.00655451710488785,0.6062949798447713
+Marathwada,41 + elev + climate,K,c_NDVI,Satellite: indices,0.01304221271288277,1.2064089493323211
+Marathwada,41 + elev + climate,K,c_SAVI,Satellite: indices,0.016240674297656785,1.5022676939267512
+Marathwada,41 + elev + climate,K,c_NBR2,Satellite: indices,0.00951789045408407,0.880407985619618
+Marathwada,41 + elev + climate,K,c_NDMI,Satellite: indices,0.007541571264778841,0.6975978130512833
+Marathwada,41 + elev + climate,K,c_NDWI,Satellite: indices,0.01172310999124357,1.0843915153655963
+Marathwada,41 + elev + climate,K,c_BSI,Satellite: bands,0.010993334947618859,1.0168870847133809
+Marathwada,41 + elev + climate,K,c_NDRE,Satellite: indices,0.007752714957216868,0.7171286737848073
+Marathwada,41 + elev + climate,K,c_CI,Satellite: indices,0.009135784364852389,0.8450630471654142
+Marathwada,41 + elev + climate,K,c_BI,Satellite: bands,0.005960056842646914,0.551307210807581
+Marathwada,41 + elev + climate,K,c_RI,Satellite: indices,0.006745713492617624,0.6239807083568796
+Marathwada,41 + elev + climate,K,c_R_B4B2,Satellite: indices,0.014087270485230447,1.3030771356964481
+Marathwada,41 + elev + climate,K,c_R_B11B12,Satellite: indices,0.004368945171958522,0.4041288599277866
+Marathwada,41 + elev + climate,K,c_R_B12B8,Satellite: indices,0.011979575080136076,1.108114620121096
+Marathwada,41 + elev + climate,K,c_R_B11B8,Satellite: indices,0.005518600181591517,0.5104723250129698
+Marathwada,41 + elev + climate,K,c_R_B7B5,Satellite: indices,0.005546365509808467,0.513040626970581
+Marathwada,41 + elev + climate,K,c_R_B6B5,Satellite: indices,0.025474257056696953,2.356377124599001
+Marathwada,41 + elev + climate,K,c_std_NDVI,Satellite: change between dates,0.009247567890956416,0.8554030599568491
+Marathwada,41 + elev + climate,K,c_std_BSI,Satellite: change between dates,0.0165538047365126,1.5312323621207353
+Marathwada,41 + elev + climate,K,c_std_NDMI,Satellite: change between dates,0.010008147385295572,0.9257569123934879
+Marathwada,41 + elev + climate,K,c_std_B11,Satellite: change between dates,0.013863230571577859,1.282353370275022
+Marathwada,41 + elev + climate,K,c_std_B12,Satellite: change between dates,0.012468442250938077,1.1533349936017205
+Marathwada,41 + elev + climate,K,pH,"pH, EC",0.018933058157757338,1.7513140831682639
+Marathwada,41 + elev + climate,K,EC,"pH, EC",0.03711972527357363,3.43358675039568
+Marathwada,41 + elev + climate,K,slope,Terrain (no elevation),0.014156938655231072,1.3095214642488675
+Marathwada,41 + elev + climate,K,tpi_150m,Terrain (no elevation),0.025695076704397992,2.3768030143647616
+Marathwada,41 + elev + climate,K,tpi_500m,Terrain (no elevation),0.0166785111956574,1.5427677504527493
+Marathwada,41 + elev + climate,K,tpi_1km,Terrain (no elevation),0.01082582024002274,1.0013919193731373
+Marathwada,41 + elev + climate,K,rough_90m,Terrain (no elevation),0.008200030142966504,0.7585054750332305
+Marathwada,41 + elev + climate,K,relpos_2km,Terrain (no elevation),0.008740450827761079,0.8084945654501104
+Marathwada,41 + elev + climate,K,elev,Elevation,0.07774832697197942,7.1917457198012
+Marathwada,41 + elev + climate,K,ppt_annual,Climate,0.0826544371540811,7.645562519173862
+Marathwada,41 + elev + climate,K,ppt_monsoon,Climate,0.12983505225169156,12.0097848748281
+Marathwada,41 + elev + climate,K,tmax_mean,Climate,0.09231516096106167,8.539182636736955
+Marathwada,41 + elev + climate,K,tmin_mean,Climate,0.041673086284659315,3.8547741358681287
+Marathwada,41 + elev + climate,K,tmean,Climate,0.08961625469420464,8.289532922733347
+Marathwada,41 + elev + climate,K,def_annual,Climate,0.09817931675674892,9.081618969277983
+Marathwada,41 + elev + climate,OC,c_B01,Satellite: bands,0.025454578827047422,2.319619705168364
+Marathwada,41 + elev + climate,OC,c_B02,Satellite: bands,0.011104510065290443,1.011929544727649
+Marathwada,41 + elev + climate,OC,c_B03,Satellite: bands,0.00811584608327479,0.7395791785356111
+Marathwada,41 + elev + climate,OC,c_B04,Satellite: bands,0.01410512417290843,1.2853688995458492
+Marathwada,41 + elev + climate,OC,c_B05,Satellite: bands,0.010115971597549256,0.921846211404024
+Marathwada,41 + elev + climate,OC,c_B06,Satellite: bands,0.00803306818381146,0.7320358108746402
+Marathwada,41 + elev + climate,OC,c_B07,Satellite: bands,0.006999781008745743,0.6378746264109092
+Marathwada,41 + elev + climate,OC,c_B08,Satellite: bands,0.012197605951059728,1.1115409652699786
+Marathwada,41 + elev + climate,OC,c_B8A,Satellite: bands,0.00648664794532255,0.5911139405092792
+Marathwada,41 + elev + climate,OC,c_B09,Satellite: bands,0.023796849104189017,2.1685544466499356
+Marathwada,41 + elev + climate,OC,c_B11,Satellite: bands,0.00766764201491745,0.6987353289491629
+Marathwada,41 + elev + climate,OC,c_B12,Satellite: bands,0.011281187302001509,1.0280297521800785
+Marathwada,41 + elev + climate,OC,c_NDVI,Satellite: indices,0.009726367188096358,0.8863424196686392
+Marathwada,41 + elev + climate,OC,c_SAVI,Satellite: indices,0.007442239549645786,0.6781948987346149
+Marathwada,41 + elev + climate,OC,c_NBR2,Satellite: indices,0.010074006076154763,0.9180219858677957
+Marathwada,41 + elev + climate,OC,c_NDMI,Satellite: indices,0.01044712146164664,0.9520231691664487
+Marathwada,41 + elev + climate,OC,c_NDWI,Satellite: indices,0.01211376138004305,1.1039003941796797
+Marathwada,41 + elev + climate,OC,c_BSI,Satellite: bands,0.008049929744567395,0.7335723677689856
+Marathwada,41 + elev + climate,OC,c_NDRE,Satellite: indices,0.009838063372740713,0.8965210469660536
+Marathwada,41 + elev + climate,OC,c_CI,Satellite: indices,0.01697580301246027,1.546967539565724
+Marathwada,41 + elev + climate,OC,c_BI,Satellite: bands,0.007426306007428987,0.6767429101257935
+Marathwada,41 + elev + climate,OC,c_RI,Satellite: indices,0.011796648145778034,1.075002563578405
+Marathwada,41 + elev + climate,OC,c_R_B4B2,Satellite: indices,0.013164117225698657,1.199617009000768
+Marathwada,41 + elev + climate,OC,c_R_B11B12,Satellite: indices,0.0043407533242094945,0.3955632899890081
+Marathwada,41 + elev + climate,OC,c_R_B12B8,Satellite: indices,0.008032632408320996,0.7319960996139834
+Marathwada,41 + elev + climate,OC,c_R_B11B8,Satellite: indices,0.008387421368931407,0.7643272361768731
+Marathwada,41 + elev + climate,OC,c_R_B7B5,Satellite: indices,0.009357346539201682,0.8527143806974914
+Marathwada,41 + elev + climate,OC,c_R_B6B5,Satellite: indices,0.017307094138633964,1.5771573702300352
+Marathwada,41 + elev + climate,OC,c_std_NDVI,Satellite: change between dates,0.015209979971229191,1.3860519750179583
+Marathwada,41 + elev + climate,OC,c_std_BSI,Satellite: change between dates,0.019403145175355373,1.7681658846844666
+Marathwada,41 + elev + climate,OC,c_std_NDMI,Satellite: change between dates,0.009951730020472381,0.9068792382246985
+Marathwada,41 + elev + climate,OC,c_std_B11,Satellite: change between dates,0.022236666746472494,2.0263784646702296
+Marathwada,41 + elev + climate,OC,c_std_B12,Satellite: change between dates,0.01973532909772991,1.79843707390019
+Marathwada,41 + elev + climate,OC,pH,"pH, EC",0.07930580982011454,7.226963779011802
+Marathwada,41 + elev + climate,OC,EC,"pH, EC",0.04061795424023539,3.7014247094578887
+Marathwada,41 + elev + climate,OC,slope,Terrain (no elevation),0.007124161086646513,0.64920910896469
+Marathwada,41 + elev + climate,OC,tpi_150m,Terrain (no elevation),0.013014761217563583,1.1860065249338592
+Marathwada,41 + elev + climate,OC,tpi_500m,Terrain (no elevation),0.01360597965803042,1.2398829592635667
+Marathwada,41 + elev + climate,OC,tpi_1km,Terrain (no elevation),0.016509023043188718,1.5044309090421157
+Marathwada,41 + elev + climate,OC,rough_90m,Terrain (no elevation),0.011276564789414717,1.027608512789061
+Marathwada,41 + elev + climate,OC,relpos_2km,Terrain (no elevation),0.01640934668337696,1.4953476219082065
+Marathwada,41 + elev + climate,OC,elev,Elevation,0.03317709898439281,3.0233559583686733
+Marathwada,41 + elev + climate,OC,ppt_annual,Climate,0.057963608825747207,5.2820960082830775
+Marathwada,41 + elev + climate,OC,ppt_monsoon,Climate,0.1670155547570909,15.219759655678086
+Marathwada,41 + elev + climate,OC,tmax_mean,Climate,0.07223624646384123,6.5827300409653144
+Marathwada,41 + elev + climate,OC,tmin_mean,Climate,0.09220616478296292,8.402544713931581
+Marathwada,41 + elev + climate,OC,tmean,Climate,0.03860568155404986,3.51805073156719
+Marathwada,41 + elev + climate,OC,def_annual,Climate,0.04191677119347998,3.8197830377815776
+North MH,41 inputs,N,c_B01,Satellite: bands,0.02568078586870169,2.5574351905350836
+North MH,41 inputs,N,c_B02,Satellite: bands,0.008210838473355684,0.8176808670466434
+North MH,41 inputs,N,c_B03,Satellite: bands,0.007235607177035759,0.7205619218215527
+North MH,41 inputs,N,c_B04,Satellite: bands,0.008288472408292547,0.8254120851722235
+North MH,41 inputs,N,c_B05,Satellite: bands,0.01567200142956082,1.5607048852396062
+North MH,41 inputs,N,c_B06,Satellite: bands,0.012909014176639037,1.285551279436839
+North MH,41 inputs,N,c_B07,Satellite: bands,0.010233194939410821,1.019078348437545
+North MH,41 inputs,N,c_B08,Satellite: bands,0.015261969041850966,1.5198715843059958
+North MH,41 inputs,N,c_B8A,Satellite: bands,0.011558186335646195,1.151028345653883
+North MH,41 inputs,N,c_B09,Satellite: bands,0.02288145196298059,2.278661983315039
+North MH,41 inputs,N,c_B11,Satellite: bands,0.018582488002667052,1.850547291998401
+North MH,41 inputs,N,c_B12,Satellite: bands,0.027561575390652262,2.74473464990592
+North MH,41 inputs,N,c_NDVI,Satellite: indices,0.010421295528103025,1.0378104490571016
+North MH,41 inputs,N,c_SAVI,Satellite: indices,0.02239964639765578,2.2306811109983924
+North MH,41 inputs,N,c_NBR2,Satellite: indices,0.03447179441098814,3.432892613111011
+North MH,41 inputs,N,c_NDMI,Satellite: indices,0.013740665482649385,1.3683717323279423
+North MH,41 inputs,N,c_NDWI,Satellite: indices,0.03315801671956607,3.302059338858388
+North MH,41 inputs,N,c_BSI,Satellite: bands,0.015112719987549419,1.505008535115198
+North MH,41 inputs,N,c_NDRE,Satellite: indices,0.010987143354133679,1.094160716146951
+North MH,41 inputs,N,c_CI,Satellite: indices,0.019358659087890535,1.9278427165767256
+North MH,41 inputs,N,c_BI,Satellite: bands,0.005719669899549117,0.569596473960658
+North MH,41 inputs,N,c_RI,Satellite: indices,0.012381306312258585,1.2329992014128763
+North MH,41 inputs,N,c_R_B4B2,Satellite: indices,0.01704863216897839,1.6977974148591766
+North MH,41 inputs,N,c_R_B11B12,Satellite: indices,0.013964966114242272,1.3907088341373541
+North MH,41 inputs,N,c_R_B12B8,Satellite: indices,0.015552769598294387,1.5488311177205076
+North MH,41 inputs,N,c_R_B11B8,Satellite: indices,0.0077252245117959955,0.7693207334955323
+North MH,41 inputs,N,c_R_B7B5,Satellite: indices,0.010559922375759775,1.0516156799547434
+North MH,41 inputs,N,c_R_B6B5,Satellite: indices,0.01560637823545398,1.5541697633480023
+North MH,41 inputs,N,c_std_NDVI,Satellite: change between dates,0.017762664618848,1.7689047292465472
+North MH,41 inputs,N,c_std_BSI,Satellite: change between dates,0.02786114343202649,2.7745672981312155
+North MH,41 inputs,N,c_std_NDMI,Satellite: change between dates,0.00972055283955926,0.9680266028635118
+North MH,41 inputs,N,c_std_B11,Satellite: change between dates,0.021349208305695415,2.1260726556499896
+North MH,41 inputs,N,c_std_B12,Satellite: change between dates,0.03805552002839174,3.7897799005183646
+North MH,41 inputs,N,pH,"pH, EC",0.15793049732622166,15.727595471018404
+North MH,41 inputs,N,EC,"pH, EC",0.12354834049124747,12.303629465234147
+North MH,41 inputs,N,slope,Terrain (no elevation),0.012063897745404721,1.201389894641673
+North MH,41 inputs,N,tpi_150m,Terrain (no elevation),0.016833633012485843,1.6763866055653875
+North MH,41 inputs,N,tpi_500m,Terrain (no elevation),0.015169355604383681,1.5106486241790662
+North MH,41 inputs,N,tpi_1km,Terrain (no elevation),0.023962275400167068,2.3862963799860752
+North MH,41 inputs,N,rough_90m,Terrain (no elevation),0.031910181178652595,3.17779294994613
+North MH,41 inputs,N,relpos_2km,Terrain (no elevation),0.06571008088356642,6.543774559070192
+North MH,41 inputs,P,c_B01,Satellite: bands,0.02298442855485653,2.5861071487267795
+North MH,41 inputs,P,c_B02,Satellite: bands,0.008306256490736151,0.934583569853954
+North MH,41 inputs,P,c_B03,Satellite: bands,0.008054524987364711,0.9062598445598976
+North MH,41 inputs,P,c_B04,Satellite: bands,0.008799039782835255,0.9900293857648889
+North MH,41 inputs,P,c_B05,Satellite: bands,0.013976040663897559,1.5725228315134525
+North MH,41 inputs,P,c_B06,Satellite: bands,0.012823027116103522,1.4427908013517134
+North MH,41 inputs,P,c_B07,Satellite: bands,0.00869037921748613,0.9778033752655027
+North MH,41 inputs,P,c_B08,Satellite: bands,0.009995457404111986,1.1246450520131008
+North MH,41 inputs,P,c_B8A,Satellite: bands,0.012309897440717404,1.3850556995817151
+North MH,41 inputs,P,c_B09,Satellite: bands,0.03390706941088817,3.815074818440286
+North MH,41 inputs,P,c_B11,Satellite: bands,0.012256125242998985,1.3790054876049216
+North MH,41 inputs,P,c_B12,Satellite: bands,0.014547153755470558,1.6367819731024353
+North MH,41 inputs,P,c_NDVI,Satellite: indices,0.021309216107244757,2.397619587416951
+North MH,41 inputs,P,c_SAVI,Satellite: indices,0.009064553947881816,1.0199038757343184
+North MH,41 inputs,P,c_NBR2,Satellite: indices,0.017990158098094094,2.0241737293214386
+North MH,41 inputs,P,c_NDMI,Satellite: indices,0.007183688281080742,0.8082771156824028
+North MH,41 inputs,P,c_NDWI,Satellite: indices,0.009713749057550392,1.0929484637268108
+North MH,41 inputs,P,c_BSI,Satellite: bands,0.00952778984309796,1.0720251480690264
+North MH,41 inputs,P,c_NDRE,Satellite: indices,0.018002091895351412,2.0255164678770194
+North MH,41 inputs,P,c_CI,Satellite: indices,0.014021200595034271,1.5776040290063518
+North MH,41 inputs,P,c_BI,Satellite: bands,0.011202652272888785,1.2604733269079453
+North MH,41 inputs,P,c_RI,Satellite: indices,0.013424964406382498,1.5105181466611866
+North MH,41 inputs,P,c_R_B4B2,Satellite: indices,0.01650065371117378,1.856581224949142
+North MH,41 inputs,P,c_R_B11B12,Satellite: indices,0.007204334983917981,0.8106001921808064
+North MH,41 inputs,P,c_R_B12B8,Satellite: indices,0.011164978853754995,1.2562344789284818
+North MH,41 inputs,P,c_R_B11B8,Satellite: indices,0.00468269238453348,0.5268760205209319
+North MH,41 inputs,P,c_R_B7B5,Satellite: indices,0.010161036866438494,1.1432753272963398
+North MH,41 inputs,P,c_R_B6B5,Satellite: indices,0.011854980769779526,1.3338704698954698
+North MH,41 inputs,P,c_std_NDVI,Satellite: change between dates,0.014594318923084026,1.6420887910137432
+North MH,41 inputs,P,c_std_BSI,Satellite: change between dates,0.025194167380845015,2.8347372750346387
+North MH,41 inputs,P,c_std_NDMI,Satellite: change between dates,0.016651435069658004,1.8735464824555506
+North MH,41 inputs,P,c_std_B11,Satellite: change between dates,0.03737816880717971,4.205627706943317
+North MH,41 inputs,P,c_std_B12,Satellite: change between dates,0.04068830686420474,4.578069931126273
+North MH,41 inputs,P,pH,"pH, EC",0.12922093377041458,14.539373027753955
+North MH,41 inputs,P,EC,"pH, EC",0.0757609810572684,8.524293490227212
+North MH,41 inputs,P,slope,Terrain (no elevation),0.022411218639993586,2.5216120817726386
+North MH,41 inputs,P,tpi_150m,Terrain (no elevation),0.017201495530018256,1.935436874264705
+North MH,41 inputs,P,tpi_500m,Terrain (no elevation),0.01572824496253784,1.7696731784071522
+North MH,41 inputs,P,tpi_1km,Terrain (no elevation),0.03114257292798083,3.5040257923566642
+North MH,41 inputs,P,rough_90m,Terrain (no elevation),0.025339539970030182,2.851093961528863
+North MH,41 inputs,P,relpos_2km,Terrain (no elevation),0.07779599034806192,8.753263815162025
+North MH,41 inputs,K,c_B01,Satellite: bands,0.046500907626738655,4.939088665885596
+North MH,41 inputs,K,c_B02,Satellite: bands,0.006370496377140899,0.6766415551491168
+North MH,41 inputs,K,c_B03,Satellite: bands,0.010007962110254233,1.0629945682812034
+North MH,41 inputs,K,c_B04,Satellite: bands,0.010337064857703002,1.0979501795325708
+North MH,41 inputs,K,c_B05,Satellite: bands,0.01784891827510718,1.89582084415506
+North MH,41 inputs,K,c_B06,Satellite: bands,0.007458281432719242,0.7921805223033271
+North MH,41 inputs,K,c_B07,Satellite: bands,0.006464751321866085,0.6866528334865777
+North MH,41 inputs,K,c_B08,Satellite: bands,0.01539949977639754,1.6356561342079616
+North MH,41 inputs,K,c_B8A,Satellite: bands,0.007892915440652926,0.838345124500453
+North MH,41 inputs,K,c_B09,Satellite: bands,0.04820989129176336,5.120608173372662
+North MH,41 inputs,K,c_B11,Satellite: bands,0.02882090472163334,3.061209148729288
+North MH,41 inputs,K,c_B12,Satellite: bands,0.02768318883404926,2.9403667838776104
+North MH,41 inputs,K,c_NDVI,Satellite: indices,0.022117905835965127,2.3492508770887826
+North MH,41 inputs,K,c_SAVI,Satellite: indices,0.016608832647031453,1.7641052888476076
+North MH,41 inputs,K,c_NBR2,Satellite: indices,0.02190755648518017,2.326908644488123
+North MH,41 inputs,K,c_NDMI,Satellite: indices,0.014584749521056345,1.5491175276073204
+North MH,41 inputs,K,c_NDWI,Satellite: indices,0.012060246874938658,1.2809777634004735
+North MH,41 inputs,K,c_BSI,Satellite: bands,0.012961028209283723,1.3766541513672916
+North MH,41 inputs,K,c_NDRE,Satellite: indices,0.011780076246121377,1.2512194716180187
+North MH,41 inputs,K,c_CI,Satellite: indices,0.019447516223560293,2.065615745189909
+North MH,41 inputs,K,c_BI,Satellite: bands,0.0073751566375897136,0.7833514315515105
+North MH,41 inputs,K,c_RI,Satellite: indices,0.012536160710269282,1.33152689781496
+North MH,41 inputs,K,c_R_B4B2,Satellite: indices,0.017024069686142753,1.808209644186066
+North MH,41 inputs,K,c_R_B11B12,Satellite: indices,0.008058933490218563,0.8559787129354145
+North MH,41 inputs,K,c_R_B12B8,Satellite: indices,0.012099946474820437,1.2851944519303022
+North MH,41 inputs,K,c_R_B11B8,Satellite: indices,0.008274409483869316,0.8788654713306185
+North MH,41 inputs,K,c_R_B7B5,Satellite: indices,0.009632937273188452,1.0231613474536576
+North MH,41 inputs,K,c_R_B6B5,Satellite: indices,0.014222008410321918,1.5105890213884663
+North MH,41 inputs,K,c_std_NDVI,Satellite: change between dates,0.03620885120919357,3.845919052754816
+North MH,41 inputs,K,c_std_BSI,Satellite: change between dates,0.012290286503090176,1.305411396593783
+North MH,41 inputs,K,c_std_NDMI,Satellite: change between dates,0.014969626951546015,1.5899972405356253
+North MH,41 inputs,K,c_std_B11,Satellite: change between dates,0.013759590317899901,1.4614733357869074
+North MH,41 inputs,K,c_std_B12,Satellite: change between dates,0.03757123238943197,3.9906242163603127
+North MH,41 inputs,K,pH,"pH, EC",0.14181476524149975,15.062839316640735
+North MH,41 inputs,K,EC,"pH, EC",0.0717367473625724,7.619510540956502
+North MH,41 inputs,K,slope,Terrain (no elevation),0.015460800995889732,1.6421672363315845
+North MH,41 inputs,K,tpi_150m,Terrain (no elevation),0.01824549858338913,1.9379435769299038
+North MH,41 inputs,K,tpi_500m,Terrain (no elevation),0.024257244221573545,2.5764804627491
+North MH,41 inputs,K,tpi_1km,Terrain (no elevation),0.019110085732129706,2.0297756035495187
+North MH,41 inputs,K,rough_90m,Terrain (no elevation),0.04424633279584227,4.6996192541688195
+North MH,41 inputs,K,relpos_2km,Terrain (no elevation),0.03813022717891759,4.049997784962444
+North MH,41 inputs,OC,c_B01,Satellite: bands,0.03676384315796012,3.9892887612793655
+North MH,41 inputs,OC,c_B02,Satellite: bands,0.010106409858463642,1.0966586679206431
+North MH,41 inputs,OC,c_B03,Satellite: bands,0.013942844792715159,1.512954828820659
+North MH,41 inputs,OC,c_B04,Satellite: bands,0.006007346010021761,0.651864328218562
+North MH,41 inputs,OC,c_B05,Satellite: bands,0.018458917689860344,2.0029993210760564
+North MH,41 inputs,OC,c_B06,Satellite: bands,0.01705435776475331,1.8505888372292476
+North MH,41 inputs,OC,c_B07,Satellite: bands,0.011760784264895895,1.2761768210737752
+North MH,41 inputs,OC,c_B08,Satellite: bands,0.00887780284473356,0.9633410457437789
+North MH,41 inputs,OC,c_B8A,Satellite: bands,0.01640801560206496,1.780453473130477
+North MH,41 inputs,OC,c_B09,Satellite: bands,0.01829817449050355,1.9855568835188366
+North MH,41 inputs,OC,c_B11,Satellite: bands,0.012235673250886685,1.3277075951152322
+North MH,41 inputs,OC,c_B12,Satellite: bands,0.015958574260610144,1.731684053551126
+North MH,41 inputs,OC,c_NDVI,Satellite: indices,0.006750608497817002,0.7325166331612811
+North MH,41 inputs,OC,c_SAVI,Satellite: indices,0.008950784045314736,0.9712603234431268
+North MH,41 inputs,OC,c_NBR2,Satellite: indices,0.02220856826131889,2.409878406572468
+North MH,41 inputs,OC,c_NDMI,Satellite: indices,0.008967645958595694,0.9730900298983625
+North MH,41 inputs,OC,c_NDWI,Satellite: indices,0.014459687727646478,1.5690380762333203
+North MH,41 inputs,OC,c_BSI,Satellite: bands,0.01389786652650732,1.508074183151657
+North MH,41 inputs,OC,c_NDRE,Satellite: indices,0.007858161084948806,0.8526984941649539
+North MH,41 inputs,OC,c_CI,Satellite: indices,0.0161400959519685,1.7513811902229628
+North MH,41 inputs,OC,c_BI,Satellite: bands,0.008236220267682951,0.8937221499971172
+North MH,41 inputs,OC,c_RI,Satellite: indices,0.01627862233812086,1.7664128547049336
+North MH,41 inputs,OC,c_R_B4B2,Satellite: indices,0.010996536948528677,1.193247427187447
+North MH,41 inputs,OC,c_R_B11B12,Satellite: indices,0.008515327708494412,0.9240084335076464
+North MH,41 inputs,OC,c_R_B12B8,Satellite: indices,0.014619569194487703,1.5863870061606438
+North MH,41 inputs,OC,c_R_B11B8,Satellite: indices,0.006657084428285634,0.7223682240875194
+North MH,41 inputs,OC,c_R_B7B5,Satellite: indices,0.010140141672247641,1.1003189475341726
+North MH,41 inputs,OC,c_R_B6B5,Satellite: indices,0.017604063059971715,1.9102380188125865
+North MH,41 inputs,OC,c_std_NDVI,Satellite: change between dates,0.020542629333530172,2.2291053733220973
+North MH,41 inputs,OC,c_std_BSI,Satellite: change between dates,0.024212513293009462,2.627328887981507
+North MH,41 inputs,OC,c_std_NDMI,Satellite: change between dates,0.019911791433862926,2.1606523954188144
+North MH,41 inputs,OC,c_std_B11,Satellite: change between dates,0.015351869841205902,1.6658498285668477
+North MH,41 inputs,OC,c_std_B12,Satellite: change between dates,0.02011842654888665,2.1830746198448074
+North MH,41 inputs,OC,pH,"pH, EC",0.16811483735681446,18.242342847299334
+North MH,41 inputs,OC,EC,"pH, EC",0.14482333951659337,15.714954451909602
+North MH,41 inputs,OC,slope,Terrain (no elevation),0.012829004220627062,1.3920906510197606
+North MH,41 inputs,OC,tpi_150m,Terrain (no elevation),0.017035735822713467,1.8485681479402214
+North MH,41 inputs,OC,tpi_500m,Terrain (no elevation),0.012272306733705602,1.331682738319606
+North MH,41 inputs,OC,tpi_1km,Terrain (no elevation),0.03493497270945839,3.7908358330940213
+North MH,41 inputs,OC,rough_90m,Terrain (no elevation),0.025694784451613717,2.788171911078459
+North MH,41 inputs,OC,relpos_2km,Terrain (no elevation),0.02756791263014472,2.9914272986869626
+North MH,41 + elev + climate,N,c_B01,Satellite: bands,0.008968173292746828,0.7872945713450425
+North MH,41 + elev + climate,N,c_B02,Satellite: bands,0.005279590270161163,0.46348265392972604
+North MH,41 + elev + climate,N,c_B03,Satellite: bands,0.0033256507510027807,0.2919509577911059
+North MH,41 + elev + climate,N,c_B04,Satellite: bands,0.004289243621975266,0.37654248067313795
+North MH,41 + elev + climate,N,c_B05,Satellite: bands,0.006492595798628037,0.5699695199167897
+North MH,41 + elev + climate,N,c_B06,Satellite: bands,0.004349707314672139,0.3818504442315833
+North MH,41 + elev + climate,N,c_B07,Satellite: bands,0.005737463278231753,0.5036782346630896
+North MH,41 + elev + climate,N,c_B08,Satellite: bands,0.005614921364641358,0.49292057196159184
+North MH,41 + elev + climate,N,c_B8A,Satellite: bands,0.0066834248667563805,0.5867219492564174
+North MH,41 + elev + climate,N,c_B09,Satellite: bands,0.008446830711883029,0.7415271479995278
+North MH,41 + elev + climate,N,c_B11,Satellite: bands,0.0043012515007173815,0.3775966237453601
+North MH,41 + elev + climate,N,c_B12,Satellite: bands,0.006801011064033502,0.5970445614271988
+North MH,41 + elev + climate,N,c_NDVI,Satellite: indices,0.004060729486680932,0.35648176905215045
+North MH,41 + elev + climate,N,c_SAVI,Satellite: indices,0.005890682958123317,0.5171290253942873
+North MH,41 + elev + climate,N,c_NBR2,Satellite: indices,0.014739272094363055,1.293925588486852
+North MH,41 + elev + climate,N,c_NDMI,Satellite: indices,0.0071529822045146435,0.6279432694612017
+North MH,41 + elev + climate,N,c_NDWI,Satellite: indices,0.005113842188701846,0.44893202466731935
+North MH,41 + elev + climate,N,c_BSI,Satellite: bands,0.009089277062628182,0.7979259828359556
+North MH,41 + elev + climate,N,c_NDRE,Satellite: indices,0.007306647926385945,0.6414332171553366
+North MH,41 + elev + climate,N,c_CI,Satellite: indices,0.013423387373756169,1.1784072032781758
+North MH,41 + elev + climate,N,c_BI,Satellite: bands,0.003783569241865773,0.33215053135047534
+North MH,41 + elev + climate,N,c_RI,Satellite: indices,0.014518410849344923,1.2745367058741672
+North MH,41 + elev + climate,N,c_R_B4B2,Satellite: indices,0.016001235256198617,1.4047103284911628
+North MH,41 + elev + climate,N,c_R_B11B12,Satellite: indices,0.006617922945304798,0.5809716915965651
+North MH,41 + elev + climate,N,c_R_B12B8,Satellite: indices,0.005177773999786235,0.45454444607801
+North MH,41 + elev + climate,N,c_R_B11B8,Satellite: indices,0.005536566671658645,0.48604200010408893
+North MH,41 + elev + climate,N,c_R_B7B5,Satellite: indices,0.00909689003898071,0.7985943078959733
+North MH,41 + elev + climate,N,c_R_B6B5,Satellite: indices,0.00952644923224521,0.8363042862705007
+North MH,41 + elev + climate,N,c_std_NDVI,Satellite: change between dates,0.009231561436769396,0.810416789123029
+North MH,41 + elev + climate,N,c_std_BSI,Satellite: change between dates,0.019808444767363927,1.7389361827727543
+North MH,41 + elev + climate,N,c_std_NDMI,Satellite: change between dates,0.007603251288417729,0.6674713198043087
+North MH,41 + elev + climate,N,c_std_B11,Satellite: change between dates,0.008348251352003117,0.7328731008099074
+North MH,41 + elev + climate,N,c_std_B12,Satellite: change between dates,0.01148134996920752,1.0079203654305242
+North MH,41 + elev + climate,N,pH,"pH, EC",0.10677271192796665,9.373322049503942
+North MH,41 + elev + climate,N,EC,"pH, EC",0.04748287871854389,4.168408819349961
+North MH,41 + elev + climate,N,slope,Terrain (no elevation),0.011800879498511392,1.0359711016946007
+North MH,41 + elev + climate,N,tpi_150m,Terrain (no elevation),0.008089688732573912,0.7101745043416607
+North MH,41 + elev + climate,N,tpi_500m,Terrain (no elevation),0.007640083120584976,0.6707046986175189
+North MH,41 + elev + climate,N,tpi_1km,Terrain (no elevation),0.011702407966129567,1.0273265204241944
+North MH,41 + elev + climate,N,rough_90m,Terrain (no elevation),0.007885386063891506,0.6922392597032626
+North MH,41 + elev + climate,N,relpos_2km,Terrain (no elevation),0.018368506773255203,1.6125274561759866
+North MH,41 + elev + climate,N,elev,Elevation,0.11526422520134673,10.11877177314425
+North MH,41 + elev + climate,N,ppt_annual,Climate,0.0668748620943985,5.87078484856555
+North MH,41 + elev + climate,N,ppt_monsoon,Climate,0.12802243583277353,11.238784694652198
+North MH,41 + elev + climate,N,tmax_mean,Climate,0.10747778413461259,9.435218659056252
+North MH,41 + elev + climate,N,tmin_mean,Climate,0.10294729971517382,9.037498223404974
+North MH,41 + elev + climate,N,tmean,Climate,0.037082331685986174,3.2553695692750413
+North MH,41 + elev + climate,N,def_annual,Climate,0.09790296357547285,8.5946679692173
+North MH,41 + elev + climate,P,c_B01,Satellite: bands,0.00696627148121135,0.7068088035462843
+North MH,41 + elev + climate,P,c_B02,Satellite: bands,0.005036771974150038,0.5110387647662273
+North MH,41 + elev + climate,P,c_B03,Satellite: bands,0.002776483151137485,0.2817063244541624
+North MH,41 + elev + climate,P,c_B04,Satellite: bands,0.0034444386702153617,0.3494781364679365
+North MH,41 + elev + climate,P,c_B05,Satellite: bands,0.0031634981619364363,0.32097347295318884
+North MH,41 + elev + climate,P,c_B06,Satellite: bands,0.004131219605815581,0.4191600046953257
+North MH,41 + elev + climate,P,c_B07,Satellite: bands,0.0029407041422952027,0.2983684431485645
+North MH,41 + elev + climate,P,c_B08,Satellite: bands,0.003127908076561964,0.31736244720871604
+North MH,41 + elev + climate,P,c_B8A,Satellite: bands,0.005829024887297953,0.5914219848515238
+North MH,41 + elev + climate,P,c_B09,Satellite: bands,0.009064311491318217,0.9196792254549649
+North MH,41 + elev + climate,P,c_B11,Satellite: bands,0.006023490582012984,0.6111527784881259
+North MH,41 + elev + climate,P,c_B12,Satellite: bands,0.004518132402358631,0.4584167823760294
+North MH,41 + elev + climate,P,c_NDVI,Satellite: indices,0.0059484146436942975,0.6035354563264409
+North MH,41 + elev + climate,P,c_SAVI,Satellite: indices,0.004660051006102017,0.47281606595022896
+North MH,41 + elev + climate,P,c_NBR2,Satellite: indices,0.005662179095284046,0.5744935497556272
+North MH,41 + elev + climate,P,c_NDMI,Satellite: indices,0.0055037418956887935,0.5584182636021695
+North MH,41 + elev + climate,P,c_NDWI,Satellite: indices,0.004621949249997433,0.46895020216385086
+North MH,41 + elev + climate,P,c_BSI,Satellite: bands,0.00480764635044526,0.48779132050722035
+North MH,41 + elev + climate,P,c_NDRE,Satellite: indices,0.011968038833365413,1.2142959445984065
+North MH,41 + elev + climate,P,c_CI,Satellite: indices,0.007567537622968289,0.767814206998378
+North MH,41 + elev + climate,P,c_BI,Satellite: bands,0.004300399574735589,0.43632526903204594
+North MH,41 + elev + climate,P,c_RI,Satellite: indices,0.008063624651987148,0.818147973114349
+North MH,41 + elev + climate,P,c_R_B4B2,Satellite: indices,0.005707507734300481,0.5790926643890432
+North MH,41 + elev + climate,P,c_R_B11B12,Satellite: indices,0.0027757910361574855,0.2816361013854449
+North MH,41 + elev + climate,P,c_R_B12B8,Satellite: indices,0.003649223145883043,0.37025588976421747
+North MH,41 + elev + climate,P,c_R_B11B8,Satellite: indices,0.0030082974291016397,0.30522656378085294
+North MH,41 + elev + climate,P,c_R_B7B5,Satellite: indices,0.004244086774793746,0.4306116842458966
+North MH,41 + elev + climate,P,c_R_B6B5,Satellite: indices,0.005493463272713825,0.5573753784337354
+North MH,41 + elev + climate,P,c_std_NDVI,Satellite: change between dates,0.010095935592921157,1.024349420828501
+North MH,41 + elev + climate,P,c_std_BSI,Satellite: change between dates,0.011418192785544568,1.1585077043262477
+North MH,41 + elev + climate,P,c_std_NDMI,Satellite: change between dates,0.005532371294513974,0.5613230471990265
+North MH,41 + elev + climate,P,c_std_B11,Satellite: change between dates,0.008712273613159249,0.8839609115569762
+North MH,41 + elev + climate,P,c_std_B12,Satellite: change between dates,0.01985269149277611,2.0142851393357666
+North MH,41 + elev + climate,P,pH,"pH, EC",0.03811356654363306,3.867062092001991
+North MH,41 + elev + climate,P,EC,"pH, EC",0.026631008995193887,2.7020238381307284
+North MH,41 + elev + climate,P,slope,Terrain (no elevation),0.009441289026688846,0.9579279559929267
+North MH,41 + elev + climate,P,tpi_150m,Terrain (no elevation),0.009780704875287897,0.9923656190240013
+North MH,41 + elev + climate,P,tpi_500m,Terrain (no elevation),0.008666946216599582,0.8793619229851679
+North MH,41 + elev + climate,P,tpi_1km,Terrain (no elevation),0.008674853655206143,0.8801642240777527
+North MH,41 + elev + climate,P,rough_90m,Terrain (no elevation),0.007488402045906843,0.759784987538355
+North MH,41 + elev + climate,P,relpos_2km,Terrain (no elevation),0.03387306620904726,3.436814293590749
+North MH,41 + elev + climate,P,elev,Elevation,0.12428031082195919,12.609674778444692
+North MH,41 + elev + climate,P,ppt_annual,Climate,0.08977862112619303,9.109079362380143
+North MH,41 + elev + climate,P,ppt_monsoon,Climate,0.09671044362982446,9.812392918764107
+North MH,41 + elev + climate,P,tmax_mean,Climate,0.09460600301492997,9.598873081479624
+North MH,41 + elev + climate,P,tmin_mean,Climate,0.07181154326001027,7.28611153173061
+North MH,41 + elev + climate,P,tmean,Climate,0.059009417816622174,5.987187854711188
+North MH,41 + elev + climate,P,def_annual,Climate,0.1061130454814037,10.766395613442489
+North MH,41 + elev + climate,K,c_B01,Satellite: bands,0.020901450848148984,1.9809274107535104
+North MH,41 + elev + climate,K,c_B02,Satellite: bands,0.003160235825451131,0.29951020226118846
+North MH,41 + elev + climate,K,c_B03,Satellite: bands,0.002808970067613333,0.2662191176749899
+North MH,41 + elev + climate,K,c_B04,Satellite: bands,0.002909597462168313,0.27575604243657037
+North MH,41 + elev + climate,K,c_B05,Satellite: bands,0.00516558518827727,0.4895664595908648
+North MH,41 + elev + climate,K,c_B06,Satellite: bands,0.005442278934949474,0.5157900089104374
+North MH,41 + elev + climate,K,c_B07,Satellite: bands,0.003367919707107473,0.31919336669477943
+North MH,41 + elev + climate,K,c_B08,Satellite: bands,0.0035197767669121116,0.3335855643689464
+North MH,41 + elev + climate,K,c_B8A,Satellite: bands,0.0029520040647335257,0.2797751127886076
+North MH,41 + elev + climate,K,c_B09,Satellite: bands,0.0043996953440626615,0.41697952784890807
+North MH,41 + elev + climate,K,c_B11,Satellite: bands,0.009148243439612432,0.8670214484837598
+North MH,41 + elev + climate,K,c_B12,Satellite: bands,0.007554410224117959,0.7159664845159349
+North MH,41 + elev + climate,K,c_NDVI,Satellite: indices,0.004184348521542332,0.3965701109788361
+North MH,41 + elev + climate,K,c_SAVI,Satellite: indices,0.005632732603640035,0.5338401861698362
+North MH,41 + elev + climate,K,c_NBR2,Satellite: indices,0.010613231048356792,1.0058651168807287
+North MH,41 + elev + climate,K,c_NDMI,Satellite: indices,0.0027423515547016315,0.2599053723159154
+North MH,41 + elev + climate,K,c_NDWI,Satellite: indices,0.005131370768785787,0.4863238004134661
+North MH,41 + elev + climate,K,c_BSI,Satellite: bands,0.002654362763192386,0.25156626656646086
+North MH,41 + elev + climate,K,c_NDRE,Satellite: indices,0.003998485331248687,0.37895499464181
+North MH,41 + elev + climate,K,c_CI,Satellite: indices,0.006474173581513661,0.6135874491570232
+North MH,41 + elev + climate,K,c_BI,Satellite: bands,0.003114530633287059,0.29517850927827843
+North MH,41 + elev + climate,K,c_RI,Satellite: indices,0.004045460669217375,0.38340706523191576
+North MH,41 + elev + climate,K,c_R_B4B2,Satellite: indices,0.010102511117872347,0.9574618210107505
+North MH,41 + elev + climate,K,c_R_B11B12,Satellite: indices,0.005184630541834289,0.4913714760551613
+North MH,41 + elev + climate,K,c_R_B12B8,Satellite: indices,0.00266923155395008,0.25297545080877304
+North MH,41 + elev + climate,K,c_R_B11B8,Satellite: indices,0.0016300781976127234,0.15449006898048348
+North MH,41 + elev + climate,K,c_R_B7B5,Satellite: indices,0.003334996998920224,0.3160731289869681
+North MH,41 + elev + climate,K,c_R_B6B5,Satellite: indices,0.006488718224175257,0.614965912381289
+North MH,41 + elev + climate,K,c_std_NDVI,Satellite: change between dates,0.00655328426506629,0.6210851354502562
+North MH,41 + elev + climate,K,c_std_BSI,Satellite: change between dates,0.004659153730448189,0.4415696021588206
+North MH,41 + elev + climate,K,c_std_NDMI,Satellite: change between dates,0.005994052121964509,0.5680841122536847
+North MH,41 + elev + climate,K,c_std_B11,Satellite: change between dates,0.005073102918745929,0.4808014860943215
+North MH,41 + elev + climate,K,c_std_B12,Satellite: change between dates,0.010159841090546138,0.9628952483432516
+North MH,41 + elev + climate,K,pH,"pH, EC",0.06813931673704168,6.457878989121703
+North MH,41 + elev + climate,K,EC,"pH, EC",0.03784822428135506,3.5870517062179204
+North MH,41 + elev + climate,K,slope,Terrain (no elevation),0.006889045160841325,0.6529067523672859
+North MH,41 + elev + climate,K,tpi_150m,Terrain (no elevation),0.013099518830430545,1.2415021381723688
+North MH,41 + elev + climate,K,tpi_500m,Terrain (no elevation),0.006691275063604699,0.6341631632504513
+North MH,41 + elev + climate,K,tpi_1km,Terrain (no elevation),0.004823534266366964,0.4571487077319962
+North MH,41 + elev + climate,K,rough_90m,Terrain (no elevation),0.01237470931055469,1.172808579245366
+North MH,41 + elev + climate,K,relpos_2km,Terrain (no elevation),0.012168530887140146,1.1532680940697169
+North MH,41 + elev + climate,K,elev,Elevation,0.09645221567500044,9.141223700049432
+North MH,41 + elev + climate,K,ppt_annual,Climate,0.09630159299599488,9.126948490367052
+North MH,41 + elev + climate,K,ppt_monsoon,Climate,0.17110355220292725,16.216276999072022
+North MH,41 + elev + climate,K,tmax_mean,Climate,0.1254732553328346,11.891682190439798
+North MH,41 + elev + climate,K,tmin_mean,Climate,0.06656535120399087,6.308706977539659
+North MH,41 + elev + climate,K,tmean,Climate,0.04111086960591441,3.8962677315522947
+North MH,41 + elev + climate,K,def_annual,Climate,0.1143228093184019,10.834902720316409
+North MH,41 + elev + climate,OC,c_B01,Satellite: bands,0.01272806082050516,1.2676420733168843
+North MH,41 + elev + climate,OC,c_B02,Satellite: bands,0.00690857520565826,0.6880545843446619
+North MH,41 + elev + climate,OC,c_B03,Satellite: bands,0.007969365669277468,0.793703248475076
+North MH,41 + elev + climate,OC,c_B04,Satellite: bands,0.0038471021799541556,0.38314937777500646
+North MH,41 + elev + climate,OC,c_B05,Satellite: bands,0.009487433161079695,0.9448940897101324
+North MH,41 + elev + climate,OC,c_B06,Satellite: bands,0.010665224402970982,1.0621953622967828
+North MH,41 + elev + climate,OC,c_B07,Satellite: bands,0.007628423551285753,0.7597473631735384
+North MH,41 + elev + climate,OC,c_B08,Satellite: bands,0.005084015949021366,0.5063389159809002
+North MH,41 + elev + climate,OC,c_B8A,Satellite: bands,0.008147901027046855,0.8114843491686361
+North MH,41 + elev + climate,OC,c_B09,Satellite: bands,0.008029989838577972,0.7997410690629065
+North MH,41 + elev + climate,OC,c_B11,Satellite: bands,0.007761701888796694,0.7730211234480351
+North MH,41 + elev + climate,OC,c_B12,Satellite: bands,0.006880464044425733,0.6852548734373464
+North MH,41 + elev + climate,OC,c_NDVI,Satellite: indices,0.0043469349942614685,0.4329298678257437
+North MH,41 + elev + climate,OC,c_SAVI,Satellite: indices,0.004029640200948795,0.40132912083688965
+North MH,41 + elev + climate,OC,c_NBR2,Satellite: indices,0.007425039102528407,0.739491435115132
+North MH,41 + elev + climate,OC,c_NDMI,Satellite: indices,0.006394427203830341,0.6368483834771359
+North MH,41 + elev + climate,OC,c_NDWI,Satellite: indices,0.006909859506595341,0.6881824933738224
+North MH,41 + elev + climate,OC,c_BSI,Satellite: bands,0.0070369433983952425,0.7008393222779453
+North MH,41 + elev + climate,OC,c_NDRE,Satellite: indices,0.005514041995416468,0.5491670511320422
+North MH,41 + elev + climate,OC,c_CI,Satellite: indices,0.00790590772232973,0.7873831998383135
+North MH,41 + elev + climate,OC,c_BI,Satellite: bands,0.0045796373403873296,0.4561056908099854
+North MH,41 + elev + climate,OC,c_RI,Satellite: indices,0.004520693771359465,0.4502352483989306
+North MH,41 + elev + climate,OC,c_R_B4B2,Satellite: indices,0.00925711531135904,0.9219557489322959
+North MH,41 + elev + climate,OC,c_R_B11B12,Satellite: indices,0.0031140515330825994,0.310141725238533
+North MH,41 + elev + climate,OC,c_R_B12B8,Satellite: indices,0.012243221530740363,1.2193548525713016
+North MH,41 + elev + climate,OC,c_R_B11B8,Satellite: indices,0.004012221090180812,0.39959427701420075
+North MH,41 + elev + climate,OC,c_R_B7B5,Satellite: indices,0.004703266891757802,0.4684184871607089
+North MH,41 + elev + climate,OC,c_R_B6B5,Satellite: indices,0.004715365625151083,0.4696234518210331
+North MH,41 + elev + climate,OC,c_std_NDVI,Satellite: change between dates,0.0041285958033621525,0.41118453296750285
+North MH,41 + elev + climate,OC,c_std_BSI,Satellite: change between dates,0.00936688432563911,0.9328881150491963
+North MH,41 + elev + climate,OC,c_std_NDMI,Satellite: change between dates,0.01660017627323448,1.6532826300238823
+North MH,41 + elev + climate,OC,c_std_B11,Satellite: change between dates,0.008345185412434078,0.8311327457981063
+North MH,41 + elev + climate,OC,c_std_B12,Satellite: change between dates,0.007617761586024378,0.7586854924031076
+North MH,41 + elev + climate,OC,pH,"pH, EC",0.07183993517209893,7.154846732174532
+North MH,41 + elev + climate,OC,EC,"pH, EC",0.049713411655990455,4.951171518738418
+North MH,41 + elev + climate,OC,slope,Terrain (no elevation),0.005151849784332792,0.5130947780755158
+North MH,41 + elev + climate,OC,tpi_150m,Terrain (no elevation),0.010525699969046213,1.0482995265372752
+North MH,41 + elev + climate,OC,tpi_500m,Terrain (no elevation),0.007213504758600902,0.7184238241023064
+North MH,41 + elev + climate,OC,tpi_1km,Terrain (no elevation),0.008100286533817906,0.8067422179227326
+North MH,41 + elev + climate,OC,rough_90m,Terrain (no elevation),0.011745142266667357,1.1697490060963636
+North MH,41 + elev + climate,OC,relpos_2km,Terrain (no elevation),0.012134629832994953,1.2085397404488623
+North MH,41 + elev + climate,OC,elev,Elevation,0.0934489307158623,9.3069791190077
+North MH,41 + elev + climate,OC,ppt_annual,Climate,0.08049764798247967,8.01710541964501
+North MH,41 + elev + climate,OC,ppt_monsoon,Climate,0.10876464417764822,10.832336598109931
+North MH,41 + elev + climate,OC,tmax_mean,Climate,0.13416518327268212,13.362085041008825
+North MH,41 + elev + climate,OC,tmin_mean,Climate,0.06188171446356675,6.1630648948993505
+North MH,41 + elev + climate,OC,tmean,Climate,0.05294227316107538,5.272747660656671
+North MH,41 + elev + climate,OC,def_annual,Climate,0.05804362990171488,5.7808136203207985
+Western MH,41 inputs,N,c_B01,Satellite: bands,0.05204514838610433,3.8931952742061045
+Western MH,41 inputs,N,c_B02,Satellite: bands,0.01860032792753595,1.3913825021488646
+Western MH,41 inputs,N,c_B03,Satellite: bands,0.013828164887279764,1.0344047016777094
+Western MH,41 inputs,N,c_B04,Satellite: bands,0.005329472234983853,0.3986668644947417
+Western MH,41 inputs,N,c_B05,Satellite: bands,0.010084401211401358,0.7543554847450171
+Western MH,41 inputs,N,c_B06,Satellite: bands,0.012205442084022038,0.9130182334881747
+Western MH,41 inputs,N,c_B07,Satellite: bands,0.0063665002289601145,0.4762409056986623
+Western MH,41 inputs,N,c_B08,Satellite: bands,0.021675048882640643,1.6213845189192133
+Western MH,41 inputs,N,c_B8A,Satellite: bands,0.010131548507259896,0.7578823001182069
+Western MH,41 inputs,N,c_B09,Satellite: bands,0.03643335235472694,2.725367485911128
+Western MH,41 inputs,N,c_B11,Satellite: bands,0.013006843722054443,0.9729664355142795
+Western MH,41 inputs,N,c_B12,Satellite: bands,0.01253628110483742,0.9377663791329147
+Western MH,41 inputs,N,c_NDVI,Satellite: indices,0.00828118191485267,0.6194671222102497
+Western MH,41 inputs,N,c_SAVI,Satellite: indices,0.017365603273978115,1.2990199220575265
+Western MH,41 inputs,N,c_NBR2,Satellite: indices,0.023965769523489208,1.7927400256288284
+Western MH,41 inputs,N,c_NDMI,Satellite: indices,0.0067490673449590735,0.5048585297089623
+Western MH,41 inputs,N,c_NDWI,Satellite: indices,0.009757699089287926,0.7299167964651945
+Western MH,41 inputs,N,c_BSI,Satellite: bands,0.00789654093288423,0.5906943643317202
+Western MH,41 inputs,N,c_NDRE,Satellite: indices,0.011004524818048585,0.8231845877097977
+Western MH,41 inputs,N,c_CI,Satellite: indices,0.06501449076148257,4.86335645178216
+Western MH,41 inputs,N,c_BI,Satellite: bands,0.006083997451765452,0.45510851370383026
+Western MH,41 inputs,N,c_RI,Satellite: indices,0.021705737521072674,1.6236801577216824
+Western MH,41 inputs,N,c_R_B4B2,Satellite: indices,0.04115482720318798,3.0785535971494857
+Western MH,41 inputs,N,c_R_B11B12,Satellite: indices,0.012666280997371708,0.9474909160581841
+Western MH,41 inputs,N,c_R_B12B8,Satellite: indices,0.02184346867551206,1.6339830254471504
+Western MH,41 inputs,N,c_R_B11B8,Satellite: indices,0.004758287279891548,0.35593983542824936
+Western MH,41 inputs,N,c_R_B7B5,Satellite: indices,0.02150032187434246,1.608314206237306
+Western MH,41 inputs,N,c_R_B6B5,Satellite: indices,0.030296340011423346,2.2662932360801253
+Western MH,41 inputs,N,c_std_NDVI,Satellite: change between dates,0.011898912672334295,0.8900885485128404
+Western MH,41 inputs,N,c_std_BSI,Satellite: change between dates,0.036509869953964866,2.7310913230983465
+Western MH,41 inputs,N,c_std_NDMI,Satellite: change between dates,0.02213639189097068,1.6558949099069367
+Western MH,41 inputs,N,c_std_B11,Satellite: change between dates,0.04784680111760314,3.579141298916278
+Western MH,41 inputs,N,c_std_B12,Satellite: change between dates,0.017273430074689677,1.292124980357754
+Western MH,41 inputs,N,pH,"pH, EC",0.27437797873480585,20.524623010619994
+Western MH,41 inputs,N,EC,"pH, EC",0.13050805801609663,9.762549833554527
+Western MH,41 inputs,N,slope,Terrain (no elevation),0.026085051218202673,1.9512711804899965
+Western MH,41 inputs,N,tpi_150m,Terrain (no elevation),0.013181419938682593,0.9860254683471451
+Western MH,41 inputs,N,tpi_500m,Terrain (no elevation),0.026936108221191763,2.0149338119717384
+Western MH,41 inputs,N,tpi_1km,Terrain (no elevation),0.04456898475051494,3.3339468939471044
+Western MH,41 inputs,N,rough_90m,Terrain (no elevation),0.08932875887995545,6.682165633233016
+Western MH,41 inputs,N,relpos_2km,Terrain (no elevation),0.07388504017137616,5.526910733268847
+Western MH,41 inputs,P,c_B01,Satellite: bands,0.015609665902467297,1.3291478956060503
+Western MH,41 inputs,P,c_B02,Satellite: bands,0.017471095588714833,1.48764682606064
+Western MH,41 inputs,P,c_B03,Satellite: bands,0.01741985245561722,1.483283523031189
+Western MH,41 inputs,P,c_B04,Satellite: bands,0.007810328023343699,0.6650418478578317
+Western MH,41 inputs,P,c_B05,Satellite: bands,0.012834725252391219,1.092864393542286
+Western MH,41 inputs,P,c_B06,Satellite: bands,0.009506328763783567,0.8094546641978435
+Western MH,41 inputs,P,c_B07,Satellite: bands,0.00861607352732389,0.7336502951943009
+Western MH,41 inputs,P,c_B08,Satellite: bands,0.009100137852451748,0.7748679024833819
+Western MH,41 inputs,P,c_B8A,Satellite: bands,0.005917458273893575,0.5038658265478358
+Western MH,41 inputs,P,c_B09,Satellite: bands,0.013575974992449443,1.1559810892020688
+Western MH,41 inputs,P,c_B11,Satellite: bands,0.014304284955084477,1.217995975377965
+Western MH,41 inputs,P,c_B12,Satellite: bands,0.013523254170877325,1.1514919624337547
+Western MH,41 inputs,P,c_NDVI,Satellite: indices,0.011630787610046678,0.9903502722432371
+Western MH,41 inputs,P,c_SAVI,Satellite: indices,0.014001954820576323,1.1922528579678549
+Western MH,41 inputs,P,c_NBR2,Satellite: indices,0.026231634000929864,2.233598165937241
+Western MH,41 inputs,P,c_NDMI,Satellite: indices,0.009899460207896164,0.8429294249584972
+Western MH,41 inputs,P,c_NDWI,Satellite: indices,0.014542455418112514,1.238275959056488
+Western MH,41 inputs,P,c_BSI,Satellite: bands,0.010826751311299739,0.9218873620728502
+Western MH,41 inputs,P,c_NDRE,Satellite: indices,0.009136471218921274,0.7779616533608829
+Western MH,41 inputs,P,c_CI,Satellite: indices,0.017908461498401678,1.5248881086160986
+Western MH,41 inputs,P,c_BI,Satellite: bands,0.009728581008128344,0.8283792270110609
+Western MH,41 inputs,P,c_RI,Satellite: indices,0.021539213894137797,1.8340431498842473
+Western MH,41 inputs,P,c_R_B4B2,Satellite: indices,0.041133961689782346,3.5025168994342377
+Western MH,41 inputs,P,c_R_B11B12,Satellite: indices,0.013553160020570346,1.1540384164984447
+Western MH,41 inputs,P,c_R_B12B8,Satellite: indices,0.02065233941390952,1.7585266489913098
+Western MH,41 inputs,P,c_R_B11B8,Satellite: indices,0.008098740243964161,0.6895998684138107
+Western MH,41 inputs,P,c_R_B7B5,Satellite: indices,0.017667796245727316,1.5043956960214726
+Western MH,41 inputs,P,c_R_B6B5,Satellite: indices,0.020267276721980903,1.7257389346448788
+Western MH,41 inputs,P,c_std_NDVI,Satellite: change between dates,0.017198926234428768,1.4644718698022485
+Western MH,41 inputs,P,c_std_BSI,Satellite: change between dates,0.02207871800859842,1.879981401406517
+Western MH,41 inputs,P,c_std_NDMI,Satellite: change between dates,0.019613804333198634,1.6700963952200394
+Western MH,41 inputs,P,c_std_B11,Satellite: change between dates,0.02772316420720409,2.360600514820883
+Western MH,41 inputs,P,c_std_B12,Satellite: change between dates,0.023041608089839814,1.9619705569194257
+Western MH,41 inputs,P,pH,"pH, EC",0.2827074603747867,24.072265760017657
+Western MH,41 inputs,P,EC,"pH, EC",0.15514715969802784,13.210630010299896
+Western MH,41 inputs,P,slope,Terrain (no elevation),0.03085566178570304,2.627329642174905
+Western MH,41 inputs,P,tpi_150m,Terrain (no elevation),0.015487286405888352,1.3187274002950313
+Western MH,41 inputs,P,tpi_500m,Terrain (no elevation),0.021565638954886678,1.8362932181499676
+Western MH,41 inputs,P,tpi_1km,Terrain (no elevation),0.0322167937158883,2.7432287044579726
+Western MH,41 inputs,P,rough_90m,Terrain (no elevation),0.06103104521128318,5.196734242492202
+Western MH,41 inputs,P,relpos_2km,Terrain (no elevation),0.05323602027096299,4.532995437295505
+Western MH,41 inputs,K,c_B01,Satellite: bands,0.018169309770549858,1.8517326011682202
+Western MH,41 inputs,K,c_B02,Satellite: bands,0.014563298566125609,1.4842245014255748
+Western MH,41 inputs,K,c_B03,Satellite: bands,0.008771833809097419,0.8939850132701952
+Western MH,41 inputs,K,c_B04,Satellite: bands,0.018551413241477622,1.8906748319448305
+Western MH,41 inputs,K,c_B05,Satellite: bands,0.009517910018339399,0.9700216738289065
+Western MH,41 inputs,K,c_B06,Satellite: bands,0.009731425257033155,0.9917821662927585
+Western MH,41 inputs,K,c_B07,Satellite: bands,0.010082550300438791,1.0275672180185371
+Western MH,41 inputs,K,c_B08,Satellite: bands,0.02026224363501057,2.065034807903265
+Western MH,41 inputs,K,c_B8A,Satellite: bands,0.014199956689137773,1.4471943661323468
+Western MH,41 inputs,K,c_B09,Satellite: bands,0.031224477941975047,3.182255379526362
+Western MH,41 inputs,K,c_B11,Satellite: bands,0.01218454651712017,1.241793018069024
+Western MH,41 inputs,K,c_B12,Satellite: bands,0.019657118060991588,2.0033631887079215
+Western MH,41 inputs,K,c_NDVI,Satellite: indices,0.009084916717624349,0.9258929853345814
+Western MH,41 inputs,K,c_SAVI,Satellite: indices,0.009039421927234375,0.9212563652531196
+Western MH,41 inputs,K,c_NBR2,Satellite: indices,0.014663907362454626,1.494478087856728
+Western MH,41 inputs,K,c_NDMI,Satellite: indices,0.017347072497878417,1.767933954828378
+Western MH,41 inputs,K,c_NDWI,Satellite: indices,0.01564475737809698,1.5944418164605112
+Western MH,41 inputs,K,c_BSI,Satellite: bands,0.023757150733195717,2.421219687433106
+Western MH,41 inputs,K,c_NDRE,Satellite: indices,0.011370727368526382,1.1588523082711921
+Western MH,41 inputs,K,c_CI,Satellite: indices,0.03406488873575056,3.471737001776509
+Western MH,41 inputs,K,c_BI,Satellite: bands,0.012225281060855875,1.245944495675035
+Western MH,41 inputs,K,c_RI,Satellite: indices,0.01976873674598881,2.0147388524243217
+Western MH,41 inputs,K,c_R_B4B2,Satellite: indices,0.029297928619664335,2.9859103211321414
+Western MH,41 inputs,K,c_R_B11B12,Satellite: indices,0.0077361186025080644,0.7884296763979158
+Western MH,41 inputs,K,c_R_B12B8,Satellite: indices,0.01590397472388581,1.6208600577722143
+Western MH,41 inputs,K,c_R_B11B8,Satellite: indices,0.010528514742545481,1.0730178656677551
+Western MH,41 inputs,K,c_R_B7B5,Satellite: indices,0.00975452599922088,0.9941364878360858
+Western MH,41 inputs,K,c_R_B6B5,Satellite: indices,0.017984331374904006,1.832880452679651
+Western MH,41 inputs,K,c_std_NDVI,Satellite: change between dates,0.020805902295865694,2.1204420016231187
+Western MH,41 inputs,K,c_std_BSI,Satellite: change between dates,0.036893574472485376,3.760023660065614
+Western MH,41 inputs,K,c_std_NDMI,Satellite: change between dates,0.026680158319469773,2.7191191954121527
+Western MH,41 inputs,K,c_std_B11,Satellite: change between dates,0.030289313783572244,3.0869477436597896
+Western MH,41 inputs,K,c_std_B12,Satellite: change between dates,0.03892722222428481,3.9672836984960944
+Western MH,41 inputs,K,pH,"pH, EC",0.08670755863713886,8.836836133221814
+Western MH,41 inputs,K,EC,"pH, EC",0.1264122669056424,12.883357638393793
+Western MH,41 inputs,K,slope,Terrain (no elevation),0.028971024859558756,2.9525937913532747
+Western MH,41 inputs,K,tpi_150m,Terrain (no elevation),0.0157932111656941,1.609571544652281
+Western MH,41 inputs,K,tpi_500m,Terrain (no elevation),0.028883783404055688,2.943702542903637
+Western MH,41 inputs,K,tpi_1km,Terrain (no elevation),0.04220937363347452,4.301785495378765
+Western MH,41 inputs,K,rough_90m,Terrain (no elevation),0.019150869887405456,1.9517687000262007
+Western MH,41 inputs,K,relpos_2km,Terrain (no elevation),0.0343933147403861,3.5052086717262836
+Western MH,41 inputs,OC,c_B01,Satellite: bands,0.0647727481259143,4.617284586381715
+Western MH,41 inputs,OC,c_B02,Satellite: bands,0.026760710076387657,1.9076203763369415
+Western MH,41 inputs,OC,c_B03,Satellite: bands,0.02034997328509774,1.450635038672526
+Western MH,41 inputs,OC,c_B04,Satellite: bands,0.013225539519525613,0.9427742613510713
+Western MH,41 inputs,OC,c_B05,Satellite: bands,0.012958135741147509,0.9237125512960138
+Western MH,41 inputs,OC,c_B06,Satellite: bands,0.008450849364641692,0.6024134785410266
+Western MH,41 inputs,OC,c_B07,Satellite: bands,0.005977854531254249,0.42612759818584167
+Western MH,41 inputs,OC,c_B08,Satellite: bands,0.011828522666464275,0.8431887941725541
+Western MH,41 inputs,OC,c_B8A,Satellite: bands,0.0063488032189687555,0.45257044193848256
+Western MH,41 inputs,OC,c_B09,Satellite: bands,0.01352121332880777,0.9638511827677972
+Western MH,41 inputs,OC,c_B11,Satellite: bands,0.015048544413006406,1.0727260179015965
+Western MH,41 inputs,OC,c_B12,Satellite: bands,0.014661578915415337,1.0451414259368481
+Western MH,41 inputs,OC,c_NDVI,Satellite: indices,0.013071933304621388,0.9318245389914304
+Western MH,41 inputs,OC,c_SAVI,Satellite: indices,0.012531898885736015,0.8933285253038863
+Western MH,41 inputs,OC,c_NBR2,Satellite: indices,0.024898179244016633,1.7748510381076932
+Western MH,41 inputs,OC,c_NDMI,Satellite: indices,0.019214418704101743,1.3696877450107603
+Western MH,41 inputs,OC,c_NDWI,Satellite: indices,0.014949812911813973,1.0656880049743087
+Western MH,41 inputs,OC,c_BSI,Satellite: bands,0.007495548228022378,0.534315438221805
+Western MH,41 inputs,OC,c_NDRE,Satellite: indices,0.014253989380766245,1.0160866624698521
+Western MH,41 inputs,OC,c_CI,Satellite: indices,0.024541149824344445,1.749400420617563
+Western MH,41 inputs,OC,c_BI,Satellite: bands,0.018468441479194728,1.3165112280030322
+Western MH,41 inputs,OC,c_RI,Satellite: indices,0.019250193372581763,1.3722379197390984
+Western MH,41 inputs,OC,c_R_B4B2,Satellite: indices,0.05366447898833994,3.8254386117351387
+Western MH,41 inputs,OC,c_R_B11B12,Satellite: indices,0.008241780907647345,0.5875101651583357
+Western MH,41 inputs,OC,c_R_B12B8,Satellite: indices,0.011724060120797498,0.835742247346661
+Western MH,41 inputs,OC,c_R_B11B8,Satellite: indices,0.013021359211274144,0.9282193965752321
+Western MH,41 inputs,OC,c_R_B7B5,Satellite: indices,0.016228434365937544,1.156833730649946
+Western MH,41 inputs,OC,c_R_B6B5,Satellite: indices,0.018254717788053283,1.3012760691838683
+Western MH,41 inputs,OC,c_std_NDVI,Satellite: change between dates,0.028590009080573027,2.038020804607937
+Western MH,41 inputs,OC,c_std_BSI,Satellite: change between dates,0.10311463867276961,7.350462124110756
+Western MH,41 inputs,OC,c_std_NDMI,Satellite: change between dates,0.08871581712543156,6.324051191794822
+Western MH,41 inputs,OC,c_std_B11,Satellite: change between dates,0.02391525186781221,1.7047836786858137
+Western MH,41 inputs,OC,c_std_B12,Satellite: change between dates,0.031564733142510314,2.2500721372644046
+Western MH,41 inputs,OC,pH,"pH, EC",0.20714264363323476,14.76603298922628
+Western MH,41 inputs,OC,EC,"pH, EC",0.1688859044260575,12.03892541115745
+Western MH,41 inputs,OC,slope,Terrain (no elevation),0.028524896433695022,2.0333792905529227
+Western MH,41 inputs,OC,tpi_150m,Terrain (no elevation),0.011246982185165276,0.8017340469470833
+Western MH,41 inputs,OC,tpi_500m,Terrain (no elevation),0.04547531747171493,3.2416793867505924
+Western MH,41 inputs,OC,tpi_1km,Terrain (no elevation),0.050583911055651895,3.605842265363483
+Western MH,41 inputs,OC,rough_90m,Terrain (no elevation),0.029136182799711467,2.076954454450343
+Western MH,41 inputs,OC,relpos_2km,Terrain (no elevation),0.08222089455039477,5.861064723517091
+Western MH,41 + elev + climate,N,c_B01,Satellite: bands,0.020714887379289504,1.7494231623524137
+Western MH,41 + elev + climate,N,c_B02,Satellite: bands,0.00514253791586826,0.43429996883738836
+Western MH,41 + elev + climate,N,c_B03,Satellite: bands,0.007118212604487759,0.6011505530698619
+Western MH,41 + elev + climate,N,c_B04,Satellite: bands,0.003825100580385291,0.32303914721467375
+Western MH,41 + elev + climate,N,c_B05,Satellite: bands,0.007479209959310418,0.631637667120316
+Western MH,41 + elev + climate,N,c_B06,Satellite: bands,0.005611016969621378,0.47386417658355456
+Western MH,41 + elev + climate,N,c_B07,Satellite: bands,0.004177257620663641,0.3527796749698166
+Western MH,41 + elev + climate,N,c_B08,Satellite: bands,0.003789081901978031,0.3199972812788742
+Western MH,41 + elev + climate,N,c_B8A,Satellite: bands,0.0044163483846489,0.37297147774247025
+Western MH,41 + elev + climate,N,c_B09,Satellite: bands,0.009548787714230266,0.8064185961426911
+Western MH,41 + elev + climate,N,c_B11,Satellite: bands,0.0039054765592961573,0.3298270962210487
+Western MH,41 + elev + climate,N,c_B12,Satellite: bands,0.007070327774864189,0.5971065614934208
+Western MH,41 + elev + climate,N,c_NDVI,Satellite: indices,0.007805021309773972,0.6591532366052905
+Western MH,41 + elev + climate,N,c_SAVI,Satellite: indices,0.005901293293291416,0.4983787257004655
+Western MH,41 + elev + climate,N,c_NBR2,Satellite: indices,0.008906772521967065,0.752198834897438
+Western MH,41 + elev + climate,N,c_NDMI,Satellite: indices,0.00535051383217336,0.4518640462341775
+Western MH,41 + elev + climate,N,c_NDWI,Satellite: indices,0.004618196794950905,0.39001807219411977
+Western MH,41 + elev + climate,N,c_BSI,Satellite: bands,0.0050194988149389235,0.4239090142982872
+Western MH,41 + elev + climate,N,c_NDRE,Satellite: indices,0.004556687728263992,0.3848234803053727
+Western MH,41 + elev + climate,N,c_CI,Satellite: indices,0.006002896738034895,0.5069593863796419
+Western MH,41 + elev + climate,N,c_BI,Satellite: bands,0.003917252156882113,0.33082157438499993
+Western MH,41 + elev + climate,N,c_RI,Satellite: indices,0.006517410846191608,0.550411367637641
+Western MH,41 + elev + climate,N,c_R_B4B2,Satellite: indices,0.016203282385267324,1.3684070297801334
+Western MH,41 + elev + climate,N,c_R_B11B12,Satellite: indices,0.003983070580415037,0.3363801020530354
+Western MH,41 + elev + climate,N,c_R_B12B8,Satellite: indices,0.006343322562053117,0.5357091840829017
+Western MH,41 + elev + climate,N,c_R_B11B8,Satellite: indices,0.004752264611665999,0.40134042889309435
+Western MH,41 + elev + climate,N,c_R_B7B5,Satellite: indices,0.0037108944116734286,0.3133941555152348
+Western MH,41 + elev + climate,N,c_R_B6B5,Satellite: indices,0.004555277703838411,0.38470440027638547
+Western MH,41 + elev + climate,N,c_std_NDVI,Satellite: change between dates,0.008353917928089717,0.7055089053683524
+Western MH,41 + elev + climate,N,c_std_BSI,Satellite: change between dates,0.0056329544056200114,0.4757168469821879
+Western MH,41 + elev + climate,N,c_std_NDMI,Satellite: change between dates,0.011869381792425629,1.002398470736248
+Western MH,41 + elev + climate,N,c_std_B11,Satellite: change between dates,0.008095954267390702,0.6837232400731953
+Western MH,41 + elev + climate,N,c_std_B12,Satellite: change between dates,0.007602827415312547,0.6420774651670781
+Western MH,41 + elev + climate,N,pH,"pH, EC",0.034559139448804004,2.918604282789898
+Western MH,41 + elev + climate,N,EC,"pH, EC",0.04499735819983281,3.800137516468401
+Western MH,41 + elev + climate,N,slope,Terrain (no elevation),0.006931916529025381,0.5854173915275462
+Western MH,41 + elev + climate,N,tpi_150m,Terrain (no elevation),0.008555097691783017,0.7224990309701705
+Western MH,41 + elev + climate,N,tpi_500m,Terrain (no elevation),0.006124036833671215,0.5171899652534447
+Western MH,41 + elev + climate,N,tpi_1km,Terrain (no elevation),0.014555752692357137,1.2292690971104123
+Western MH,41 + elev + climate,N,rough_90m,Terrain (no elevation),0.007854416414947902,0.6633247746646527
+Western MH,41 + elev + climate,N,relpos_2km,Terrain (no elevation),0.01402470968546296,1.1844212097212312
+Western MH,41 + elev + climate,N,elev,Elevation,0.16225320124809625,13.702681710596044
+Western MH,41 + elev + climate,N,ppt_annual,Climate,0.05324507126575776,4.496677160144737
+Western MH,41 + elev + climate,N,ppt_monsoon,Climate,0.03161886228489413,2.6702906482478874
+Western MH,41 + elev + climate,N,tmax_mean,Climate,0.3222851164396013,27.21777035315078
+Western MH,41 + elev + climate,N,tmin_mean,Climate,0.0511621801614674,4.320771886039967
+Western MH,41 + elev + climate,N,tmean,Climate,0.11969578716072594,10.108603472511891
+Western MH,41 + elev + climate,N,def_annual,Climate,0.08373857094892961,7.0719281702111285
+Western MH,41 + elev + climate,P,c_B01,Satellite: bands,0.011320775225294427,0.9347929893827965
+Western MH,41 + elev + climate,P,c_B02,Satellite: bands,0.010404479770094276,0.8591315129663579
+Western MH,41 + elev + climate,P,c_B03,Satellite: bands,0.006276669105622043,0.5182848488592332
+Western MH,41 + elev + climate,P,c_B04,Satellite: bands,0.004926093291257842,0.4067634399651898
+Western MH,41 + elev + climate,P,c_B05,Satellite: bands,0.006068654355656843,0.5011083988294495
+Western MH,41 + elev + climate,P,c_B06,Satellite: bands,0.005649168616295211,0.4664701059124452
+Western MH,41 + elev + climate,P,c_B07,Satellite: bands,0.005563560620731118,0.45940117710714373
+Western MH,41 + elev + climate,P,c_B08,Satellite: bands,0.006199001173869993,0.5118715567783644
+Western MH,41 + elev + climate,P,c_B8A,Satellite: bands,0.0038659441554096427,0.31922350032599844
+Western MH,41 + elev + climate,P,c_B09,Satellite: bands,0.01260116206022705,1.040518667454628
+Western MH,41 + elev + climate,P,c_B11,Satellite: bands,0.008344406345992265,0.6890245939488672
+Western MH,41 + elev + climate,P,c_B12,Satellite: bands,0.008305186009223578,0.6857860440154064
+Western MH,41 + elev + climate,P,c_NDVI,Satellite: indices,0.005219441623904409,0.4309861596418816
+Western MH,41 + elev + climate,P,c_SAVI,Satellite: indices,0.00687955455842932,0.5680670487059277
+Western MH,41 + elev + climate,P,c_NBR2,Satellite: indices,0.012856443795846818,1.0615981052162435
+Western MH,41 + elev + climate,P,c_NDMI,Satellite: indices,0.007042170357206183,0.581494760645641
+Western MH,41 + elev + climate,P,c_NDWI,Satellite: indices,0.0076192017656929465,0.629142108514707
+Western MH,41 + elev + climate,P,c_BSI,Satellite: bands,0.009254664368313195,0.7641875400246669
+Western MH,41 + elev + climate,P,c_NDRE,Satellite: indices,0.005433528534262641,0.4486640075753294
+Western MH,41 + elev + climate,P,c_CI,Satellite: indices,0.008191987156824298,0.6764388490112523
+Western MH,41 + elev + climate,P,c_BI,Satellite: bands,0.005419289598363622,0.4474882526301262
+Western MH,41 + elev + climate,P,c_RI,Satellite: indices,0.00611234519367211,0.5047160924956638
+Western MH,41 + elev + climate,P,c_R_B4B2,Satellite: indices,0.012959159569410057,1.0700796785285915
+Western MH,41 + elev + climate,P,c_R_B11B12,Satellite: indices,0.0066612350412147215,0.5500397007481967
+Western MH,41 + elev + climate,P,c_R_B12B8,Satellite: indices,0.008533078788094749,0.7046038871206868
+Western MH,41 + elev + climate,P,c_R_B11B8,Satellite: indices,0.005747489677588553,0.47458879363272916
+Western MH,41 + elev + climate,P,c_R_B7B5,Satellite: indices,0.0076738174427293864,0.6336519014386037
+Western MH,41 + elev + climate,P,c_R_B6B5,Satellite: indices,0.007601212651443901,0.6276566892257839
+Western MH,41 + elev + climate,P,c_std_NDVI,Satellite: change between dates,0.007741573792580241,0.6392467621761642
+Western MH,41 + elev + climate,P,c_std_BSI,Satellite: change between dates,0.01612929417214231,1.3318479358306752
+Western MH,41 + elev + climate,P,c_std_NDMI,Satellite: change between dates,0.008607135145775168,0.7107189598609531
+Western MH,41 + elev + climate,P,c_std_B11,Satellite: change between dates,0.017698078288312095,1.4613875092667747
+Western MH,41 + elev + climate,P,c_std_B12,Satellite: change between dates,0.013346954071727066,1.10210112360394
+Western MH,41 + elev + climate,P,pH,"pH, EC",0.10288900191550641,8.495877337120005
+Western MH,41 + elev + climate,P,EC,"pH, EC",0.06689194035905759,5.523483652793126
+Western MH,41 + elev + climate,P,slope,Terrain (no elevation),0.012535230455576784,1.035074481824291
+Western MH,41 + elev + climate,P,tpi_150m,Terrain (no elevation),0.008147317090284349,0.6727502972817286
+Western MH,41 + elev + climate,P,tpi_500m,Terrain (no elevation),0.006741683183462465,0.5566825637929494
+Western MH,41 + elev + climate,P,tpi_1km,Terrain (no elevation),0.01089103110939996,0.8993076291692069
+Western MH,41 + elev + climate,P,rough_90m,Terrain (no elevation),0.008808934937557836,0.727382220712194
+Western MH,41 + elev + climate,P,relpos_2km,Terrain (no elevation),0.028895665018844184,2.3860084265975483
+Western MH,41 + elev + climate,P,elev,Elevation,0.09475530202941783,7.824251456387838
+Western MH,41 + elev + climate,P,ppt_annual,Climate,0.09764393226005691,8.06277498810564
+Western MH,41 + elev + climate,P,ppt_monsoon,Climate,0.08142196358931986,6.72327461948155
+Western MH,41 + elev + climate,P,tmax_mean,Climate,0.12561777407715022,10.372665494393123
+Western MH,41 + elev + climate,P,tmin_mean,Climate,0.08753847560414293,7.228334779863237
+Western MH,41 + elev + climate,P,tmean,Climate,0.057973158582307865,4.787031023638142
+Western MH,41 + elev + climate,P,def_annual,Climate,0.14404206015592794,11.894018327399003
+Western MH,41 + elev + climate,K,c_B01,Satellite: bands,0.01889558989908198,1.7735481538708049
+Western MH,41 + elev + climate,K,c_B02,Satellite: bands,0.00978544816380239,0.9184663521170809
+Western MH,41 + elev + climate,K,c_B03,Satellite: bands,0.007622435137482081,0.7154450238538513
+Western MH,41 + elev + climate,K,c_B04,Satellite: bands,0.013784407520958162,1.2938103886444916
+Western MH,41 + elev + climate,K,c_B05,Satellite: bands,0.007388892213954904,0.6935245851121459
+Western MH,41 + elev + climate,K,c_B06,Satellite: bands,0.00619938260865063,0.5818767045343884
+Western MH,41 + elev + climate,K,c_B07,Satellite: bands,0.006078731668611375,0.570552355672446
+Western MH,41 + elev + climate,K,c_B08,Satellite: bands,0.016451483901580553,1.5441433190450968
+Western MH,41 + elev + climate,K,c_B8A,Satellite: bands,0.010788358057231072,1.0125999038870428
+Western MH,41 + elev + climate,K,c_B09,Satellite: bands,0.019259504889253733,1.8077053705775659
+Western MH,41 + elev + climate,K,c_B11,Satellite: bands,0.00946242873071969,0.888147609899033
+Western MH,41 + elev + climate,K,c_B12,Satellite: bands,0.021580931117308362,2.0255954297449477
+Western MH,41 + elev + climate,K,c_NDVI,Satellite: indices,0.007087438435902216,0.6652300045037521
+Western MH,41 + elev + climate,K,c_SAVI,Satellite: indices,0.0070683104339297675,0.6634346420532197
+Western MH,41 + elev + climate,K,c_NBR2,Satellite: indices,0.010094608566882454,0.9474842798484211
+Western MH,41 + elev + climate,K,c_NDMI,Satellite: indices,0.010405536884351195,0.9766681447808215
+Western MH,41 + elev + climate,K,c_NDWI,Satellite: indices,0.011051603969351719,1.0373082778488578
+Western MH,41 + elev + climate,K,c_BSI,Satellite: bands,0.017866220785261903,1.676931128352278
+Western MH,41 + elev + climate,K,c_NDRE,Satellite: indices,0.010434372951889178,0.9793747104196835
+Western MH,41 + elev + climate,K,c_CI,Satellite: indices,0.027260477702754807,2.5586801026892494
+Western MH,41 + elev + climate,K,c_BI,Satellite: bands,0.007412894211570262,0.6957774228794388
+Western MH,41 + elev + climate,K,c_RI,Satellite: indices,0.01255379635233196,1.1783046977448477
+Western MH,41 + elev + climate,K,c_R_B4B2,Satellite: indices,0.02052554720790887,1.9265366443808893
+Western MH,41 + elev + climate,K,c_R_B11B12,Satellite: indices,0.004597954017943889,0.4315659317152845
+Western MH,41 + elev + climate,K,c_R_B12B8,Satellite: indices,0.011900448371045709,1.1169811766357374
+Western MH,41 + elev + climate,K,c_R_B11B8,Satellite: indices,0.00787393747122133,0.7390511405233878
+Western MH,41 + elev + climate,K,c_R_B7B5,Satellite: indices,0.007981381079092617,0.7491358435362638
+Western MH,41 + elev + climate,K,c_R_B6B5,Satellite: indices,0.011004778874929504,1.0329132544486421
+Western MH,41 + elev + climate,K,c_std_NDVI,Satellite: change between dates,0.01431411471983678,1.3435289330075277
+Western MH,41 + elev + climate,K,c_std_BSI,Satellite: change between dates,0.03186159109448985,2.9905425745805547
+Western MH,41 + elev + climate,K,c_std_NDMI,Satellite: change between dates,0.024657133604939405,2.3143291116257063
+Western MH,41 + elev + climate,K,c_std_B11,Satellite: change between dates,0.016413654063201378,1.5405925942263985
+Western MH,41 + elev + climate,K,c_std_B12,Satellite: change between dates,0.03352413303295568,3.14658947237241
+Western MH,41 + elev + climate,K,pH,"pH, EC",0.05730927475383754,5.379073052611149
+Western MH,41 + elev + climate,K,EC,"pH, EC",0.11574013620210943,10.86341871231972
+Western MH,41 + elev + climate,K,slope,Terrain (no elevation),0.019895920870547857,1.8674396469217462
+Western MH,41 + elev + climate,K,tpi_150m,Terrain (no elevation),0.011589960983796362,1.0878386976024152
+Western MH,41 + elev + climate,K,tpi_500m,Terrain (no elevation),0.020550963030319242,1.9289221843484572
+Western MH,41 + elev + climate,K,tpi_1km,Terrain (no elevation),0.027110546750872072,2.5446075193859556
+Western MH,41 + elev + climate,K,rough_90m,Terrain (no elevation),0.012421051981511156,1.1658452542946374
+Western MH,41 + elev + climate,K,relpos_2km,Terrain (no elevation),0.027959777130317057,2.624316646209714
+Western MH,41 + elev + climate,K,elev,Elevation,0.05400677922445586,5.0690994089946555
+Western MH,41 + elev + climate,K,ppt_annual,Climate,0.027403958335644425,2.5721472562915806
+Western MH,41 + elev + climate,K,ppt_monsoon,Climate,0.02937077899344372,2.7567538848893136
+Western MH,41 + elev + climate,K,tmax_mean,Climate,0.076023034710463,7.135554570272948
+Western MH,41 + elev + climate,K,tmin_mean,Climate,0.03966197639037594,3.7226900764519772
+Western MH,41 + elev + climate,K,tmean,Climate,0.028775070822252027,2.7008404610213397
+Western MH,41 + elev + climate,K,def_annual,Climate,0.06440496252499556,6.045077343252128
+Western MH,41 + elev + climate,OC,c_B01,Satellite: bands,0.0326031684526029,2.3726032788544873
+Western MH,41 + elev + climate,OC,c_B02,Satellite: bands,0.010814861222124222,0.7870209066726346
+Western MH,41 + elev + climate,OC,c_B03,Satellite: bands,0.007953837836081399,0.5788180298119767
+Western MH,41 + elev + climate,OC,c_B04,Satellite: bands,0.007962497611236293,0.5794482204315331
+Western MH,41 + elev + climate,OC,c_B05,Satellite: bands,0.006287627318002401,0.45756427669276256
+Western MH,41 + elev + climate,OC,c_B06,Satellite: bands,0.004542911258011172,0.3305975050238332
+Western MH,41 + elev + climate,OC,c_B07,Satellite: bands,0.0025719980828357554,0.18716987870104948
+Western MH,41 + elev + climate,OC,c_B08,Satellite: bands,0.006264100584978584,0.45585218530525856
+Western MH,41 + elev + climate,OC,c_B8A,Satellite: bands,0.0032511172865982586,0.23659085604938218
+Western MH,41 + elev + climate,OC,c_B09,Satellite: bands,0.008066985492699309,0.5870520301814998
+Western MH,41 + elev + climate,OC,c_B11,Satellite: bands,0.00638433081975303,0.4646016002481036
+Western MH,41 + elev + climate,OC,c_B12,Satellite: bands,0.006997836688884932,0.5092477529315436
+Western MH,41 + elev + climate,OC,c_NDVI,Satellite: indices,0.006003121658750138,0.4368601828260609
+Western MH,41 + elev + climate,OC,c_SAVI,Satellite: indices,0.0075645583940102705,0.5504893205335732
+Western MH,41 + elev + climate,OC,c_NBR2,Satellite: indices,0.010436818380415243,0.7595099091728017
+Western MH,41 + elev + climate,OC,c_NDMI,Satellite: indices,0.00794474691556635,0.5781564638094833
+Western MH,41 + elev + climate,OC,c_NDWI,Satellite: indices,0.009729414293730202,0.7080305795492419
+Western MH,41 + elev + climate,OC,c_BSI,Satellite: bands,0.004560049438965806,0.33184468762161295
+Western MH,41 + elev + climate,OC,c_NDRE,Satellite: indices,0.006218911090933302,0.45256364781549047
+Western MH,41 + elev + climate,OC,c_CI,Satellite: indices,0.01223924134667866,0.8906761375673246
+Western MH,41 + elev + climate,OC,c_BI,Satellite: bands,0.007716378522644379,0.5615376005655294
+Western MH,41 + elev + climate,OC,c_RI,Satellite: indices,0.005397160920785783,0.39276310570175055
+Western MH,41 + elev + climate,OC,c_R_B4B2,Satellite: indices,0.02234877365855954,1.6263687297067557
+Western MH,41 + elev + climate,OC,c_R_B11B12,Satellite: indices,0.004230199518899159,0.3078407935516936
+Western MH,41 + elev + climate,OC,c_R_B12B8,Satellite: indices,0.006516476173722381,0.47421810425656713
+Western MH,41 + elev + climate,OC,c_R_B11B8,Satellite: indices,0.005578507561087827,0.4059600940256116
+Western MH,41 + elev + climate,OC,c_R_B7B5,Satellite: indices,0.006893761344076557,0.5016739643686546
+Western MH,41 + elev + climate,OC,c_R_B6B5,Satellite: indices,0.007022636283575375,0.5110524732231417
+Western MH,41 + elev + climate,OC,c_std_NDVI,Satellite: change between dates,0.012313900958404038,0.8961092794361938
+Western MH,41 + elev + climate,OC,c_std_BSI,Satellite: change between dates,0.018011049806700385,1.3107031572441292
+Western MH,41 + elev + climate,OC,c_std_NDMI,Satellite: change between dates,0.01653110365065606,1.2030042657249358
+Western MH,41 + elev + climate,OC,c_std_B11,Satellite: change between dates,0.011823659853517637,0.86043337098657
+Western MH,41 + elev + climate,OC,c_std_B12,Satellite: change between dates,0.01284406629837053,0.9346905610612647
+Western MH,41 + elev + climate,OC,pH,"pH, EC",0.06630277790923658,4.8249969475606775
+Western MH,41 + elev + climate,OC,EC,"pH, EC",0.066542096695388,4.842412694669422
+Western MH,41 + elev + climate,OC,slope,Terrain (no elevation),0.007608303791352269,0.5536727679742508
+Western MH,41 + elev + climate,OC,tpi_150m,Terrain (no elevation),0.00928051727689112,0.6753633700549028
+Western MH,41 + elev + climate,OC,tpi_500m,Terrain (no elevation),0.015917901723714222,1.1583802315738643
+Western MH,41 + elev + climate,OC,tpi_1km,Terrain (no elevation),0.015559221109045692,1.132278265329042
+Western MH,41 + elev + climate,OC,rough_90m,Terrain (no elevation),0.005783047244504242,0.4208448903985512
+Western MH,41 + elev + climate,OC,relpos_2km,Terrain (no elevation),0.03996450152315033,2.9083034518395583
+Western MH,41 + elev + climate,OC,elev,Elevation,0.09599649604749837,6.98587321695272
+Western MH,41 + elev + climate,OC,ppt_annual,Climate,0.1961800312113526,14.276446351356707
+Western MH,41 + elev + climate,OC,ppt_monsoon,Climate,0.09745510824000106,7.092019589675361
+Western MH,41 + elev + climate,OC,tmax_mean,Climate,0.15081398510679564,10.975060785324628
+Western MH,41 + elev + climate,OC,tmin_mean,Climate,0.08883297124508319,6.464567980651099
+Western MH,41 + elev + climate,OC,tmean,Climate,0.045361026821227335,3.301020301898237
+Western MH,41 + elev + climate,OC,def_annual,Climate,0.16692791215750533,12.147706205088532
+Konkan,41 inputs,N,c_B01,Satellite: bands,0.08874253010373083,6.1148795059113255
+Konkan,41 inputs,N,c_B02,Satellite: bands,0.012574466975494109,0.8664543406225816
+Konkan,41 inputs,N,c_B03,Satellite: bands,0.010491034381814788,0.7228936459461318
+Konkan,41 inputs,N,c_B04,Satellite: bands,0.008512100166983852,0.5865335009325553
+Konkan,41 inputs,N,c_B05,Satellite: bands,0.016852246988438593,1.1612184103575238
+Konkan,41 inputs,N,c_B06,Satellite: bands,0.009019788312589073,0.6215161843575908
+Konkan,41 inputs,N,c_B07,Satellite: bands,0.007052072149367149,0.4859290287302761
+Konkan,41 inputs,N,c_B08,Satellite: bands,0.013192229090641099,0.9090217645288553
+Konkan,41 inputs,N,c_B8A,Satellite: bands,0.006292058571197648,0.433559646789839
+Konkan,41 inputs,N,c_B09,Satellite: bands,0.09296793216507268,6.406034428347422
+Konkan,41 inputs,N,c_B11,Satellite: bands,0.02709992179483108,1.8673431577994357
+Konkan,41 inputs,N,c_B12,Satellite: bands,0.042897494059922193,2.9558883094200072
+Konkan,41 inputs,N,c_NDVI,Satellite: indices,0.013705098467540526,0.9443614651024811
+Konkan,41 inputs,N,c_SAVI,Satellite: indices,0.008200236758044826,0.5650442875223022
+Konkan,41 inputs,N,c_NBR2,Satellite: indices,0.028250310006582978,1.9466116358523051
+Konkan,41 inputs,N,c_NDMI,Satellite: indices,0.009633067902808264,0.6637747360716507
+Konkan,41 inputs,N,c_NDWI,Satellite: indices,0.014282490141504775,0.984147129426913
+Konkan,41 inputs,N,c_BSI,Satellite: bands,0.015404464428903825,1.0614577218582582
+Konkan,41 inputs,N,c_NDRE,Satellite: indices,0.016375372291418555,1.1283589538118632
+Konkan,41 inputs,N,c_CI,Satellite: indices,0.01657504892779796,1.1421178422521467
+Konkan,41 inputs,N,c_BI,Satellite: bands,0.0069757007718355335,0.48066659401311834
+Konkan,41 inputs,N,c_RI,Satellite: indices,0.018302678254603265,1.2611616102396566
+Konkan,41 inputs,N,c_R_B4B2,Satellite: indices,0.061040175418552375,4.206025197476833
+Konkan,41 inputs,N,c_R_B11B12,Satellite: indices,0.01186311904248481,0.8174383063485252
+Konkan,41 inputs,N,c_R_B12B8,Satellite: indices,0.02436484494004777,1.6788803611352268
+Konkan,41 inputs,N,c_R_B11B8,Satellite: indices,0.008088407411532262,0.55733859129807
+Konkan,41 inputs,N,c_R_B7B5,Satellite: indices,0.009309428809189635,0.6414741090941799
+Konkan,41 inputs,N,c_R_B6B5,Satellite: indices,0.031244436182233066,2.152924446273581
+Konkan,41 inputs,N,c_std_NDVI,Satellite: change between dates,0.01579468244892749,1.0883460263802371
+Konkan,41 inputs,N,c_std_BSI,Satellite: change between dates,0.032911571907405124,2.267799851195112
+Konkan,41 inputs,N,c_std_NDMI,Satellite: change between dates,0.016587986566681357,1.143009321261935
+Konkan,41 inputs,N,c_std_B11,Satellite: change between dates,0.07462537261756225,5.142124763703838
+Konkan,41 inputs,N,c_std_B12,Satellite: change between dates,0.09926950958458619,6.840249979475559
+Konkan,41 inputs,N,pH,"pH, EC",0.0870993659404815,6.001655881850163
+Konkan,41 inputs,N,EC,"pH, EC",0.2424235354696924,16.70439987525066
+Konkan,41 inputs,N,slope,Terrain (no elevation),0.01613536174356534,1.1118208229003976
+Konkan,41 inputs,N,tpi_150m,Terrain (no elevation),0.01386352149143176,0.9552777382910487
+Konkan,41 inputs,N,tpi_500m,Terrain (no elevation),0.02927560582925181,2.0172605164533612
+Konkan,41 inputs,N,tpi_1km,Terrain (no elevation),0.029470653350950633,2.0307004318098514
+Konkan,41 inputs,N,rough_90m,Terrain (no elevation),0.018469756263104303,1.2726742625032021
+Konkan,41 inputs,N,relpos_2km,Terrain (no elevation),0.14601990331645476,10.061625617403985
+Konkan,41 inputs,P,c_B01,Satellite: bands,0.051514662415394666,4.039619209718772
+Konkan,41 inputs,P,c_B02,Satellite: bands,0.011095791584212946,0.8700973806095961
+Konkan,41 inputs,P,c_B03,Satellite: bands,0.011440553864291774,0.8971325636835451
+Konkan,41 inputs,P,c_B04,Satellite: bands,0.009508091628416935,0.7455949003451319
+Konkan,41 inputs,P,c_B05,Satellite: bands,0.02591602931442433,2.0322542155861525
+Konkan,41 inputs,P,c_B06,Satellite: bands,0.0204373027616376,1.6026295613669366
+Konkan,41 inputs,P,c_B07,Satellite: bands,0.02170047722336401,1.7016837642202833
+Konkan,41 inputs,P,c_B08,Satellite: bands,0.017407016748768482,1.3650039803271192
+Konkan,41 inputs,P,c_B8A,Satellite: bands,0.018550526611422848,1.4546744584219347
+Konkan,41 inputs,P,c_B09,Satellite: bands,0.05033858096895584,3.947394569578098
+Konkan,41 inputs,P,c_B11,Satellite: bands,0.0721959508030463,5.661381363158117
+Konkan,41 inputs,P,c_B12,Satellite: bands,0.07025080825082336,5.508849348947479
+Konkan,41 inputs,P,c_NDVI,Satellite: indices,0.015362647263244905,1.2046908993854113
+Konkan,41 inputs,P,c_SAVI,Satellite: indices,0.0115383263366217,0.9047995761201371
+Konkan,41 inputs,P,c_NBR2,Satellite: indices,0.026947048932112097,2.11310355940256
+Konkan,41 inputs,P,c_NDMI,Satellite: indices,0.012711963992624736,0.9968325818342997
+Konkan,41 inputs,P,c_NDWI,Satellite: indices,0.017148186606155292,1.3447073275465309
+Konkan,41 inputs,P,c_BSI,Satellite: bands,0.026702304591443685,2.0939114712925426
+Konkan,41 inputs,P,c_NDRE,Satellite: indices,0.00941093619198078,0.7379762739394813
+Konkan,41 inputs,P,c_CI,Satellite: indices,0.025782893527442122,2.0218141222733483
+Konkan,41 inputs,P,c_BI,Satellite: bands,0.01391213984306456,1.0909466300131037
+Konkan,41 inputs,P,c_RI,Satellite: indices,0.024111439627395526,1.8907439188360873
+Konkan,41 inputs,P,c_R_B4B2,Satellite: indices,0.055029107001242195,4.315210996499834
+Konkan,41 inputs,P,c_R_B11B12,Satellite: indices,0.014782062098888457,1.1591632209955176
+Konkan,41 inputs,P,c_R_B12B8,Satellite: indices,0.010116486463266893,0.7933033263877165
+Konkan,41 inputs,P,c_R_B11B8,Satellite: indices,0.00887811278112855,0.6961939233436376
+Konkan,41 inputs,P,c_R_B7B5,Satellite: indices,0.018548724882758768,1.4545331724776838
+Konkan,41 inputs,P,c_R_B6B5,Satellite: indices,0.022224401243653307,1.7427682523554757
+Konkan,41 inputs,P,c_std_NDVI,Satellite: change between dates,0.04379828250704178,3.434524756106376
+Konkan,41 inputs,P,c_std_BSI,Satellite: change between dates,0.01969228990998279,1.5442079764060546
+Konkan,41 inputs,P,c_std_NDMI,Satellite: change between dates,0.04800307723792358,3.7642516488272797
+Konkan,41 inputs,P,c_std_B11,Satellite: change between dates,0.04204578324311474,3.2970992279238978
+Konkan,41 inputs,P,c_std_B12,Satellite: change between dates,0.026330742556139253,2.06477473497241
+Konkan,41 inputs,P,pH,"pH, EC",0.05952560228903191,4.6678121374040815
+Konkan,41 inputs,P,EC,"pH, EC",0.16184650102533552,12.69149799130457
+Konkan,41 inputs,P,slope,Terrain (no elevation),0.014065058317464308,1.102938019993008
+Konkan,41 inputs,P,tpi_150m,Terrain (no elevation),0.01642683989307412,1.2881415673842478
+Konkan,41 inputs,P,tpi_500m,Terrain (no elevation),0.02873135501052133,2.253023278806679
+Konkan,41 inputs,P,tpi_1km,Terrain (no elevation),0.028972197332446784,2.271909382772927
+Konkan,41 inputs,P,rough_90m,Terrain (no elevation),0.023713618718743595,1.859548043540244
+Konkan,41 inputs,P,relpos_2km,Terrain (no elevation),0.06852168208051213,5.373256665891687
+Konkan,41 inputs,K,c_B01,Satellite: bands,0.03812839861109887,3.0799790104886813
+Konkan,41 inputs,K,c_B02,Satellite: bands,0.014195932895281514,1.1467351618340826
+Konkan,41 inputs,K,c_B03,Satellite: bands,0.008406275214782957,0.6790516297840538
+Konkan,41 inputs,K,c_B04,Satellite: bands,0.01618645893531782,1.3075281310242013
+Konkan,41 inputs,K,c_B05,Satellite: bands,0.033101924386035236,2.6739447768491957
+Konkan,41 inputs,K,c_B06,Satellite: bands,0.011626526141543421,0.9391807100555187
+Konkan,41 inputs,K,c_B07,Satellite: bands,0.01377208722633379,1.1124972758593616
+Konkan,41 inputs,K,c_B08,Satellite: bands,0.02824672996055999,2.281746377046681
+Konkan,41 inputs,K,c_B8A,Satellite: bands,0.00986197543736236,0.7966418327411521
+Konkan,41 inputs,K,c_B09,Satellite: bands,0.041398691539032466,3.344150440265253
+Konkan,41 inputs,K,c_B11,Satellite: bands,0.013629300734259475,1.1009631067206087
+Konkan,41 inputs,K,c_B12,Satellite: bands,0.025379349631057636,2.050121877942105
+Konkan,41 inputs,K,c_NDVI,Satellite: indices,0.013677324452195695,1.1048424210542072
+Konkan,41 inputs,K,c_SAVI,Satellite: indices,0.01539938753937491,1.243949185472721
+Konkan,41 inputs,K,c_NBR2,Satellite: indices,0.02193040153512029,1.771518838456997
+Konkan,41 inputs,K,c_NDMI,Satellite: indices,0.02345841598295466,1.8949505218868736
+Konkan,41 inputs,K,c_NDWI,Satellite: indices,0.016036134002978323,1.2953850132111178
+Konkan,41 inputs,K,c_BSI,Satellite: bands,0.020045022932186084,1.6192195881503904
+Konkan,41 inputs,K,c_NDRE,Satellite: indices,0.013853298622114126,1.1190574620598674
+Konkan,41 inputs,K,c_CI,Satellite: indices,0.015313820564450851,1.2370371593620728
+Konkan,41 inputs,K,c_BI,Satellite: bands,0.013379025943661383,1.080746125940509
+Konkan,41 inputs,K,c_RI,Satellite: indices,0.018517403785585012,1.4958198368117033
+Konkan,41 inputs,K,c_R_B4B2,Satellite: indices,0.04519400020754364,3.650732186762664
+Konkan,41 inputs,K,c_R_B11B12,Satellite: indices,0.011237285610784527,0.9077381971664541
+Konkan,41 inputs,K,c_R_B12B8,Satellite: indices,0.022103708027178762,1.7855183867560473
+Konkan,41 inputs,K,c_R_B11B8,Satellite: indices,0.018371750081365858,1.4840540567596574
+Konkan,41 inputs,K,c_R_B7B5,Satellite: indices,0.022881137598179804,1.8483184740411034
+Konkan,41 inputs,K,c_R_B6B5,Satellite: indices,0.020025864142596588,1.6176719577239491
+Konkan,41 inputs,K,c_std_NDVI,Satellite: change between dates,0.042433939991901475,3.427776913488004
+Konkan,41 inputs,K,c_std_BSI,Satellite: change between dates,0.04237467386921695,3.422989447437745
+Konkan,41 inputs,K,c_std_NDMI,Satellite: change between dates,0.032736911730626365,2.644459370743134
+Konkan,41 inputs,K,c_std_B11,Satellite: change between dates,0.04198856708965775,3.3918000762559313
+Konkan,41 inputs,K,c_std_B12,Satellite: change between dates,0.015496956575535759,1.2518307276931053
+Konkan,41 inputs,K,pH,"pH, EC",0.05370497622823608,4.338241456949391
+Konkan,41 inputs,K,EC,"pH, EC",0.28682163229914337,23.169202993443108
+Konkan,41 inputs,K,slope,Terrain (no elevation),0.017559488524701742,1.4184402718464852
+Konkan,41 inputs,K,tpi_150m,Terrain (no elevation),0.02287868264028235,1.8481201646687924
+Konkan,41 inputs,K,tpi_500m,Terrain (no elevation),0.025088840090663384,2.026654768927447
+Konkan,41 inputs,K,tpi_1km,Terrain (no elevation),0.01281586551773898,1.035254514580939
+Konkan,41 inputs,K,rough_90m,Terrain (no elevation),0.020769879457374726,1.6777728703369361
+Konkan,41 inputs,K,relpos_2km,Terrain (no elevation),0.05791541039270957,4.678356681401747
+Konkan,41 inputs,OC,c_B01,Satellite: bands,0.03276647940177142,2.636560968452675
+Konkan,41 inputs,OC,c_B02,Satellite: bands,0.015186450215010288,1.2219805916677522
+Konkan,41 inputs,OC,c_B03,Satellite: bands,0.0059993986889686325,0.4827427513212086
+Konkan,41 inputs,OC,c_B04,Satellite: bands,0.015265777942558444,1.228363712283335
+Konkan,41 inputs,OC,c_B05,Satellite: bands,0.01517616949016838,1.2211533511969888
+Konkan,41 inputs,OC,c_B06,Satellite: bands,0.009217959628955505,0.7417248666990657
+Konkan,41 inputs,OC,c_B07,Satellite: bands,0.006976346937313037,0.561353077081254
+Konkan,41 inputs,OC,c_B08,Satellite: bands,0.009029400402482422,0.7265524128426504
+Konkan,41 inputs,OC,c_B8A,Satellite: bands,0.013526101615574236,1.0883803272749442
+Konkan,41 inputs,OC,c_B09,Satellite: bands,0.03856656002406342,3.1032655538036127
+Konkan,41 inputs,OC,c_B11,Satellite: bands,0.021943466523430957,1.765685188171244
+Konkan,41 inputs,OC,c_B12,Satellite: bands,0.022291065876962907,1.7936548359611186
+Konkan,41 inputs,OC,c_NDVI,Satellite: indices,0.012983841766891307,1.044747285889388
+Konkan,41 inputs,OC,c_SAVI,Satellite: indices,0.012769645815778262,1.027511968131243
+Konkan,41 inputs,OC,c_NBR2,Satellite: indices,0.02162634720920709,1.7401681225148125
+Konkan,41 inputs,OC,c_NDMI,Satellite: indices,0.011954410350618729,0.9619138920858261
+Konkan,41 inputs,OC,c_NDWI,Satellite: indices,0.01856145861455603,1.4935512814978342
+Konkan,41 inputs,OC,c_BSI,Satellite: bands,0.022353831855222817,1.7987053122847327
+Konkan,41 inputs,OC,c_NDRE,Satellite: indices,0.016816571926693884,1.3531486438149682
+Konkan,41 inputs,OC,c_CI,Satellite: indices,0.057574537483886995,4.6327460587213825
+Konkan,41 inputs,OC,c_BI,Satellite: bands,0.010274579307026573,0.8267459691355574
+Konkan,41 inputs,OC,c_RI,Satellite: indices,0.022613500902937983,1.8195996313699887
+Konkan,41 inputs,OC,c_R_B4B2,Satellite: indices,0.023492116153105657,1.8902975738152223
+Konkan,41 inputs,OC,c_R_B11B12,Satellite: indices,0.008699536929012153,0.700009885999717
+Konkan,41 inputs,OC,c_R_B12B8,Satellite: indices,0.015847538314070174,1.2751751707165968
+Konkan,41 inputs,OC,c_R_B11B8,Satellite: indices,0.011998299685880778,0.9654454557568684
+Konkan,41 inputs,OC,c_R_B7B5,Satellite: indices,0.01424173173194007,1.1459636400722721
+Konkan,41 inputs,OC,c_R_B6B5,Satellite: indices,0.025382990761750438,2.042447157182471
+Konkan,41 inputs,OC,c_std_NDVI,Satellite: change between dates,0.028500393604855505,2.2932895671433613
+Konkan,41 inputs,OC,c_std_BSI,Satellite: change between dates,0.01806744912946197,1.4538007147532732
+Konkan,41 inputs,OC,c_std_NDMI,Satellite: change between dates,0.0273023504704977,2.196888799522299
+Konkan,41 inputs,OC,c_std_B11,Satellite: change between dates,0.06591954188206933,5.304228417507355
+Konkan,41 inputs,OC,c_std_B12,Satellite: change between dates,0.08976898451691018,7.223278334324877
+Konkan,41 inputs,OC,pH,"pH, EC",0.07820422278031808,6.292717591735447
+Konkan,41 inputs,OC,EC,"pH, EC",0.14247289791064122,11.464108703519473
+Konkan,41 inputs,OC,slope,Terrain (no elevation),0.03733970134037612,3.0045461375503586
+Konkan,41 inputs,OC,tpi_150m,Terrain (no elevation),0.021433306736009655,1.724635084292327
+Konkan,41 inputs,OC,tpi_500m,Terrain (no elevation),0.029816461470541514,2.3991872171153314
+Konkan,41 inputs,OC,tpi_1km,Terrain (no elevation),0.10647045677994497,8.567165461912712
+Konkan,41 inputs,OC,rough_90m,Terrain (no elevation),0.03937317851434712,3.16817026333427
+Konkan,41 inputs,OC,relpos_2km,Terrain (no elevation),0.044968377655838734,3.618389021544198
+Konkan,41 + elev + climate,N,c_B01,Satellite: bands,0.0136236935921232,1.0583810450599203
+Konkan,41 + elev + climate,N,c_B02,Satellite: bands,0.006670453949383635,0.5182061659148389
+Konkan,41 + elev + climate,N,c_B03,Satellite: bands,0.009625649344571288,0.747785814749816
+Konkan,41 + elev + climate,N,c_B04,Satellite: bands,0.004819994064943516,0.3744498744882957
+Konkan,41 + elev + climate,N,c_B05,Satellite: bands,0.008778073314081196,0.6819403522948696
+Konkan,41 + elev + climate,N,c_B06,Satellite: bands,0.0029640721144579335,0.23026925267511447
+Konkan,41 + elev + climate,N,c_B07,Satellite: bands,0.0031526069877917287,0.24491592209115523
+Konkan,41 + elev + climate,N,c_B08,Satellite: bands,0.007230984774453914,0.5617520073134729
+Konkan,41 + elev + climate,N,c_B8A,Satellite: bands,0.005456694832773833,0.423913114357131
+Konkan,41 + elev + climate,N,c_B09,Satellite: bands,0.01853140805160488,1.4396456355587144
+Konkan,41 + elev + climate,N,c_B11,Satellite: bands,0.009508167782432608,0.7386590491138436
+Konkan,41 + elev + climate,N,c_B12,Satellite: bands,0.006834235269382899,0.5309298111913545
+Konkan,41 + elev + climate,N,c_NDVI,Satellite: indices,0.006924151432433462,0.5379151094127014
+Konkan,41 + elev + climate,N,c_SAVI,Satellite: indices,0.00723593714005791,0.5621367407081307
+Konkan,41 + elev + climate,N,c_NBR2,Satellite: indices,0.00716537802267828,0.5566552292600213
+Konkan,41 + elev + climate,N,c_NDMI,Satellite: indices,0.0043185187112666145,0.33549186318927354
+Konkan,41 + elev + climate,N,c_NDWI,Satellite: indices,0.005735643224845353,0.44558371996214363
+Konkan,41 + elev + climate,N,c_BSI,Satellite: bands,0.008539600646791825,0.6634141758863017
+Konkan,41 + elev + climate,N,c_NDRE,Satellite: indices,0.005859592799139346,0.45521296471056166
+Konkan,41 + elev + climate,N,c_CI,Satellite: indices,0.010643401546887296,0.8268517180025168
+Konkan,41 + elev + climate,N,c_BI,Satellite: bands,0.0050158373523781045,0.38966431114758987
+Konkan,41 + elev + climate,N,c_RI,Satellite: indices,0.00804072591574951,0.6246581986159507
+Konkan,41 + elev + climate,N,c_R_B4B2,Satellite: indices,0.025323196942865445,1.9672779238182485
+Konkan,41 + elev + climate,N,c_R_B11B12,Satellite: indices,0.0028072924229146125,0.21808954144939155
+Konkan,41 + elev + climate,N,c_R_B12B8,Satellite: indices,0.007923989209848924,0.615589298471327
+Konkan,41 + elev + climate,N,c_R_B11B8,Satellite: indices,0.003628811199831909,0.2819106994760799
+Konkan,41 + elev + climate,N,c_R_B7B5,Satellite: indices,0.004270489275051832,0.33176061038687416
+Konkan,41 + elev + climate,N,c_R_B6B5,Satellite: indices,0.006699464592922891,0.5204599097339667
+Konkan,41 + elev + climate,N,c_std_NDVI,Satellite: change between dates,0.006525171193258488,0.5069196147151099
+Konkan,41 + elev + climate,N,c_std_BSI,Satellite: change between dates,0.014841393746317913,1.1529802631832171
+Konkan,41 + elev + climate,N,c_std_NDMI,Satellite: change between dates,0.00962241501894277,0.747534550368712
+Konkan,41 + elev + climate,N,c_std_B11,Satellite: change between dates,0.018328221064927076,1.4238606904666609
+Konkan,41 + elev + climate,N,c_std_B12,Satellite: change between dates,0.03239941839170779,2.5170068649059494
+Konkan,41 + elev + climate,N,pH,"pH, EC",0.0222334338364698,1.727244141245121
+Konkan,41 + elev + climate,N,EC,"pH, EC",0.08977848035756406,6.974602094667462
+Konkan,41 + elev + climate,N,slope,Terrain (no elevation),0.006933886128946567,0.5386713667521089
+Konkan,41 + elev + climate,N,tpi_150m,Terrain (no elevation),0.010589622818858575,0.8226738211650586
+Konkan,41 + elev + climate,N,tpi_500m,Terrain (no elevation),0.012140253731144201,0.9431373617129718
+Konkan,41 + elev + climate,N,tpi_1km,Terrain (no elevation),0.0220759539248981,1.715010032171972
+Konkan,41 + elev + climate,N,rough_90m,Terrain (no elevation),0.007961358765716207,0.6184924193705749
+Konkan,41 + elev + climate,N,relpos_2km,Terrain (no elevation),0.048926378749563244,3.8009333901857136
+Konkan,41 + elev + climate,N,elev,Elevation,0.07343674782436535,5.705065324802319
+Konkan,41 + elev + climate,N,ppt_annual,Climate,0.03864410230322293,3.0021363226147995
+Konkan,41 + elev + climate,N,ppt_monsoon,Climate,0.0394158244940282,3.0620889436332765
+Konkan,41 + elev + climate,N,tmax_mean,Climate,0.14229164489504983,11.054181364911896
+Konkan,41 + elev + climate,N,tmin_mean,Climate,0.15068724462194852,11.706408571342704
+Konkan,41 + elev + climate,N,tmean,Climate,0.019666157376954572,1.52780066992759
+Konkan,41 + elev + climate,N,def_annual,Climate,0.30339433054353526,23.56973213281718
+Konkan,41 + elev + climate,P,c_B01,Satellite: bands,0.029538184471647036,2.2944765101421996
+Konkan,41 + elev + climate,P,c_B02,Satellite: bands,0.0066739027440951585,0.5184175449915882
+Konkan,41 + elev + climate,P,c_B03,Satellite: bands,0.007684424956819005,0.5969132115853617
+Konkan,41 + elev + climate,P,c_B04,Satellite: bands,0.009938347016715574,0.771994087902864
+Konkan,41 + elev + climate,P,c_B05,Satellite: bands,0.017988541325381864,1.3973196478080456
+Konkan,41 + elev + climate,P,c_B06,Satellite: bands,0.012629104387141243,0.9810075967344525
+Konkan,41 + elev + climate,P,c_B07,Satellite: bands,0.006956570741823511,0.5403747198335012
+Konkan,41 + elev + climate,P,c_B08,Satellite: bands,0.017637003625219617,1.3700127902648571
+Konkan,41 + elev + climate,P,c_B8A,Satellite: bands,0.01029348548325136,0.7995806469243382
+Konkan,41 + elev + climate,P,c_B09,Satellite: bands,0.019153114097112997,1.487781702835603
+Konkan,41 + elev + climate,P,c_B11,Satellite: bands,0.01291978049762631,1.0035868283120626
+Konkan,41 + elev + climate,P,c_B12,Satellite: bands,0.017393045581490407,1.3510625395703972
+Konkan,41 + elev + climate,P,c_NDVI,Satellite: indices,0.008750326410104136,0.6797106444823199
+Konkan,41 + elev + climate,P,c_SAVI,Satellite: indices,0.009831733883907241,0.7637125589843823
+Konkan,41 + elev + climate,P,c_NBR2,Satellite: indices,0.02948589491790358,2.2904147455166406
+Konkan,41 + elev + climate,P,c_NDMI,Satellite: indices,0.009165817270429625,0.7119852759888936
+Konkan,41 + elev + climate,P,c_NDWI,Satellite: indices,0.010666401606919266,0.8285481444640262
+Konkan,41 + elev + climate,P,c_BSI,Satellite: bands,0.015670886965422275,1.2172881535684332
+Konkan,41 + elev + climate,P,c_NDRE,Satellite: indices,0.007653493711695445,0.5945105244657934
+Konkan,41 + elev + climate,P,c_CI,Satellite: indices,0.021897929516656672,1.7009943500402505
+Konkan,41 + elev + climate,P,c_BI,Satellite: bands,0.008523513043707165,0.6620921634993853
+Konkan,41 + elev + climate,P,c_RI,Satellite: indices,0.01627038227516157,1.263855941357069
+Konkan,41 + elev + climate,P,c_R_B4B2,Satellite: indices,0.01576571903164177,1.2246545490406309
+Konkan,41 + elev + climate,P,c_R_B11B12,Satellite: indices,0.012844956082630372,0.9977745935500343
+Konkan,41 + elev + climate,P,c_R_B12B8,Satellite: indices,0.007881570817654612,0.6122271706133195
+Konkan,41 + elev + climate,P,c_R_B11B8,Satellite: indices,0.006224442819978529,0.4835042537185312
+Konkan,41 + elev + climate,P,c_R_B7B5,Satellite: indices,0.0061075281747038695,0.4744225206305749
+Konkan,41 + elev + climate,P,c_R_B6B5,Satellite: indices,0.006961734851918963,0.5407758592238107
+Konkan,41 + elev + climate,P,c_std_NDVI,Satellite: change between dates,0.018773119148228563,1.4582643340540207
+Konkan,41 + elev + climate,P,c_std_BSI,Satellite: change between dates,0.015012202494300514,1.166122651232465
+Konkan,41 + elev + climate,P,c_std_NDMI,Satellite: change between dates,0.019371245300258525,1.5047257679736243
+Konkan,41 + elev + climate,P,c_std_B11,Satellite: change between dates,0.02706982804205832,2.102738732494216
+Konkan,41 + elev + climate,P,c_std_B12,Satellite: change between dates,0.02474164101663077,1.921889078508577
+Konkan,41 + elev + climate,P,pH,"pH, EC",0.02924235572126057,2.2714970301596704
+Konkan,41 + elev + climate,P,EC,"pH, EC",0.033914813338768404,2.6344456825488307
+Konkan,41 + elev + climate,P,slope,Terrain (no elevation),0.010311582960339755,0.8009864285190741
+Konkan,41 + elev + climate,P,tpi_150m,Terrain (no elevation),0.011302032535286036,0.8779228863564182
+Konkan,41 + elev + climate,P,tpi_500m,Terrain (no elevation),0.013655357247819749,1.0607251936149682
+Konkan,41 + elev + climate,P,tpi_1km,Terrain (no elevation),0.011614181790879296,0.9021701157453671
+Konkan,41 + elev + climate,P,rough_90m,Terrain (no elevation),0.019375957430889053,1.5050917983589664
+Konkan,41 + elev + climate,P,relpos_2km,Terrain (no elevation),0.020481553761200227,1.5909726625682539
+Konkan,41 + elev + climate,P,elev,Elevation,0.030070991602223828,2.335864072289703
+Konkan,41 + elev + climate,P,ppt_annual,Climate,0.13091898933221202,10.169566990234456
+Konkan,41 + elev + climate,P,ppt_monsoon,Climate,0.08284372885124947,6.43516158023312
+Konkan,41 + elev + climate,P,tmax_mean,Climate,0.06497700327406081,5.0473043749480055
+Konkan,41 + elev + climate,P,tmin_mean,Climate,0.07738684962081048,6.011280375721603
+Konkan,41 + elev + climate,P,tmean,Climate,0.041123058941240506,3.1943700824415715
+Konkan,41 + elev + climate,P,def_annual,Climate,0.2426661799239251,18.849900885947726
+Konkan,41 + elev + climate,K,c_B01,Satellite: bands,0.022354198901432632,1.8208139420377032
+Konkan,41 + elev + climate,K,c_B02,Satellite: bands,0.006143918895829074,0.5004399054334943
+Konkan,41 + elev + climate,K,c_B03,Satellite: bands,0.005603354180370443,0.45640935104768543
+Konkan,41 + elev + climate,K,c_B04,Satellite: bands,0.010385755558853495,0.8459497297818214
+Konkan,41 + elev + climate,K,c_B05,Satellite: bands,0.018898851177224188,1.5393659090051361
+Konkan,41 + elev + climate,K,c_B06,Satellite: bands,0.010140388665834344,0.8259638890145589
+Konkan,41 + elev + climate,K,c_B07,Satellite: bands,0.009402995655821892,0.7659011026310231
+Konkan,41 + elev + climate,K,c_B08,Satellite: bands,0.020055597441998346,1.6335862268786538
+Konkan,41 + elev + climate,K,c_B8A,Satellite: bands,0.006000661352148982,0.48877116552539274
+Konkan,41 + elev + climate,K,c_B09,Satellite: bands,0.011660873351732172,0.9498117498547053
+Konkan,41 + elev + climate,K,c_B11,Satellite: bands,0.009209830927794998,0.7501672786880523
+Konkan,41 + elev + climate,K,c_B12,Satellite: bands,0.010709602999633376,0.8723280374038156
+Konkan,41 + elev + climate,K,c_NDVI,Satellite: indices,0.011249033780453168,0.9162662295444436
+Konkan,41 + elev + climate,K,c_SAVI,Satellite: indices,0.011054477088876555,0.9004190261576686
+Konkan,41 + elev + climate,K,c_NBR2,Satellite: indices,0.00945673570137799,0.7702783842605613
+Konkan,41 + elev + climate,K,c_NDMI,Satellite: indices,0.008858032070487132,0.7215122476129713
+Konkan,41 + elev + climate,K,c_NDWI,Satellite: indices,0.012488384884582416,1.017214949712346
+Konkan,41 + elev + climate,K,c_BSI,Satellite: bands,0.013517162466156833,1.1010118494378145
+Konkan,41 + elev + climate,K,c_NDRE,Satellite: indices,0.013285198948991488,1.082117752272396
+Konkan,41 + elev + climate,K,c_CI,Satellite: indices,0.02164951054291047,1.763415043797311
+Konkan,41 + elev + climate,K,c_BI,Satellite: bands,0.010164731646768127,0.8279466949862884
+Konkan,41 + elev + climate,K,c_RI,Satellite: indices,0.011869497008571237,0.9668047481136193
+Konkan,41 + elev + climate,K,c_R_B4B2,Satellite: indices,0.02310985824593572,1.8823645740227357
+Konkan,41 + elev + climate,K,c_R_B11B12,Satellite: indices,0.005298330606240989,0.4315643016288272
+Konkan,41 + elev + climate,K,c_R_B12B8,Satellite: indices,0.01607385795756872,1.3092620675214228
+Konkan,41 + elev + climate,K,c_R_B11B8,Satellite: indices,0.006788878220198655,0.5529737016584214
+Konkan,41 + elev + climate,K,c_R_B7B5,Satellite: indices,0.014974482172498855,1.2197147406044395
+Konkan,41 + elev + climate,K,c_R_B6B5,Satellite: indices,0.015024421581027202,1.2237824493917895
+Konkan,41 + elev + climate,K,c_std_NDVI,Satellite: change between dates,0.015172872667118873,1.235874218300987
+Konkan,41 + elev + climate,K,c_std_BSI,Satellite: change between dates,0.010899485503039565,0.8877945146896044
+Konkan,41 + elev + climate,K,c_std_NDMI,Satellite: change between dates,0.028253475107403964,2.301326995139127
+Konkan,41 + elev + climate,K,c_std_B11,Satellite: change between dates,0.013908042999207301,1.1328501956647423
+Konkan,41 + elev + climate,K,c_std_B12,Satellite: change between dates,0.010685681758562006,0.870379583359649
+Konkan,41 + elev + climate,K,pH,"pH, EC",0.027722464458129745,2.258074646986001
+Konkan,41 + elev + climate,K,EC,"pH, EC",0.15961107120556972,13.000781868145971
+Konkan,41 + elev + climate,K,slope,Terrain (no elevation),0.01652886272822223,1.3463235177551185
+Konkan,41 + elev + climate,K,tpi_150m,Terrain (no elevation),0.02261950307721209,1.842423731959949
+Konkan,41 + elev + climate,K,tpi_500m,Terrain (no elevation),0.011835569116385742,0.9640412234895567
+Konkan,41 + elev + climate,K,tpi_1km,Terrain (no elevation),0.011020101085473398,0.8976190015831359
+Konkan,41 + elev + climate,K,rough_90m,Terrain (no elevation),0.012608207106321176,1.0269748150902052
+Konkan,41 + elev + climate,K,relpos_2km,Terrain (no elevation),0.025983555053211496,2.1164354631182793
+Konkan,41 + elev + climate,K,elev,Elevation,0.06753582609964547,5.500987724565131
+Konkan,41 + elev + climate,K,ppt_annual,Climate,0.048395208526680215,3.9419292456753587
+Konkan,41 + elev + climate,K,ppt_monsoon,Climate,0.036162421611846164,2.9455334874234826
+Konkan,41 + elev + climate,K,tmax_mean,Climate,0.1293358910433595,10.534781168227227
+Konkan,41 + elev + climate,K,tmin_mean,Climate,0.07390795927284534,6.020016340774666
+Konkan,41 + elev + climate,K,tmean,Climate,0.02410673207138785,1.9635628208415632
+Konkan,41 + elev + climate,K,def_annual,Climate,0.13598207964585005,11.076132389185153
+Konkan,41 + elev + climate,OC,c_B01,Satellite: bands,0.009943454381305531,0.7920908383285513
+Konkan,41 + elev + climate,OC,c_B02,Satellite: bands,0.007668671267565433,0.6108826993375768
+Konkan,41 + elev + climate,OC,c_B03,Satellite: bands,0.004893570230184775,0.3898194729322808
+Konkan,41 + elev + climate,OC,c_B04,Satellite: bands,0.0070926777799834514,0.5649993325562738
+Konkan,41 + elev + climate,OC,c_B05,Satellite: bands,0.006392095784570509,0.509191304602947
+Konkan,41 + elev + climate,OC,c_B06,Satellite: bands,0.008631616528093411,0.6875904599836278
+Konkan,41 + elev + climate,OC,c_B07,Satellite: bands,0.005781890778186359,0.4605826645343796
+Konkan,41 + elev + climate,OC,c_B08,Satellite: bands,0.007242146215105164,0.5769059168819183
+Konkan,41 + elev + climate,OC,c_B8A,Satellite: bands,0.0076652455141528195,0.6106098054529722
+Konkan,41 + elev + climate,OC,c_B09,Satellite: bands,0.010989565747047923,0.875423571290426
+Konkan,41 + elev + climate,OC,c_B11,Satellite: bands,0.005219657184308054,0.4157954043294337
+Konkan,41 + elev + climate,OC,c_B12,Satellite: bands,0.008654245942763766,0.6893931083741938
+Konkan,41 + elev + climate,OC,c_NDVI,Satellite: indices,0.00933625644943246,0.7437217403827773
+Konkan,41 + elev + climate,OC,c_SAVI,Satellite: indices,0.00893442662386539,0.7117121679350736
+Konkan,41 + elev + climate,OC,c_NBR2,Satellite: indices,0.010127724966131,0.806769745317667
+Konkan,41 + elev + climate,OC,c_NDMI,Satellite: indices,0.005803902921504415,0.46233614138312823
+Konkan,41 + elev + climate,OC,c_NDWI,Satellite: indices,0.013040813985312228,1.0388250286070544
+Konkan,41 + elev + climate,OC,c_BSI,Satellite: bands,0.00969035173377388,0.7719288020201794
+Konkan,41 + elev + climate,OC,c_NDRE,Satellite: indices,0.009952142868300325,0.7927829590628156
+Konkan,41 + elev + climate,OC,c_CI,Satellite: indices,0.009640250329777564,0.7679377480492888
+Konkan,41 + elev + climate,OC,c_BI,Satellite: bands,0.0038564946864044153,0.3072065292426684
+Konkan,41 + elev + climate,OC,c_RI,Satellite: indices,0.013730763043560777,1.0937860418520646
+Konkan,41 + elev + climate,OC,c_R_B4B2,Satellite: indices,0.011193224323522426,0.8916469164566467
+Konkan,41 + elev + climate,OC,c_R_B11B12,Satellite: indices,0.004095738816745663,0.32626460267472085
+Konkan,41 + elev + climate,OC,c_R_B12B8,Satellite: indices,0.010689389826750917,0.85151170050223
+Konkan,41 + elev + climate,OC,c_R_B11B8,Satellite: indices,0.005935405063575331,0.4728115393646169
+Konkan,41 + elev + climate,OC,c_R_B7B5,Satellite: indices,0.004719550265146432,0.3759571254313685
+Konkan,41 + elev + climate,OC,c_R_B6B5,Satellite: indices,0.013292117931503743,1.0588437812236855
+Konkan,41 + elev + climate,OC,c_std_NDVI,Satellite: change between dates,0.01571473082355129,1.251827969919239
+Konkan,41 + elev + climate,OC,c_std_BSI,Satellite: change between dates,0.008953834427667794,0.7132581843388763
+Konkan,41 + elev + climate,OC,c_std_NDMI,Satellite: change between dates,0.01199804014330793,0.9557581611959503
+Konkan,41 + elev + climate,OC,c_std_B11,Satellite: change between dates,0.025036163174002757,1.9943688296403226
+Konkan,41 + elev + climate,OC,c_std_B12,Satellite: change between dates,0.033476832757954135,2.6667485470327144
+Konkan,41 + elev + climate,OC,pH,"pH, EC",0.042436062078712755,3.3804364859847396
+Konkan,41 + elev + climate,OC,EC,"pH, EC",0.05660512754126004,4.509137489698466
+Konkan,41 + elev + climate,OC,slope,Terrain (no elevation),0.01764987311567733,1.4059804828866589
+Konkan,41 + elev + climate,OC,tpi_150m,Terrain (no elevation),0.013523757054089963,1.0772960433614756
+Konkan,41 + elev + climate,OC,tpi_500m,Terrain (no elevation),0.015167562202729168,1.2082407782900493
+Konkan,41 + elev + climate,OC,tpi_1km,Terrain (no elevation),0.034798502922058105,2.772032162578552
+Konkan,41 + elev + climate,OC,rough_90m,Terrain (no elevation),0.01630888149377724,1.2991577292187384
+Konkan,41 + elev + climate,OC,relpos_2km,Terrain (no elevation),0.03086421559680396,2.4586287087904135
+Konkan,41 + elev + climate,OC,elev,Elevation,0.09758618077090847,7.773668664024352
+Konkan,41 + elev + climate,OC,ppt_annual,Climate,0.04808228548708673,3.8302119524803215
+Konkan,41 + elev + climate,OC,ppt_monsoon,Climate,0.05505872795328868,4.385952035322565
+Konkan,41 + elev + climate,OC,tmax_mean,Climate,0.15763360275371888,12.557017688811426
+Konkan,41 + elev + climate,OC,tmin_mean,Climate,0.08844031598713274,7.04511343301324
+Konkan,41 + elev + climate,OC,tmean,Climate,0.05994880495437381,4.775493239289163
+Konkan,41 + elev + climate,OC,def_annual,Climate,0.19184579052720596,15.282344266012176

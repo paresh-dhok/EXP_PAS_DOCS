@@ -1,0 +1,161 @@
+region,features,model,target,n,R2,RMSE,MAE,most_chosen
+Vidarbha,41 inputs,LightGBM_tuned,N,3561,0.15853190713075316,88.82656947738543,64.1730045084823,"{'num_leaves': 7, 'min_child_samples': 60}"
+Vidarbha,41 inputs,LightGBM_tuned,P,3561,0.02572004063128741,18.215610574060086,9.884151314415453,"{'num_leaves': 7, 'min_child_samples': 20}"
+Vidarbha,41 inputs,LightGBM_tuned,K,3561,0.25535169672592306,296.1842683247616,190.99968090219608,"{'num_leaves': 7, 'min_child_samples': 20}"
+Vidarbha,41 inputs,LightGBM_tuned,OC,3561,0.03977705770398321,0.2569154814685591,0.18040758099788948,"{'num_leaves': 7, 'min_child_samples': 20}"
+Vidarbha,41 + elev + climate,LightGBM_tuned,N,3561,0.2895750777540035,81.61747550383842,57.56703692158516,"{'num_leaves': 7, 'min_child_samples': 20}"
+Vidarbha,41 + elev + climate,LightGBM_tuned,P,3561,0.15419735813263313,16.97213068068227,8.882719920821547,"{'num_leaves': 15, 'min_child_samples': 60}"
+Vidarbha,41 + elev + climate,LightGBM_tuned,K,3561,0.44012801671536494,256.82113029990995,164.1436931770302,"{'num_leaves': 7, 'min_child_samples': 20}"
+Vidarbha,41 + elev + climate,LightGBM_tuned,OC,3561,0.22459036536965415,0.23087123841681434,0.16296551689137156,"{'num_leaves': 7, 'min_child_samples': 20}"
+Marathwada,41 inputs,LightGBM_tuned,N,3838,0.12481885544227822,65.74092755731981,47.18133896092693,"{'num_leaves': 15, 'min_child_samples': 20}"
+Marathwada,41 inputs,LightGBM_tuned,P,3838,0.23316952576929195,12.758918367294914,5.907979548706306,"{'num_leaves': 7, 'min_child_samples': 60}"
+Marathwada,41 inputs,LightGBM_tuned,K,3838,0.009991613378034003,181.74234182514098,137.92746349656912,"{'num_leaves': 7, 'min_child_samples': 20}"
+Marathwada,41 inputs,LightGBM_tuned,OC,3838,0.015407191020351707,0.13808453568350207,0.0921077584154871,"{'num_leaves': 7, 'min_child_samples': 60}"
+Marathwada,41 + elev + climate,LightGBM_tuned,N,3838,0.4660601681648582,51.349120724787184,36.67927741069552,"{'num_leaves': 7, 'min_child_samples': 60}"
+Marathwada,41 + elev + climate,LightGBM_tuned,P,3838,0.5141858844653273,10.155451621285346,4.360915978952277,"{'num_leaves': 15, 'min_child_samples': 20}"
+Marathwada,41 + elev + climate,LightGBM_tuned,K,3838,0.1779443561406352,165.61027970892698,121.36045335554039,"{'num_leaves': 7, 'min_child_samples': 20}"
+Marathwada,41 + elev + climate,LightGBM_tuned,OC,3838,0.10914290557952921,0.13134717474015517,0.08518984914665986,"{'num_leaves': 7, 'min_child_samples': 20}"
+North MH,41 inputs,LightGBM_tuned,N,5373,0.04307629677452163,61.531790882002234,44.237430961595564,"{'num_leaves': 7, 'min_child_samples': 20}"
+North MH,41 inputs,LightGBM_tuned,P,5373,0.05508106236098609,21.375076602322977,10.104723204706806,"{'num_leaves': 7, 'min_child_samples': 20}"
+North MH,41 inputs,LightGBM_tuned,K,5373,0.007310199665988448,142.47707836524248,102.60405037605919,"{'num_leaves': 7, 'min_child_samples': 60}"
+North MH,41 inputs,LightGBM_tuned,OC,5373,0.11948700667803258,0.3293183458689702,0.20079553423548321,"{'num_leaves': 7, 'min_child_samples': 60}"
+North MH,41 + elev + climate,LightGBM_tuned,N,5373,0.3355831096268457,51.27211484956274,36.92527222201001,"{'num_leaves': 15, 'min_child_samples': 20}"
+North MH,41 + elev + climate,LightGBM_tuned,P,5373,0.22202170776625707,19.39519466428108,9.312683165164398,"{'num_leaves': 15, 'min_child_samples': 20}"
+North MH,41 + elev + climate,LightGBM_tuned,K,5373,0.23962336132111872,124.6960233725571,84.20397830776979,"{'num_leaves': 15, 'min_child_samples': 20}"
+North MH,41 + elev + climate,LightGBM_tuned,OC,5373,0.28564214631030715,0.2966237715941593,0.18086018331496087,"{'num_leaves': 7, 'min_child_samples': 60}"
+Western MH,41 inputs,LightGBM_tuned,N,2729,0.2549250227374832,104.8207569224829,74.08507969048497,"{'num_leaves': 7, 'min_child_samples': 20}"
+Western MH,41 inputs,LightGBM_tuned,P,2729,0.23470911746345924,36.317249978628496,19.22230382610425,"{'num_leaves': 7, 'min_child_samples': 20}"
+Western MH,41 inputs,LightGBM_tuned,K,2729,-0.03341715045913207,233.2647538493724,168.59491030429191,"{'num_leaves': 7, 'min_child_samples': 60}"
+Western MH,41 inputs,LightGBM_tuned,OC,2729,0.1998445173439486,0.2582080303391187,0.19097757258298972,"{'num_leaves': 15, 'min_child_samples': 20}"
+Western MH,41 + elev + climate,LightGBM_tuned,N,2729,0.4252412984229652,92.06405080273295,57.677155444175426,"{'num_leaves': 7, 'min_child_samples': 20}"
+Western MH,41 + elev + climate,LightGBM_tuned,P,2729,0.328524876857454,34.01846000589572,17.653355655251282,"{'num_leaves': 7, 'min_child_samples': 20}"
+Western MH,41 + elev + climate,LightGBM_tuned,K,2729,-0.015369826793667718,231.21894567724797,166.43700820237254,"{'num_leaves': 7, 'min_child_samples': 20}"
+Western MH,41 + elev + climate,LightGBM_tuned,OC,2729,0.4324990207132423,0.21745322840713957,0.15202343191030662,"{'num_leaves': 15, 'min_child_samples': 20}"
+Konkan,41 inputs,LightGBM_tuned,N,1772,0.1442354800607626,291.7875314562351,221.72453410569096,"{'num_leaves': 7, 'min_child_samples': 20}"
+Konkan,41 inputs,LightGBM_tuned,P,1772,0.04318554777620076,28.2216773968181,15.222648689823679,"{'num_leaves': 7, 'min_child_samples': 20}"
+Konkan,41 inputs,LightGBM_tuned,K,1772,-0.02301339934770863,367.0500384364976,245.39461735221525,"{'num_leaves': 7, 'min_child_samples': 20}"
+Konkan,41 inputs,LightGBM_tuned,OC,1772,0.060838577179302744,0.6625465663538306,0.5093938252363612,"{'num_leaves': 7, 'min_child_samples': 20}"
+Konkan,41 + elev + climate,LightGBM_tuned,N,1772,0.4453240745777234,234.91418930198046,169.44698336625308,"{'num_leaves': 7, 'min_child_samples': 20}"
+Konkan,41 + elev + climate,LightGBM_tuned,P,1772,0.030810065772815975,28.403601268643662,14.844545916776594,"{'num_leaves': 7, 'min_child_samples': 20}"
+Konkan,41 + elev + climate,LightGBM_tuned,K,1772,0.024262486992297827,358.4685951915498,237.80167477439394,"{'num_leaves': 7, 'min_child_samples': 20}"
+Konkan,41 + elev + climate,LightGBM_tuned,OC,1772,0.1766415989148593,0.6203556551693824,0.4735412924286097,"{'num_leaves': 7, 'min_child_samples': 20}"
+Vidarbha,41 inputs,XGBoost_tuned,N,3561,0.15296291796928552,89.12001996176151,64.29408955822166,"{'max_depth': 3, 'min_child_weight': 20}"
+Vidarbha,41 inputs,XGBoost_tuned,P,3561,0.03474075274446853,18.131086666510406,9.806699517109639,"{'max_depth': 3, 'min_child_weight': 20}"
+Vidarbha,41 inputs,XGBoost_tuned,K,3561,0.24925651102337143,297.3939796178017,190.95817987212962,"{'max_depth': 3, 'min_child_weight': 20}"
+Vidarbha,41 inputs,XGBoost_tuned,OC,3561,0.04791171529618776,0.25582491984652667,0.17975425194547706,"{'max_depth': 3, 'min_child_weight': 5}"
+Vidarbha,41 + elev + climate,XGBoost_tuned,N,3561,0.3120419488597649,80.31654945499862,56.54580592422086,"{'max_depth': 5, 'min_child_weight': 5}"
+Vidarbha,41 + elev + climate,XGBoost_tuned,P,3561,0.1761402683959744,16.75052743127424,8.704660746453863,"{'max_depth': 5, 'min_child_weight': 5}"
+Vidarbha,41 + elev + climate,XGBoost_tuned,K,3561,0.4202216149266973,261.34692552886503,166.63484476379764,"{'max_depth': 5, 'min_child_weight': 5}"
+Vidarbha,41 + elev + climate,XGBoost_tuned,OC,3561,0.23289527022194845,0.2296315547919326,0.16018908281598007,"{'max_depth': 5, 'min_child_weight': 20}"
+Marathwada,41 inputs,XGBoost_tuned,N,3838,0.12433318171682506,65.75916618883184,47.27690936540591,"{'max_depth': 3, 'min_child_weight': 20}"
+Marathwada,41 inputs,XGBoost_tuned,P,3838,0.22029702914983462,12.865562279444136,5.916312119062187,"{'max_depth': 5, 'min_child_weight': 5}"
+Marathwada,41 inputs,XGBoost_tuned,K,3838,0.007313517145930426,181.9879936650396,138.02231499503662,"{'max_depth': 3, 'min_child_weight': 5}"
+Marathwada,41 inputs,XGBoost_tuned,OC,3838,0.02104303890584236,0.13768876787195422,0.09192077325485896,"{'max_depth': 3, 'min_child_weight': 5}"
+Marathwada,41 + elev + climate,XGBoost_tuned,N,3838,0.46028053279560177,51.62628715074266,36.78374279397698,"{'max_depth': 3, 'min_child_weight': 20}"
+Marathwada,41 + elev + climate,XGBoost_tuned,P,3838,0.5189345023203196,10.10569721959042,4.3769462228372085,"{'max_depth': 5, 'min_child_weight': 5}"
+Marathwada,41 + elev + climate,XGBoost_tuned,K,3838,0.1767493023533807,165.73061299608938,121.48919800202644,"{'max_depth': 3, 'min_child_weight': 20}"
+Marathwada,41 + elev + climate,XGBoost_tuned,OC,3838,0.11314556034703704,0.13105176862598353,0.0849951807939277,"{'max_depth': 3, 'min_child_weight': 5}"
+North MH,41 inputs,XGBoost_tuned,N,5373,0.04056379852851821,61.612516843071774,44.28633102665752,"{'max_depth': 3, 'min_child_weight': 20}"
+North MH,41 inputs,XGBoost_tuned,P,5373,0.057130046918851374,21.351888914662783,10.100978441475384,"{'max_depth': 3, 'min_child_weight': 20}"
+North MH,41 inputs,XGBoost_tuned,K,5373,0.004427398077228029,142.68380728727047,102.86910149157697,"{'max_depth': 5, 'min_child_weight': 5}"
+North MH,41 inputs,XGBoost_tuned,OC,5373,0.11087397023349443,0.33092509572833106,0.20246982419550824,"{'max_depth': 3, 'min_child_weight': 5}"
+North MH,41 + elev + climate,XGBoost_tuned,N,5373,0.32953476580054186,51.50495722885927,37.31718024986392,"{'max_depth': 5, 'min_child_weight': 5}"
+North MH,41 + elev + climate,XGBoost_tuned,P,5373,0.24305578205138478,19.13120569735278,9.072199364039747,"{'max_depth': 5, 'min_child_weight': 5}"
+North MH,41 + elev + climate,XGBoost_tuned,K,5373,0.24417537496972952,124.32221515792074,83.0902093473602,"{'max_depth': 5, 'min_child_weight': 5}"
+North MH,41 + elev + climate,XGBoost_tuned,OC,5373,0.27106647318453725,0.2996346290224272,0.18201871527618035,"{'max_depth': 5, 'min_child_weight': 20}"
+Western MH,41 inputs,XGBoost_tuned,N,2729,0.2485732345999725,105.26660887504399,74.07272033617474,"{'max_depth': 3, 'min_child_weight': 20}"
+Western MH,41 inputs,XGBoost_tuned,P,2729,0.23173178823778906,36.38782670255164,19.219809080163078,"{'max_depth': 5, 'min_child_weight': 5}"
+Western MH,41 inputs,XGBoost_tuned,K,2729,-0.033378960083886744,233.26044360990008,168.31240523212256,"{'max_depth': 3, 'min_child_weight': 20}"
+Western MH,41 inputs,XGBoost_tuned,OC,2729,0.21137691979059714,0.2563405393346504,0.18918785642323743,"{'max_depth': 5, 'min_child_weight': 5}"
+Western MH,41 + elev + climate,XGBoost_tuned,N,2729,0.43306516555916497,91.43529566098739,57.41488679868922,"{'max_depth': 5, 'min_child_weight': 5}"
+Western MH,41 + elev + climate,XGBoost_tuned,P,2729,0.3349163955226556,33.85616843358765,17.440698181516538,"{'max_depth': 5, 'min_child_weight': 20}"
+Western MH,41 + elev + climate,XGBoost_tuned,K,2729,-0.01702403122843732,231.4072158719735,165.82312641445878,"{'max_depth': 3, 'min_child_weight': 5}"
+Western MH,41 + elev + climate,XGBoost_tuned,OC,2729,0.4493584820293829,0.21419879780840176,0.14854314644502192,"{'max_depth': 5, 'min_child_weight': 5}"
+Konkan,41 inputs,XGBoost_tuned,N,1772,0.14282926433304644,292.02716968846136,221.47023277099365,"{'max_depth': 5, 'min_child_weight': 5}"
+Konkan,41 inputs,XGBoost_tuned,P,1772,0.03125902967760963,28.3970217178008,15.30063783695433,"{'max_depth': 3, 'min_child_weight': 5}"
+Konkan,41 inputs,XGBoost_tuned,K,1772,-0.03261863116119046,368.76915752588883,246.03183270563102,"{'max_depth': 3, 'min_child_weight': 20}"
+Konkan,41 inputs,XGBoost_tuned,OC,1772,0.0818296859407549,0.6551004664202477,0.5037158476905333,"{'max_depth': 3, 'min_child_weight': 5}"
+Konkan,41 + elev + climate,XGBoost_tuned,N,1772,0.4439750832848798,235.19967560045538,168.5029511371315,"{'max_depth': 3, 'min_child_weight': 5}"
+Konkan,41 + elev + climate,XGBoost_tuned,P,1772,0.0472203662615035,28.162110129677725,14.733197178519813,"{'max_depth': 3, 'min_child_weight': 5}"
+Konkan,41 + elev + climate,XGBoost_tuned,K,1772,0.04150150571993472,355.2878290709352,234.22428201018536,"{'max_depth': 5, 'min_child_weight': 5}"
+Konkan,41 + elev + climate,XGBoost_tuned,OC,1772,0.17491150214961082,0.6210070799272266,0.47325794998360055,"{'max_depth': 3, 'min_child_weight': 5}"
+Vidarbha,41 inputs,HistGB_tuned,N,3561,0.14569547494198876,89.50152118112372,64.7672486076328,"{'max_leaf_nodes': 7, 'min_samples_leaf': 60}"
+Vidarbha,41 inputs,HistGB_tuned,P,3561,0.02708026300282662,18.202890444235006,9.857428815710547,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Vidarbha,41 inputs,HistGB_tuned,K,3561,0.2515013853069754,296.9490127762747,191.4615152920427,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Vidarbha,41 inputs,HistGB_tuned,OC,3561,0.04181557915445855,0.2566426250534281,0.18036021763482574,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Vidarbha,41 + elev + climate,HistGB_tuned,N,3561,0.3007428419975974,80.97342767518165,57.58352822585081,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Vidarbha,41 + elev + climate,HistGB_tuned,P,3561,0.16648801876315944,16.848365365896758,8.715396411288493,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+Vidarbha,41 + elev + climate,HistGB_tuned,K,3561,0.45463762202622704,253.47140530435095,161.97972533776738,"{'max_leaf_nodes': 7, 'min_samples_leaf': 60}"
+Vidarbha,41 + elev + climate,HistGB_tuned,OC,3561,0.23488444310986623,0.229333633695972,0.16183397022733034,"{'max_leaf_nodes': 15, 'min_samples_leaf': 60}"
+Marathwada,41 inputs,HistGB_tuned,N,3838,0.12676053688777944,65.66796048142598,47.16734243766214,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Marathwada,41 inputs,HistGB_tuned,P,3838,0.23774901918352476,12.720763337739887,5.893437646283415,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+Marathwada,41 inputs,HistGB_tuned,K,3838,0.006011572318025182,182.10729653344552,138.31621256107013,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Marathwada,41 inputs,HistGB_tuned,OC,3838,0.017241149403650624,0.13795587370016138,0.09191424988453034,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Marathwada,41 + elev + climate,HistGB_tuned,N,3838,0.4625306484147643,51.51855855317451,36.429400999810554,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Marathwada,41 + elev + climate,HistGB_tuned,P,3838,0.4819544914377235,10.486924306875341,4.505550110849738,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+Marathwada,41 + elev + climate,HistGB_tuned,K,3838,0.17582937995583048,165.82318305800484,122.13632933141373,"{'max_leaf_nodes': 7, 'min_samples_leaf': 60}"
+Marathwada,41 + elev + climate,HistGB_tuned,OC,3838,0.11548547298584921,0.1308787682932668,0.08475092589537626,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+North MH,41 inputs,HistGB_tuned,N,5373,0.038950847219316076,61.66428488008323,44.3000863373306,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+North MH,41 inputs,HistGB_tuned,P,5373,0.053098570775825804,21.397487893044048,10.118045102465098,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+North MH,41 inputs,HistGB_tuned,K,5373,-0.003484717335516363,143.2496608620054,103.29548371922822,"{'max_leaf_nodes': 7, 'min_samples_leaf': 60}"
+North MH,41 inputs,HistGB_tuned,OC,5373,0.11256239362587028,0.33061073805316893,0.201003933322736,"{'max_leaf_nodes': 7, 'min_samples_leaf': 60}"
+North MH,41 + elev + climate,HistGB_tuned,N,5373,0.32576176314876737,51.64967443723103,37.10697763204914,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+North MH,41 + elev + climate,HistGB_tuned,P,5373,0.2210291549190868,19.40756301678676,9.244482143579862,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+North MH,41 + elev + climate,HistGB_tuned,K,5373,0.22906019127988775,125.55917601381167,83.93556467108006,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+North MH,41 + elev + climate,HistGB_tuned,OC,5373,0.30729231392874035,0.2920942743866678,0.1782746547686768,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+Western MH,41 inputs,HistGB_tuned,N,2729,0.2580841772158198,104.59829828567447,73.92054189977026,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+Western MH,41 inputs,HistGB_tuned,P,2729,0.23046974688535415,36.417701749627845,19.24024550067784,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Western MH,41 inputs,HistGB_tuned,K,2729,-0.033954580653786426,233.32540081433459,168.63952935108853,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Western MH,41 inputs,HistGB_tuned,OC,2729,0.18385321647871544,0.26077544118674045,0.19368582788267313,"{'max_leaf_nodes': 15, 'min_samples_leaf': 20}"
+Western MH,41 + elev + climate,HistGB_tuned,N,2729,0.42992607409264383,91.68808268855348,57.13932543840349,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Western MH,41 + elev + climate,HistGB_tuned,P,2729,0.3370475512127419,33.80188152976657,17.45969919337153,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Western MH,41 + elev + climate,HistGB_tuned,K,2729,-0.019342625820195636,231.67084487794904,166.25505067052256,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Western MH,41 + elev + climate,HistGB_tuned,OC,2729,0.41576604233413894,0.22063578396090885,0.15563028349918148,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Konkan,41 inputs,HistGB_tuned,N,1772,0.1457935883002055,291.5217786255832,220.61274775422214,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Konkan,41 inputs,HistGB_tuned,P,1772,0.03186667167541035,28.388114316226464,15.275902764829835,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Konkan,41 inputs,HistGB_tuned,K,1772,-0.01894022920223981,366.3185971926913,244.37671108426974,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Konkan,41 inputs,HistGB_tuned,OC,1772,0.05518934697377964,0.6645362490232983,0.511783405648534,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Konkan,41 + elev + climate,HistGB_tuned,N,1772,0.44935074388114216,234.05995649613766,167.16307540985392,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Konkan,41 + elev + climate,HistGB_tuned,P,1772,0.037717333509222795,28.30220623802743,14.687321255510058,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Konkan,41 + elev + climate,HistGB_tuned,K,1772,0.00952256529513884,361.1660386221779,240.68118007631602,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Konkan,41 + elev + climate,HistGB_tuned,OC,1772,0.1700435185041611,0.6228363421550387,0.472529308468198,"{'max_leaf_nodes': 7, 'min_samples_leaf': 20}"
+Vidarbha,41 inputs,CatBoost_tuned,N,3561,0.16380344179790896,88.54789699166133,63.9771509509179,{'depth': 6}
+Vidarbha,41 inputs,CatBoost_tuned,P,3561,0.02530371096375017,18.219502109048133,9.87612816896216,{'depth': 4}
+Vidarbha,41 inputs,CatBoost_tuned,K,3561,0.2524284540399526,296.7650595700297,190.88467930086617,{'depth': 6}
+Vidarbha,41 inputs,CatBoost_tuned,OC,3561,0.05020254133957158,0.25551696345842395,0.17959487134397334,{'depth': 6}
+Vidarbha,41 + elev + climate,CatBoost_tuned,N,3561,0.3280646773553273,79.37574222331591,56.65875735980376,{'depth': 6}
+Vidarbha,41 + elev + climate,CatBoost_tuned,P,3561,0.16821140112603528,16.83093838175159,8.812986862891162,{'depth': 6}
+Vidarbha,41 + elev + climate,CatBoost_tuned,K,3561,0.42938182463387986,259.2741300223238,166.16377888477922,{'depth': 6}
+Vidarbha,41 + elev + climate,CatBoost_tuned,OC,3561,0.24269668985096704,0.22815981900521967,0.16009977929987887,{'depth': 6}
+Marathwada,41 inputs,CatBoost_tuned,N,3838,0.12914111425694763,65.57838920364378,47.08192551962235,{'depth': 4}
+Marathwada,41 inputs,CatBoost_tuned,P,3838,0.23018124380676763,12.783754477967161,5.867285660206054,{'depth': 6}
+Marathwada,41 inputs,CatBoost_tuned,K,3838,0.010582995870522915,181.68805173222097,138.22455403646222,{'depth': 4}
+Marathwada,41 inputs,CatBoost_tuned,OC,3838,0.026100670526187697,0.13733263330280973,0.09196789564527846,{'depth': 6}
+Marathwada,41 + elev + climate,CatBoost_tuned,N,3838,0.46985583473107173,51.166280122748184,36.40955132571114,{'depth': 6}
+Marathwada,41 + elev + climate,CatBoost_tuned,P,3838,0.5075875604094695,10.224184663344156,4.366744687810207,{'depth': 6}
+Marathwada,41 + elev + climate,CatBoost_tuned,K,3838,0.18935838665309723,164.45653283859625,120.36369541802557,{'depth': 6}
+Marathwada,41 + elev + climate,CatBoost_tuned,OC,3838,0.12190338859330996,0.13040308468850606,0.08441685888963367,{'depth': 6}
+North MH,41 inputs,CatBoost_tuned,N,5373,0.0361634341874143,61.75364523113887,44.379590110491314,{'depth': 4}
+North MH,41 inputs,CatBoost_tuned,P,5373,0.045831069602139674,21.479444168619583,10.116624890252737,{'depth': 4}
+North MH,41 inputs,CatBoost_tuned,K,5373,0.004918494102270188,142.64861141415986,102.65650286296577,{'depth': 6}
+North MH,41 inputs,CatBoost_tuned,OC,5373,0.11803832360270994,0.3295891436017907,0.2010243420279243,{'depth': 6}
+North MH,41 + elev + climate,CatBoost_tuned,N,5373,0.29673917841856423,52.749592758292856,38.145995952408356,{'depth': 6}
+North MH,41 + elev + climate,CatBoost_tuned,P,5373,0.23918265320997878,19.18008848087189,9.108484773741118,{'depth': 6}
+North MH,41 + elev + climate,CatBoost_tuned,K,5373,0.23421426228165565,125.13876307320275,84.41330346166345,{'depth': 6}
+North MH,41 + elev + climate,CatBoost_tuned,OC,5373,0.30185227981978313,0.2932389818245889,0.17810565176320378,{'depth': 6}
+Western MH,41 inputs,CatBoost_tuned,N,2729,0.23446541741696425,106.25018859502627,76.12397567792996,{'depth': 6}
+Western MH,41 inputs,CatBoost_tuned,P,2729,0.23764596617604639,36.247498205192834,19.121776199302584,{'depth': 6}
+Western MH,41 inputs,CatBoost_tuned,K,2729,-0.02304268932714537,232.0909295242225,166.8050192789569,{'depth': 4}
+Western MH,41 inputs,CatBoost_tuned,OC,2729,0.1745917738404682,0.26225087659991414,0.19575965589496372,{'depth': 6}
+Western MH,41 + elev + climate,CatBoost_tuned,N,2729,0.4295719113566763,91.71655922366959,57.96347928247566,{'depth': 6}
+Western MH,41 + elev + climate,CatBoost_tuned,P,2729,0.32290450625850764,34.16053372119396,17.59765516573992,{'depth': 6}
+Western MH,41 + elev + climate,CatBoost_tuned,K,2729,-0.014884324415169292,231.16366002300623,165.8073681547744,{'depth': 4}
+Western MH,41 + elev + climate,CatBoost_tuned,OC,2729,0.4136763717520545,0.22103001350181622,0.1558144452322837,{'depth': 6}
+Konkan,41 inputs,CatBoost_tuned,N,1772,0.14363993950419818,291.8890436612713,222.04141800554473,{'depth': 6}
+Konkan,41 inputs,CatBoost_tuned,P,1772,0.027653051193819778,28.449824241127462,15.225806324324786,{'depth': 6}
+Konkan,41 inputs,CatBoost_tuned,K,1772,-0.021532565674335702,366.7842858588593,242.31033619419355,{'depth': 4}
+Konkan,41 inputs,CatBoost_tuned,OC,1772,0.10286631698601978,0.647552323998715,0.4979418970709468,{'depth': 4}
+Konkan,41 + elev + climate,CatBoost_tuned,N,1772,0.44582258757476967,234.80860143024464,170.0806566206261,{'depth': 4}
+Konkan,41 + elev + climate,CatBoost_tuned,P,1772,0.06013306009003827,27.970623444484428,14.570463887979853,{'depth': 4}
+Konkan,41 + elev + climate,CatBoost_tuned,K,1772,0.04179417810502428,355.23358231112366,233.93178128301616,{'depth': 6}
+Konkan,41 + elev + climate,CatBoost_tuned,OC,1772,0.18741216172010544,0.6162847824491099,0.47522037891977525,{'depth': 4}

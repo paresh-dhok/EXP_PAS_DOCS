@@ -1,0 +1,201 @@
+seed,region,features,target,R2
+42,Vidarbha,41 inputs,N,0.1518395077494622
+42,Vidarbha,41 inputs,P,0.028792356591181956
+42,Vidarbha,41 inputs,K,0.25282902284758646
+42,Vidarbha,41 inputs,OC,0.04614071891002214
+42,Vidarbha,41 + elev + climate,N,0.2910097844493832
+42,Vidarbha,41 + elev + climate,P,0.14461602031642273
+42,Vidarbha,41 + elev + climate,K,0.42842991943981656
+42,Vidarbha,41 + elev + climate,OC,0.2205242477324042
+42,Marathwada,41 inputs,N,0.12457186330876768
+42,Marathwada,41 inputs,P,0.22595980629164636
+42,Marathwada,41 inputs,K,0.008071617166137246
+42,Marathwada,41 inputs,OC,0.015163348460695447
+42,Marathwada,41 + elev + climate,N,0.4596408040138128
+42,Marathwada,41 + elev + climate,P,0.5031820430491853
+42,Marathwada,41 + elev + climate,K,0.1732504848336982
+42,Marathwada,41 + elev + climate,OC,0.10779379002790268
+42,North MH,41 inputs,N,0.0402796923319656
+42,North MH,41 inputs,P,0.05741262141900283
+42,North MH,41 inputs,K,-0.0006740095475135099
+42,North MH,41 inputs,OC,0.11501257122714936
+42,North MH,41 + elev + climate,N,0.3017384323255069
+42,North MH,41 + elev + climate,P,0.19155893635391685
+42,North MH,41 + elev + climate,K,0.20985024530593288
+42,North MH,41 + elev + climate,OC,0.28824590712134135
+42,Western MH,41 inputs,N,0.25039718017477863
+42,Western MH,41 inputs,P,0.2358947954059616
+42,Western MH,41 inputs,K,-0.0306034104946602
+42,Western MH,41 inputs,OC,0.1725640202057347
+42,Western MH,41 + elev + climate,N,0.41811650387816324
+42,Western MH,41 + elev + climate,P,0.3334622939519284
+42,Western MH,41 + elev + climate,K,-0.01442504720814064
+42,Western MH,41 + elev + climate,OC,0.40923756401569655
+42,Konkan,41 inputs,N,0.13959655460321707
+42,Konkan,41 inputs,P,0.03406255115433365
+42,Konkan,41 inputs,K,-0.026361704353846438
+42,Konkan,41 inputs,OC,0.06424560179924721
+42,Konkan,41 + elev + climate,N,0.43149270975120924
+42,Konkan,41 + elev + climate,P,0.036621929238781936
+42,Konkan,41 + elev + climate,K,0.04070321571219315
+42,Konkan,41 + elev + climate,OC,0.17580123451554364
+7,Vidarbha,41 inputs,N,0.1380348367975145
+7,Vidarbha,41 inputs,P,0.006096716457314355
+7,Vidarbha,41 inputs,K,0.2527671927187817
+7,Vidarbha,41 inputs,OC,0.0502121610203089
+7,Vidarbha,41 + elev + climate,N,0.27691995740189146
+7,Vidarbha,41 + elev + climate,P,0.14342803566871842
+7,Vidarbha,41 + elev + climate,K,0.4481687965737837
+7,Vidarbha,41 + elev + climate,OC,0.24349908504359752
+7,Marathwada,41 inputs,N,0.11452481414649018
+7,Marathwada,41 inputs,P,0.23175938250650785
+7,Marathwada,41 inputs,K,0.0032535985666957146
+7,Marathwada,41 inputs,OC,-0.0002095189989119728
+7,Marathwada,41 + elev + climate,N,0.4600449243392043
+7,Marathwada,41 + elev + climate,P,0.49632997714303606
+7,Marathwada,41 + elev + climate,K,0.1929885379862094
+7,Marathwada,41 + elev + climate,OC,0.1031876478045557
+7,North MH,41 inputs,N,0.05306732056099284
+7,North MH,41 inputs,P,0.07482085957144036
+7,North MH,41 inputs,K,0.004753864712545908
+7,North MH,41 inputs,OC,0.11398441558831018
+7,North MH,41 + elev + climate,N,0.27666958264006736
+7,North MH,41 + elev + climate,P,0.2319553535207669
+7,North MH,41 + elev + climate,K,0.21988839134195826
+7,North MH,41 + elev + climate,OC,0.31514434990297024
+7,Western MH,41 inputs,N,0.24890103973176725
+7,Western MH,41 inputs,P,0.24001536252625244
+7,Western MH,41 inputs,K,-0.03585631430208536
+7,Western MH,41 inputs,OC,0.1866603452933565
+7,Western MH,41 + elev + climate,N,0.431236604518773
+7,Western MH,41 + elev + climate,P,0.355357229006673
+7,Western MH,41 + elev + climate,K,-0.02137160411329031
+7,Western MH,41 + elev + climate,OC,0.4311019780105464
+7,Konkan,41 inputs,N,0.16717242373386543
+7,Konkan,41 inputs,P,0.023722455911663554
+7,Konkan,41 inputs,K,-0.006389407297213268
+7,Konkan,41 inputs,OC,0.06763730282975078
+7,Konkan,41 + elev + climate,N,0.46760207241659135
+7,Konkan,41 + elev + climate,P,0.034707466234613515
+7,Konkan,41 + elev + climate,K,0.053796815998536585
+7,Konkan,41 + elev + climate,OC,0.233842493909045
+13,Vidarbha,41 inputs,N,0.14828835858849387
+13,Vidarbha,41 inputs,P,0.015663214838940953
+13,Vidarbha,41 inputs,K,0.2561642259488416
+13,Vidarbha,41 inputs,OC,0.04902228175990031
+13,Vidarbha,41 + elev + climate,N,0.29693267598433093
+13,Vidarbha,41 + elev + climate,P,0.16149206771919855
+13,Vidarbha,41 + elev + climate,K,0.44652304479596516
+13,Vidarbha,41 + elev + climate,OC,0.2144657216291962
+13,Marathwada,41 inputs,N,0.10905771844998324
+13,Marathwada,41 inputs,P,0.22573794378426026
+13,Marathwada,41 inputs,K,0.006449978517216737
+13,Marathwada,41 inputs,OC,0.013487208820654462
+13,Marathwada,41 + elev + climate,N,0.4558956613152201
+13,Marathwada,41 + elev + climate,P,0.5034892636074246
+13,Marathwada,41 + elev + climate,K,0.197977825497349
+13,Marathwada,41 + elev + climate,OC,0.10003152954506966
+13,North MH,41 inputs,N,0.027707130048255313
+13,North MH,41 inputs,P,0.05967181458057502
+13,North MH,41 inputs,K,-0.0035732055661192863
+13,North MH,41 inputs,OC,0.12776928433806778
+13,North MH,41 + elev + climate,N,0.27283493484618637
+13,North MH,41 + elev + climate,P,0.2489208307862183
+13,North MH,41 + elev + climate,K,0.1835381844782833
+13,North MH,41 + elev + climate,OC,0.30923333905454964
+13,Western MH,41 inputs,N,0.26322646595787547
+13,Western MH,41 inputs,P,0.23021233383668716
+13,Western MH,41 inputs,K,-0.03320854442322929
+13,Western MH,41 inputs,OC,0.16041913321528667
+13,Western MH,41 + elev + climate,N,0.44606541411143885
+13,Western MH,41 + elev + climate,P,0.34064145657768274
+13,Western MH,41 + elev + climate,K,-0.019788971991923976
+13,Western MH,41 + elev + climate,OC,0.4555797957344929
+13,Konkan,41 inputs,N,0.12400235298184692
+13,Konkan,41 inputs,P,0.030680293130039837
+13,Konkan,41 inputs,K,-0.01493140986045094
+13,Konkan,41 inputs,OC,0.03193334308465434
+13,Konkan,41 + elev + climate,N,0.45315832585228644
+13,Konkan,41 + elev + climate,P,0.007272657545841499
+13,Konkan,41 + elev + climate,K,0.07054174791668066
+13,Konkan,41 + elev + climate,OC,0.1601273676990398
+99,Vidarbha,41 inputs,N,0.09532178251103407
+99,Vidarbha,41 inputs,P,0.023316393837389593
+99,Vidarbha,41 inputs,K,0.23355703151525653
+99,Vidarbha,41 inputs,OC,0.03780503541396374
+99,Vidarbha,41 + elev + climate,N,0.29625064147688573
+99,Vidarbha,41 + elev + climate,P,0.1492145790272188
+99,Vidarbha,41 + elev + climate,K,0.4400647329564229
+99,Vidarbha,41 + elev + climate,OC,0.2464683468624277
+99,Marathwada,41 inputs,N,0.1343078778356528
+99,Marathwada,41 inputs,P,0.21991249597577334
+99,Marathwada,41 inputs,K,0.009596319221418903
+99,Marathwada,41 inputs,OC,0.01633768424333959
+99,Marathwada,41 + elev + climate,N,0.44984130041111403
+99,Marathwada,41 + elev + climate,P,0.45346222549028403
+99,Marathwada,41 + elev + climate,K,0.18118537284010572
+99,Marathwada,41 + elev + climate,OC,0.10317989716755527
+99,North MH,41 inputs,N,0.024978522652699287
+99,North MH,41 inputs,P,0.08771725285751042
+99,North MH,41 inputs,K,-0.006606954318446601
+99,North MH,41 inputs,OC,0.10691458014727961
+99,North MH,41 + elev + climate,N,0.25474621134151254
+99,North MH,41 + elev + climate,P,0.22964271618782472
+99,North MH,41 + elev + climate,K,0.18472748704792452
+99,North MH,41 + elev + climate,OC,0.3249434737180896
+99,Western MH,41 inputs,N,0.2671568438060118
+99,Western MH,41 inputs,P,0.21157893395480898
+99,Western MH,41 inputs,K,-0.0240019540253682
+99,Western MH,41 inputs,OC,0.19034392023238234
+99,Western MH,41 + elev + climate,N,0.4406297867187088
+99,Western MH,41 + elev + climate,P,0.3218635640661254
+99,Western MH,41 + elev + climate,K,-0.011016871527135708
+99,Western MH,41 + elev + climate,OC,0.4329084539586553
+99,Konkan,41 inputs,N,0.1443887048109309
+99,Konkan,41 inputs,P,0.005352537948313474
+99,Konkan,41 inputs,K,-0.0026387584587892476
+99,Konkan,41 inputs,OC,0.0523442635741167
+99,Konkan,41 + elev + climate,N,0.45733381846246224
+99,Konkan,41 + elev + climate,P,0.02101494386557723
+99,Konkan,41 + elev + climate,K,0.048630221832638654
+99,Konkan,41 + elev + climate,OC,0.19191160451799794
+2024,Vidarbha,41 inputs,N,0.13809666059083525
+2024,Vidarbha,41 inputs,P,0.0018500340386606862
+2024,Vidarbha,41 inputs,K,0.257920016747046
+2024,Vidarbha,41 inputs,OC,0.01884520925956923
+2024,Vidarbha,41 + elev + climate,N,0.28657784324331537
+2024,Vidarbha,41 + elev + climate,P,0.15846690359843585
+2024,Vidarbha,41 + elev + climate,K,0.42497558195984597
+2024,Vidarbha,41 + elev + climate,OC,0.19017345127385865
+2024,Marathwada,41 inputs,N,0.10630657523154019
+2024,Marathwada,41 inputs,P,0.22514936085617854
+2024,Marathwada,41 inputs,K,-0.010612953372172385
+2024,Marathwada,41 inputs,OC,-0.010419411929653455
+2024,Marathwada,41 + elev + climate,N,0.45740351876361496
+2024,Marathwada,41 + elev + climate,P,0.495741853061739
+2024,Marathwada,41 + elev + climate,K,0.19519525711076735
+2024,Marathwada,41 + elev + climate,OC,0.0911987660791792
+2024,North MH,41 inputs,N,0.030270680285839346
+2024,North MH,41 inputs,P,0.0782094694963742
+2024,North MH,41 inputs,K,-0.01845845490621234
+2024,North MH,41 inputs,OC,0.0860405979651313
+2024,North MH,41 + elev + climate,N,0.27831266103659513
+2024,North MH,41 + elev + climate,P,0.25796746176211494
+2024,North MH,41 + elev + climate,K,0.20273007491863793
+2024,North MH,41 + elev + climate,OC,0.31911027933366476
+2024,Western MH,41 inputs,N,0.2521346088425708
+2024,Western MH,41 inputs,P,0.23384975413500342
+2024,Western MH,41 inputs,K,-0.035744643129228315
+2024,Western MH,41 inputs,OC,0.1933367280236724
+2024,Western MH,41 + elev + climate,N,0.44384535267000946
+2024,Western MH,41 + elev + climate,P,0.35750008551354917
+2024,Western MH,41 + elev + climate,K,-0.0415829100290106
+2024,Western MH,41 + elev + climate,OC,0.4440581530810602
+2024,Konkan,41 inputs,N,0.201698805742499
+2024,Konkan,41 inputs,P,0.029271574701163705
+2024,Konkan,41 inputs,K,-0.01097814676636677
+2024,Konkan,41 inputs,OC,-0.0064231601662321225
+2024,Konkan,41 + elev + climate,N,0.4701806424524133
+2024,Konkan,41 + elev + climate,P,0.04968133335003533
+2024,Konkan,41 + elev + climate,K,0.06854831398735706
+2024,Konkan,41 + elev + climate,OC,0.1481028968253978

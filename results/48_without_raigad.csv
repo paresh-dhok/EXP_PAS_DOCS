@@ -1,0 +1,9 @@
+region,target,inputs,test,n,R2,RMSE
+without Raigad,N,39 inputs + neighbourhood,random 70/30,32096,0.7060459394383626,55.028904168894094
+without Raigad,N,39 inputs + neighbourhood,spatial 10 km,32096,0.3931499068945694,76.68671602228765
+without Raigad,P,39 inputs + neighbourhood,random 70/30,32096,0.6135646760520472,15.075126878857716
+without Raigad,P,39 inputs + neighbourhood,spatial 10 km,32096,0.3959441745334831,19.218012530566345
+without Raigad,K,39 inputs + neighbourhood,random 70/30,32096,0.5640938626115457,164.6133838721378
+without Raigad,K,39 inputs + neighbourhood,spatial 10 km,32096,0.3519242217890637,200.3914251091858
+without Raigad,OC,39 inputs + neighbourhood,random 70/30,32096,0.7006425621875405,0.2151268038786362
+without Raigad,OC,39 inputs + neighbourhood,spatial 10 km,32096,0.5776600371564964,0.2583074450633266
