@@ -1,0 +1,57 @@
+design,target,group,share_pct
+random 70/30 grouped by site,N,LRS features (4),62.30663829846812
+random 70/30 grouped by site,N,Climate (6),13.454993921830749
+random 70/30 grouped by site,N,Coordinates (2),6.189778149911097
+random 70/30 grouped by site,N,Sentinel-2 bands (12),6.146139429937018
+random 70/30 grouped by site,N,Spectral indices (16),7.38681881126188
+random 70/30 grouped by site,N,"pH, EC (2)",2.865740376770277
+random 70/30 grouped by site,N,Elevation (1),1.6498910118208645
+random 70/30 grouped by site,P,LRS features (4),62.77069443658415
+random 70/30 grouped by site,P,Climate (6),9.409268944817528
+random 70/30 grouped by site,P,Coordinates (2),8.614942622188465
+random 70/30 grouped by site,P,Sentinel-2 bands (12),7.064425683367894
+random 70/30 grouped by site,P,Spectral indices (16),7.917381391199058
+random 70/30 grouped by site,P,"pH, EC (2)",2.955034254064345
+random 70/30 grouped by site,P,Elevation (1),1.2682526677785553
+random 70/30 grouped by site,K,LRS features (4),58.59058120710906
+random 70/30 grouped by site,K,Climate (6),10.700265287082386
+random 70/30 grouped by site,K,Coordinates (2),10.16073657230823
+random 70/30 grouped by site,K,Sentinel-2 bands (12),7.114311763965957
+random 70/30 grouped by site,K,Spectral indices (16),7.1497152187974855
+random 70/30 grouped by site,K,"pH, EC (2)",4.322087108329051
+random 70/30 grouped by site,K,Elevation (1),1.9623028424078237
+random 70/30 grouped by site,OC,LRS features (4),64.85416385897764
+random 70/30 grouped by site,OC,Climate (6),12.363947577592668
+random 70/30 grouped by site,OC,Coordinates (2),6.377082833037978
+random 70/30 grouped by site,OC,Sentinel-2 bands (12),5.796334468248596
+random 70/30 grouped by site,OC,Spectral indices (16),7.522314180786899
+random 70/30 grouped by site,OC,"pH, EC (2)",2.350101015832111
+random 70/30 grouped by site,OC,Elevation (1),0.7360560655240979
+spatial 10 km,N,LRS features (4),59.98763714068148
+spatial 10 km,N,Climate (6),13.89507221461048
+spatial 10 km,N,Coordinates (2),6.694510985764486
+spatial 10 km,N,Sentinel-2 bands (12),6.538457530833625
+spatial 10 km,N,Spectral indices (16),7.903245229977206
+spatial 10 km,N,"pH, EC (2)",3.1734533357611365
+spatial 10 km,N,Elevation (1),1.8076235623715888
+spatial 10 km,P,LRS features (4),60.99039080236724
+spatial 10 km,P,Climate (6),10.351523501189662
+spatial 10 km,P,Coordinates (2),8.108452616947973
+spatial 10 km,P,Sentinel-2 bands (12),7.101354991006407
+spatial 10 km,P,Spectral indices (16),8.631382233504835
+spatial 10 km,P,"pH, EC (2)",3.4089104171013473
+spatial 10 km,P,Elevation (1),1.4079854378825243
+spatial 10 km,K,LRS features (4),57.02563360356914
+spatial 10 km,K,Climate (6),10.079056893917802
+spatial 10 km,K,Coordinates (2),9.914728651924941
+spatial 10 km,K,Sentinel-2 bands (12),7.72537003911023
+spatial 10 km,K,Spectral indices (16),8.032204518601155
+spatial 10 km,K,"pH, EC (2)",5.256063755478428
+spatial 10 km,K,Elevation (1),1.966942537398301
+spatial 10 km,OC,LRS features (4),62.564698200800635
+spatial 10 km,OC,Climate (6),12.956940121268765
+spatial 10 km,OC,Coordinates (2),6.8096292692514915
+spatial 10 km,OC,Sentinel-2 bands (12),6.8741481719069455
+spatial 10 km,OC,Spectral indices (16),7.198924241968388
+spatial 10 km,OC,"pH, EC (2)",2.6823672828790848
+spatial 10 km,OC,Elevation (1),0.9132927119247002

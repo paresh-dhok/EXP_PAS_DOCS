@@ -1,0 +1,5 @@
+step,samples
+mh_model_dataset (D07 output),33877
+minus Raigad (491),32096
+minus samples in 30 m clusters > 10 (placeholder GPS),24610
+minus elevation/climate source > 100 m away,24599
