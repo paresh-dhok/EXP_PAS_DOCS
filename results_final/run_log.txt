@@ -1,0 +1,159 @@
+=== F00 final dataset ===
+mh_model_dataset (D07 output)                                 33,877
+minus Raigad (491)                                            32,096
+minus samples in 30 m clusters > 10 (placeholder GPS)         24,610
+minus elevation/climate source > 100 m away                   24,599
+sites (30 m clusters) 16,759: single-sample 13,064; multi-sample 3,695 holding 11,535 samples
+per region: {'Vidarbha': 5564, 'Marathwada': 5782, 'North MH': 8017, 'Western MH': 3819, 'Konkan': 1417}
+elevation/climate source distance (m): median 0, 95% 22, max 100
+target summary:
+       mean      std     min     25%     50%      75%       max
+N   203.336  104.799  22.090  148.00  188.00  239.000  1430.730
+P    23.673   26.101   1.012   11.54   16.16   23.720   298.543
+K   415.547  251.589  20.380  253.37  353.92  527.960  2969.120
+OC    0.556    0.431   0.009    0.33    0.45    0.599     4.920
+
+=== F01 headline, LightGBM, 39 inputs + LRS, mean (sd) over 5 seeds  [1.5 min] ===
+-- random 70/30 (ungrouped, reference) (n test per seed ~7,380)
+   R2   N 0.702±0.009  P 0.606±0.028  K 0.546±0.011  OC 0.701±0.004
+   RMSE N 56.6  P 16.3  K 168  OC 0.234 | MAE N 36.2  P 6.96  K 104  OC 0.137
+-- random 70/30 grouped by site (n test per seed ~7,359)
+   R2   N 0.692±0.009  P 0.620±0.012  K 0.532±0.013  OC 0.696±0.012
+   RMSE N 58.5  P 16.1  K 170  OC 0.238 | MAE N 36.9  P 7.01  K 106  OC 0.139
+-- spatial 10 km (n test per seed ~24,599)
+   R2   N 0.352±0.033  P 0.389±0.005  K 0.324±0.016  OC 0.587±0.002
+   RMSE N 84.3  P 20.4  K 207  OC 0.277 | MAE N 49.1  P 9.27  K 131  OC 0.163
+
+=== F02 R2 by validation design, seed 42  [1.6 min] ===
+statewide:
+target                            N      P      K     OC
+design                                                  
+random 70/30 grouped by site  0.701  0.606  0.532  0.694
+spatial 10 km                 0.348  0.386  0.315  0.589
+spatial 25 km                 0.319  0.318  0.239  0.519
+spatial 50 km                 0.237  0.309  0.198  0.505
+spatial 100 km                0.211  0.287  0.183  0.330
+mean of 5 regional models:
+target                            N      P      K     OC
+design                                                  
+random 70/30 grouped by site  0.660  0.529  0.403  0.424
+spatial 10 km                 0.395  0.343  0.244  0.316
+spatial 25 km                 0.305  0.275  0.192  0.264
+spatial 50 km                 0.237  0.233  0.108  0.235
+spatial 100 km                0.198  0.209  0.040  0.184
+N per region:
+design      random 70/30 grouped by site  spatial 10 km  spatial 25 km  spatial 50 km  spatial 100 km
+scope                                                                                                
+Vidarbha                           0.742          0.478          0.273          0.141           0.109
+Marathwada                         0.630          0.537          0.517          0.463           0.407
+North MH                           0.557          0.322          0.249          0.153           0.076
+Western MH                         0.613          0.450          0.460          0.397           0.377
+Konkan                             0.756          0.188          0.027          0.033           0.020
+P per region:
+design      random 70/30 grouped by site  spatial 10 km  spatial 25 km  spatial 50 km  spatial 100 km
+scope                                                                                                
+Vidarbha                           0.563          0.186          0.118          0.012           0.000
+Marathwada                         0.695          0.531          0.446          0.418           0.423
+North MH                           0.601          0.412          0.316          0.286           0.181
+Western MH                         0.540          0.392          0.393          0.312           0.345
+Konkan                             0.248          0.193          0.103          0.135           0.093
+K per region:
+design      random 70/30 grouped by site  spatial 10 km  spatial 25 km  spatial 50 km  spatial 100 km
+scope                                                                                                
+Vidarbha                           0.656          0.498          0.441          0.388           0.272
+Marathwada                         0.270          0.240          0.180          0.128           0.061
+North MH                           0.538          0.336          0.273          0.061           0.030
+Western MH                         0.089         -0.006         -0.057         -0.174          -0.214
+Konkan                             0.463          0.152          0.126          0.136           0.052
+OC per region:
+design      random 70/30 grouped by site  spatial 10 km  spatial 25 km  spatial 50 km  spatial 100 km
+scope                                                                                                
+Vidarbha                           0.413          0.313          0.198          0.065          -0.092
+Marathwada                         0.234          0.137          0.095          0.083           0.034
+North MH                           0.536          0.331          0.248          0.270           0.277
+Western MH                         0.564          0.570          0.568          0.481           0.455
+Konkan                             0.375          0.231          0.213          0.275           0.248
+blocks statewide: 10 km 1504, 25 km 458, 50 km 147, 100 km 44
+
+=== F03 distance from each test sample to its nearest training sample (seed 42) ===
+                             design  test samples     p5_m     p25_m  median_m     p75_m     p95_m  share_le_30m  share_le_100m  share_le_1km  share_le_5km
+random 70/30 (ungrouped, reference)          7380    2.241    12.878    55.203   266.733  2006.210         0.401          0.598         0.903         0.985
+       random 70/30 grouped by site          7290   36.445    70.988   174.398   476.494  2589.427         0.000          0.353         0.867         0.979
+                      spatial 10 km         24599  536.366  2346.945  4894.798  7326.329 11912.916         0.000          0.003         0.105         0.511
+                      spatial 25 km         24599 1105.550  5377.013  8925.596 12711.798 20348.193         0.000          0.002         0.044         0.226
+                      spatial 50 km         24599 2525.529  7899.072 13482.250 20287.319 29729.918         0.000          0.000         0.017         0.115
+                     spatial 100 km         24599 4263.173 11670.084 21215.124 32427.467 47816.600         0.000          0.000         0.010         0.066
+
+=== F04 five models, R2 (seed 42)  [8.8 min] ===
+-- random 70/30 grouped by site:
+target                     N      P      K     OC
+model                                            
+Random forest          0.708  0.616  0.535  0.701
+Multilayer perceptron  0.683  0.615  0.524  0.690
+k-nearest neighbours   0.619  0.528  0.449  0.666
+LightGBM               0.701  0.606  0.532  0.694
+Ridge regression       0.694  0.605  0.523  0.696
+-- spatial 10 km:
+target                     N      P      K     OC
+model                                            
+Random forest          0.376  0.394  0.322  0.600
+Multilayer perceptron  0.333  0.348  0.282  0.580
+k-nearest neighbours   0.265  0.348  0.274  0.567
+LightGBM               0.348  0.386  0.315  0.589
+Ridge regression       0.338  0.359  0.294  0.582
+
+=== F05 input ablation, R2 (seed 42) ===
+-- random 70/30 grouped by site:
+target                             N      P      K     OC
+inputs                                                   
+All (39 + LRS)                 0.701  0.606  0.532  0.694
+Without Sentinel-2 (11 + LRS)  0.706  0.608  0.533  0.694
+Without LRS (39)               0.602  0.471  0.461  0.680
+LRS only (4)                   0.686  0.567  0.506  0.677
+Sentinel-2 + pH, EC only (30)  0.115  0.071  0.096  0.307
+-- spatial 10 km:
+target                             N      P      K     OC
+inputs                                                   
+All (39 + LRS)                 0.348  0.386  0.315  0.589
+Without Sentinel-2 (11 + LRS)  0.349  0.380  0.316  0.584
+Without LRS (39)               0.278  0.360  0.300  0.578
+LRS only (4)                   0.276  0.357  0.274  0.547
+Sentinel-2 + pH, EC only (30)  0.032  0.024  0.037  0.206
+
+=== F06 SHAP share by input group (%), seed 42 ===
+-- random 70/30 grouped by site:
+target                    N     P     K    OC
+group                                        
+LRS features (4)       62.3  62.8  58.6  64.9
+Climate (6)            13.5   9.4  10.7  12.4
+Coordinates (2)         6.2   8.6  10.2   6.4
+Sentinel-2 bands (12)   6.1   7.1   7.1   5.8
+Spectral indices (16)   7.4   7.9   7.1   7.5
+pH, EC (2)              2.9   3.0   4.3   2.4
+Elevation (1)           1.6   1.3   2.0   0.7
+-- spatial 10 km:
+target                    N     P     K    OC
+group                                        
+LRS features (4)       60.0  61.0  57.0  62.6
+Climate (6)            13.9  10.4  10.1  13.0
+Coordinates (2)         6.7   8.1   9.9   6.8
+Sentinel-2 bands (12)   6.5   7.1   7.7   6.9
+Spectral indices (16)   7.9   8.6   8.0   7.2
+pH, EC (2)              3.2   3.4   5.3   2.7
+Elevation (1)           1.8   1.4   2.0   0.9
+
+=== F07 old vs final, R2 ===
+                 version   data                              design     N     P     K    OC
+  old (E56, 5-seed mean) 32,096            random 70/30 (ungrouped) 0.705 0.620 0.573 0.702
+  old (E56, 5-seed mean) 32,096                       spatial 10 km 0.390 0.393 0.343 0.562
+final (F01, 5-seed mean) 24,599 random 70/30 (ungrouped, reference) 0.702 0.606 0.546 0.701
+final (F01, 5-seed mean) 24,599        random 70/30 grouped by site 0.692 0.620 0.532 0.696
+final (F01, 5-seed mean) 24,599                       spatial 10 km 0.352 0.389 0.324 0.587
+      old (E50, seed 42) 32,096                       spatial 25 km 0.309 0.368 0.269 0.497
+    final (F02, seed 42) 24,599                       spatial 25 km 0.319 0.318 0.239 0.519
+      old (E50, seed 42) 32,096                       spatial 50 km 0.231 0.335 0.211 0.476
+    final (F02, seed 42) 24,599                       spatial 50 km 0.237 0.309 0.198 0.505
+      old (E50, seed 42) 32,096                      spatial 100 km 0.224 0.290 0.166 0.326
+    final (F02, seed 42) 24,599                      spatial 100 km 0.211 0.287 0.183 0.330
+
+All done in 14.9 min. Outputs in D:\SEM 7\CAPSTONE\DATA\slusi\Start\results_final

@@ -1,0 +1,43 @@
+============================== 1. PROVENANCE ==============================
+mh_model_dataset.parquet     rows  33,877  cols  44  unique id  33,877
+mh_final_dataset.parquet     rows  17,620  cols  44  unique id  17,620
+mh_composite.parquet         rows  17,273  cols  35  unique id  17,273
+mh_terrain.parquet           rows  17,620  cols   8  unique id  17,620
+mh_climate.parquet           rows  17,620  cols   7  unique id  17,620
+clus (cell 66) rows 33,877 | region missing 0 | ctx rows 17,620
+Raigad (491) rows 1,781 -> final rows 32,096
+Final rows per region: {'North MH': 9738, 'Marathwada': 9293, 'Vidarbha': 7236, 'Western MH': 4329, 'Konkan': 1500}
+Distance from each final sample to the de-clustered location whose elevation/climate it borrowed (m): median 3, 95% 793, 99% 4607, max 12559; > 1 km 1,335, > 5 km 226
+Overlap: final-data ids that are also mh_final_dataset ids 16,748; mh_composite ids subset of mh_final ids: True (17,273 of 17,620)
+Columns of mh_model_dataset used as inputs present: True
+Value ranges in final data: N 22.1-1430.7, OC min 0.006, EC min 0.001
+
+============================== 2a. DUPLICATES / CLUSTERS IN FINAL DATA ==============================
+ids unique: True
+Exact-coordinate groups: 32,019 for 32,096 samples; samples sharing exact coordinates with another: 142 (0.4%); largest group 5
+Fully identical records (coords + N,P,K,OC,pH,EC): 0 rows in 0 groups
+30 m clusters (D08 rule): isolated 13,073; in clusters 2-10 11,537; in clusters > 10 (dropped as placeholder GPS in D08) 7,486; largest 179
+
+============================== 2b. DISTANCE FROM EACH TEST SAMPLE TO ITS NEAREST TRAINING SAMPLE ==============================
+random 70/30 (seed 42) 5%        1 | 25%        6 | median       24 | 75%      160 m | =0 m  0.0% | <=30 m 53.7% | <=1 km 93.1% | <=5 km 98.8% | test rows with an identical record in train 0.0%
+spatial 10 km blocks   5%      565 | 25%     2239 | median     4684 | 75%     7154 m | =0 m  0.0% | <=30 m  0.3% | <=1 km 10.3% | <=5 km 53.7% | exact-coord groups split across folds 0
+spatial 25 km blocks   5%     1163 | 25%     5163 | median     9008 | 75%    12929 m | =0 m  0.0% | <=30 m  0.2% | <=1 km  4.5% | <=5 km 23.7% | exact-coord groups split across folds 0
+spatial 50 km blocks   5%     2515 | 25%     8261 | median    14151 | 75%    20813 m | =0 m  0.0% | <=30 m  0.0% | <=1 km  1.8% | <=5 km 11.6% | exact-coord groups split across folds 0
+spatial 100 km blocks  5%     3955 | 25%    12141 | median    22230 | 75%    33737 m | =0 m  0.0% | <=30 m  0.2% | <=1 km  1.5% | <=5 km  7.1% | exact-coord groups split across folds 0
+Share of <=30 m sample pairs that end up in different folds: 10 km 0.2%, 25 km 0.2%, 50 km 0.0%, 100 km 0.1%
+
+============================== 2c. LRS SELF-EXCLUSION (cell 70: query k=11 on training points, drop column 0) ==============================
+Training rows (random split): 22,467
+  column 0 is NOT the row itself (tie at distance 0): 0 (0.0%)
+  the row's OWN label is among its 10 LRS neighbours: 0 (0.0%)
+  the row itself is not in its 11 nearest at all (>=11 ties at 0 m): 0
+Test rows: LRS uses cKDTree(P[tr]) and y[tr] only (cell 70, fit_predict_nb), so no test label can enter by construction.
+
+============================== 2d. DIAGNOSTIC SENSITIVITY RUNS (seed 42, statewide LightGBM, 39 inputs + LRS) ==============================
+target                               N      P      K     OC
+A random, cell-70 LRS (= E49)    0.706  0.614  0.564  0.701
+B random, exact self-exclusion   0.706  0.615  0.564  0.701
+C split by exact location        0.694  0.633  0.557  0.685
+D split by 30 m cluster          0.665  0.641  0.536  0.690
+E split by 30 m cluster, no LRS  0.573  0.525  0.441  0.663
+(diagnostic runs took 23 s)

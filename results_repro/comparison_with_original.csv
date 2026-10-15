@@ -1,0 +1,7 @@
+file,rows,unmatched_rows,max_abs_diff,status,diff_n,diff_R2,diff_RMSE,diff_MAE,diff_bias,diff_RPIQ,diff_mean_abs_shap,diff_share_pct
+49_headline_metrics.csv,12,0,0.0,IDENTICAL,0.0,0.0,0.0,0.0,0.0,0.0,,
+50_block_size_final.csv,120,0,0.0,IDENTICAL,0.0,0.0,0.0,,,,,
+51_model_comparison_final.csv,40,0,0.0,IDENTICAL,,0.0,0.0,0.0,,,,
+52_shap_final.csv,344,0,0.0,IDENTICAL,,,,,,,0.0,0.0
+53_input_ablation.csv,40,0,0.0,IDENTICAL,,0.0,0.0,0.0,0.0,0.0,,
+56_headline_seeds.csv,40,0,0.0,IDENTICAL,0.0,0.0,0.0,,,,,

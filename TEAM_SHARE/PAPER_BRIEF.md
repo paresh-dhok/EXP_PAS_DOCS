@@ -1,3 +1,6 @@
+> **SUPERSEDED (2026-10-15):** use `TEAM_SHARE/MANUSCRIPT_HANDOVER.md` for writing the paper (approved by the
+> handling editor; corrected sentences, labelled tables, verified citations). This brief is kept for history only.
+
 # Paper brief — everything needed to write the paper
 
 For the team member writing the paper and their AI agent. Final version, approved 2026-10-14.

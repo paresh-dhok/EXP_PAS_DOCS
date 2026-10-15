@@ -1,0 +1,17 @@
+Dataset: 33,877 rows -> 32,096 after removing Raigad (491)
+E49 done in 0.2 min
+E50 done in 0.6 min
+E51 done in 2.9 min; CPU s per model: {'KNN': 69.0, 'LightGBM': 55.0, 'Linear (ridge)': 5.0, 'MLP': 96.0, 'Random Forest': 833.0}
+E52 done in 0.5 min
+E53 done in 0.2 min
+E56 done in 0.3 min
+
+=== Comparison with original files in Start/results/ (max absolute difference of each numeric column) ===
+49_headline_metrics.csv            rows   12 | unmatched 0 | max |diff| 0.00e+00 | IDENTICAL
+50_block_size_final.csv            rows  120 | unmatched 0 | max |diff| 0.00e+00 | IDENTICAL
+51_model_comparison_final.csv      rows   40 | unmatched 0 | max |diff| 0.00e+00 | IDENTICAL
+52_shap_final.csv                  rows  344 | unmatched 0 | max |diff| 0.00e+00 | IDENTICAL
+53_input_ablation.csv              rows   40 | unmatched 0 | max |diff| 0.00e+00 | IDENTICAL
+56_headline_seeds.csv              rows   40 | unmatched 0 | max |diff| 0.00e+00 | IDENTICAL
+
+Total run time 4.7 min. Outputs in D:\SEM 7\CAPSTONE\DATA\slusi\Start\results_repro
